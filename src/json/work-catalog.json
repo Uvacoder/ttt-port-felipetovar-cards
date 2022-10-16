@@ -1,0 +1,538 @@
+{
+	"work-title": {
+		"year": "",
+		"subtitle": "",
+		"duration": "",
+		"instrumentation": [],
+		"commission-label": "",
+		"categories": [],
+		"awards": [],
+		"performances": {
+			"date[yyyy-mm-dd]": {
+				"event": "",
+				"performers": {
+					"name": "role"
+				},
+				"venue": "",
+				"city": "",
+				"country": "",
+				"audio": "",
+				"video": ""
+			}
+		}
+	},
+	"simulacra": {
+		"year": 2022,
+		"subtitle": "[re]presentations for large chamber ensemble and live electronics",
+		"duration": 11,
+		"instrumentation": [],
+		"commission-label": "Commissioned by the Chicago Center for Contemporary Composition at the University of Chicago",
+		"categories": [
+			"chamber",
+			"mixed",
+			"electronic"
+		],
+		"awards": [],
+		"performances": {
+			"2022-03-04": {
+				"event": "Grossman Ensemble with Tim Weiss, conductor",
+				"performers": {
+					"Timothy Weiss": "conductor",
+					"Grossman Ensemble": "ensemble"
+				},
+				"venue": "Logan Center Performance Hall",
+				"city": "Chicago, IL",
+				"country": "USA",
+				"audio": "https://soundcloud.com/felipetovarhenao/simulacra",
+				"video": "https://youtu.be/-XWTn1smBIU"
+			}
+		}
+	},
+	"enjambres": {
+		"year": "2020, rev. 2022",
+		"subtitle": "for large chamber ensemble",
+		"duration": 8,
+		"instrumentation": [],
+		"commission-label": "Commissioned by Alarm Will Sound and Alan Pierson for the 2020 Mizzou International Composer Festival",
+		"categories": [
+			"chamber"
+		],
+		"awards": [],
+		"performances": {
+			"2022-07-30": {
+				"event": "Alarm Will Sound: Eight world premieres",
+				"performers": {
+					"Alan Pierson": "conductor",
+					"Alarm Will Sound": "ensemble"
+				},
+				"venue": "Missouri Theater",
+				"city": "Columbia, MO",
+				"country": "USA",
+				"audio": "",
+				"video": "https://youtu.be/t75QG8oSDVY?t=553"
+			}
+		}
+	},
+	"danzas encefálicas": {
+		"year": "2017",
+		"subtitle": "Dream cycles for sinfonietta and electronics",
+		"duration": 10,
+		"instrumentation": [],
+		"commission-label": "Commissioned by and premiered by the IU New Music Ensemble through the Dean's Prize Commission and Award",
+		"categories": [
+			"chamber",
+			"mixed",
+			"electronic"
+		],
+		"awards": [
+			"finalist, 2019 ASCAP/SEAMUS student award"
+		],
+		"performances": {
+			"2018-02-01": {
+				"event": "David Dzubay, director; Kate Soper, guest composer/soprano; Felipe Tovar-Henao, composer",
+				"performers": {
+					"David Dzubay": "conductor",
+					"Indiana University New Music Ensemble": "ensemble"
+				},
+				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "https://soundcloud.com/felipetovarhenao/danzas-encefalicas-studio",
+				"video": "https://youtu.be/M0wPJW5fMkI"
+			}
+		},
+		"2018-05-29": {
+			"event": "IU Mexico Gateway: New Music Ensemble Concert",
+			"performers": {
+				"David Dzubay": "conductor",
+				"Indiana University New Music Ensemble": "ensemble"
+			},
+			"venue": "Sala Xochipilli, Universidad Nacional Autónoma de México",
+			"city": "Mexico city",
+			"country": "Mexico"
+		}
+	},
+	"la mirada del ouroboros": {
+		"year": 2017,
+		"subtitle": "concerto for harp and sinfonietta",
+		"duration": 20,
+		"instrumentation": [],
+		"commission-label": "Written for and commissioned by Bibiana Ordoñez Velandia, with the support of the art endowment fund 'Beca para la creación de música contemporánea, Ministerio de Cultura de Colombia",
+		"categories": [
+			"chamber",
+			"concerto"
+		],
+		"awards": [
+			"2016 ASCAP Morton Gould Young Composer Awards"
+		],
+		"performances": {
+			"2017-12-05": {
+				"event": "La Mirada del Ouroboros: Concierto para Arpa",
+				"performers": {
+					"Juan David Osorio": "conductor",
+					"Bibiana Ordóñez Velandia": "harp soloist"
+				},
+				"venue": "Room 115, Universidad EAFIT",
+				"city": "Medellín, Antioquia",
+				"country": "Colombia",
+				"audio": "https://soundcloud.com/felipetovarhenao/mirada-del-ouroboros-mvt-1",
+				"video": "https://youtu.be/lqP_WjWQlx0"
+			}
+		}
+	},
+	"di.ver.ti.men.to": {
+		"year": 2022,
+		"subtitle": "allegro-remix for string trio",
+		"duration": "",
+		"instrumentation": [
+			"vn",
+			"va",
+			"vc"
+		],
+		"commission-label": "Commissioned by Guarneri Hall NFP and NEXUS Chamber Music",
+		"categories": [
+			"chamber"
+		],
+		"awards": [],
+		"performances": {
+			"2022-08-28": {
+				"event": "Ravinia Festival - NEXUS Chamber Music: Dancing with the Shadow",
+				"performers": {
+					"Brian Hong": "violin",
+					"Rosalind Ventris": "viola",
+					"Alexander Hersh": "cello"
+				},
+				"venue": "Bennett Gordon Hall",
+				"city": "Chicago, IL",
+				"country": "USA",
+				"audio": "",
+				"video": ""
+			}
+		}
+	},
+	"canticum": {
+		"year": 2022,
+		"subtitle": "for carillon and electronics",
+		"duration": "",
+		"instrumentation": [
+			"carillon"
+		],
+		"commission-label": "Commissioned by Rockefeller Chapel for the 90th Anniversary of the Rockefeller Chapel Carillon",
+		"categories": [
+			"solo",
+			"electronic"
+		],
+		"awards": [],
+		"performances": {
+			"2022-06-15": {
+				"event": "2O22 Guild of Carilloneurs of North America (GCNA) Congress: Opening concert",
+				"performers": {
+					"Joseph Min": "carillon"
+				},
+				"venue": "Rockefeller Chapel",
+				"city": "Chicago, IL",
+				"country": "USA",
+				"audio": "",
+				"video": ""
+			}
+		}
+	},
+	"...como la pólvora...": {
+		"year": 2022,
+		"subtitle": "attractors for amplified string quartet",
+		"duration": 5,
+		"instrumentation": [
+			"2 vn",
+			"va",
+			"vc"
+		],
+		"commission-label": "Commissioned by the Chicago Center for Contemporary Composition at the University of Chicago",
+		"categories": [
+			"chamber"
+		],
+		"awards": [],
+		"performances": {
+			"2022-04-10": {
+				"event": "UChicago Presents: Quatuor Diotima",
+				"performers": {
+					"Quatuor Diotima": "string quartet"
+				},
+				"venue": "Fulton Recital Hall, University of Chicago",
+				"city": "Chicago, IL",
+				"country": "USA",
+				"audio": "https://soundcloud.com/felipetovarhenao/como-la-polvora-2022-attractors-for-amplified-string-quartet",
+				"video": ""
+			}
+		}
+	},
+	"introducción a la esquizofrenia": {
+		"year": 2020,
+		"subtitle": "praeludium for string quartet",
+		"duration": 8,
+		"instrumentation": [
+			"2 vn",
+			"va",
+			"vc"
+		],
+		"commission-label": "Commissioned by FilarMed for the Nacido En Cuarentena event series",
+		"categories": [
+			"chamber"
+		],
+		"awards": [],
+		"performances": {
+			"2021-03-13": {
+				"event": "Música Pandémica",
+				"performers": {
+					"Primavera Cuarteto": "string quartet"
+				},
+				"venue": "Sede Filarmed",
+				"city": "Medellín, Antioquia",
+				"country": "Colombia",
+				"audio": "https://soundcloud.com/felipetovarhenao/introduccion-a-la-esquizofrenia-2020-praeludium-for-string-quartet",
+				"video": "https://youtu.be/-4JpLB9JA1U"
+			}
+		}
+	},
+	"ruido, ceniza": {
+		"year": 2020,
+		"subtitle": "morphisms for one or more amplified string instruments",
+		"duration": 8,
+		"instrumentation": [
+			"va"
+		],
+		"commission-label": "",
+		"categories": [],
+		"awards": [],
+		"performances": {
+			"2020-02-14": {
+				"event": "DM Recital: Felipe Tovar-Henao",
+				"performers": {
+					"Estéban Hernández Parra": "viola"
+				},
+				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "https://soundcloud.com/felipetovarhenao/ruido-ceniza",
+				"video": ""
+			},
+			"2021-11-18": {
+				"event": "DM Recital: Felipe Tovar-Henao",
+				"performers": {
+					"Estéban Hernández Parra": "viola"
+				},
+				"venue": "Christel De Haan Fine Arts Center, University of Indianapolis",
+				"city": "Indianapolis, IN",
+				"country": "USA",
+				"audio": "",
+				"video": "https://youtu.be/20Nkils_nCI"
+			},
+			"2020-12-01": {
+				"event": "Nacido En Cuarentena",
+				"performers": {
+					"David Merchán": "viola"
+				},
+				"venue": "Teatro Pablo Tobón Uribe",
+				"city": "Medellín, Antioquia",
+				"country": "Colombia",
+				"audio": "",
+				"video": ""
+			}
+		}
+	},
+	"umbra": {
+		"year": 2019,
+		"subtitle": "semi-improvisation for light.void~, handmade digital photo-controller",
+		"duration": 7,
+		"instrumentation": [
+			"light.void~"
+		],
+		"commission-label": "",
+		"categories": [
+			"electronic"
+		],
+		"awards": [],
+		"performances": {
+			"2020-02-14": {
+				"event": "DM Recital: Felipe Tovar-Henao",
+				"performers": {
+					"Felipe Tovar-Henao": "light.void~"
+				},
+				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "",
+				"video": ""
+			},
+			"2019-12-08": {
+				"event": "Indiana University Center for Electronic and Computer Music: Fall concert",
+				"performers": {
+					"Felipe Tovar-Henao": "light.void~"
+				},
+				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "",
+				"video": "https://youtu.be/llalU1W5x4k"
+			},
+			"2020-02-04": {
+				"event": "Latin American Music Center's Salón Latino Chamber Music Series: New Music from Colombia, Peru, and Mexico",
+				"performers": {
+					"Felipe Tovar-Henao": "light.void~"
+				},
+				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "",
+				"video": ""
+			}
+		}
+	},
+	"ataxia": {
+		"year": 2019,
+		"subtitle": "for English horn and live electronics",
+		"duration": 6,
+		"instrumentation": [
+			"eh"
+		],
+		"commission-label": "Commissioned by Jake Gunnar Walsh",
+		"categories": [
+			"electronic"
+		],
+		"awards": [],
+		"performances": {
+			"2019-04-14": {
+				"event": "Indiana University Center for Electronic and Computer Music: Spring concert",
+				"performers": {
+					"Jake Gunnar Walsh": "English horn"
+				},
+				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "https://soundcloud.com/felipetovarhenao/ataxia",
+				"video": ""
+			},
+			"2020-02-14": {
+				"event": "DM Recital: Felipe Tovar-Henao",
+				"performers": {
+					"Jake Gunnar Walsh": "English horn"
+				},
+				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "",
+				"video": ""
+			}
+		}
+	},
+	"paroxismos": {
+		"year": 2019,
+		"subtitle": "mosaic on violence for chamber ensemble",
+		"duration": 6,
+		"instrumentation": [
+			"vn",
+			"sax",
+			"cl",
+			"bn",
+			"pnf",
+			"perc"
+		],
+		"commission-label": "Commissioned by the Society of Composers, Inc. (SCI) and the American Society of Composers, Authors and Publishers (ASCAP) for the 2019 SCI National Conference",
+		"categories": [
+			"chamber"
+		],
+		"awards": [],
+		"performances": {
+			"2019-03-30": {
+				"event": "The 2019 Society of Composers Inc. National Conference & John Donald Robb Composers' Symposium: Concert 9",
+				"performers": {
+					"Jeffrey Means": "conductor",
+					"Sound Icon": "ensemble"
+				},
+				"venue": "Keller Hall, University of New Mexico",
+				"city": "Albuquerque, NM",
+				"country": "USA",
+				"audio": "https://soundcloud.com/felipetovarhenao/paroxismos",
+				"video": ""
+			},
+			"2020-02-14": {
+				"event": "DM Recital: Felipe Tovar-Henao",
+				"performers": {
+					"Andrew Downs": "conductor",
+					"IU student ensemble": "ensemble"
+				},
+				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "",
+				"video": "https://youtu.be/gJi4ZLcrA_A?list=PLY28U8LUrteY9uDtCdhKOBR_Davv42IhL"
+			}
+		}
+	},
+	"arborescencia": {
+		"year": 2018,
+		"subtitle": "birdsong for flute and live electronics",
+		"duration": 9,
+		"instrumentation": [
+			"fl",
+			"elec"
+		],
+		"commission-label": "Commissioned by José Martinez through the 2018-2019 Rainwater Innovation Grant from University of Texas at Austin",
+		"categories": [
+			"solo",
+			"electronic"
+		],
+		"awards": [
+			"Morris and Sheila Hass Award in Computer Music"
+		],
+		"performances": {
+			"2018-12-02": {
+				"event": "Indiana University Center for Electronic and Computer Music: Fall concert",
+				"performers": {
+					"Julianna Eidle": "flute"
+				},
+				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "https://soundcloud.com/felipetovarhenao/arborescencia",
+				"video": ""
+			},
+			"2020-02-04": {
+				"event": "Latin American Music Center's Salón Latino Chamber Music Series: New Music from Colombia, Peru, and Mexico",
+				"performers": {
+					"Tierney McClure": "flute"
+				},
+				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "",
+				"video": ""
+			},
+			"2019-11-09": {
+				"event": "2019 Midwest Composer Symposium",
+				"performers": {
+					"Tierney McClure": "flute"
+				},
+				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "",
+				"video": ""
+			},
+			"2020-02-14": {
+				"event": "DM Recital: Felipe Tovar-Henao",
+				"performers": {
+					"Tierney McClure": "flute"
+				},
+				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "",
+				"video": ""
+			},
+			"2022-09-16": {
+				"event": "Hochschule der Künste Bern: 20 Years of Sound Arts Symposium",
+				"performers": {
+					"Melody Chua": "flute"
+				},
+				"venue": "Univesity of the Arts Bern",
+				"city": "Bern",
+				"country": "Switzerland",
+				"audio": "",
+				"video": ""
+			},
+			"2019-10-19": {
+				"event": "CEMIcircles: Concert 3",
+				"performers": {
+					"Aleyna Brown": "flute"
+				},
+				"venue": "Merrill Ellis Intermedia Theater, University of North Texas",
+				"city": "Denton, TX",
+				"country": "USA",
+				"audio": "",
+				"video": ""
+			},
+			"2019-12-14": {
+				"event": "2019 International Workshop of Computer Music and Audio Technology Conference Concert",
+				"performers": {
+					"Yi-Hui Lin": "flute"
+				},
+				"venue": "International Conference Hall",
+				"city": "Hsinchu City",
+				"country": "Taiwan",
+				"audio": "",
+				"video": ""
+			},
+			"2019-09-21": {
+				"event": "Stack Overflow Concert Series: C3 Colombian Composer Collective",
+				"performers": {
+					"Marley Eder": "flute"
+				},
+				"venue": "First Street Studio",
+				"city": "Austin, TX",
+				"country": "USA",
+				"audio": "",
+				"video": "https://youtu.be/J9rcUzRgWl4"
+			}
+		}
+	}
+}
