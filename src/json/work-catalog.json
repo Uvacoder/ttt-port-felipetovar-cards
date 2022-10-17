@@ -4,7 +4,7 @@
 		"subtitle": "",
 		"duration": "",
 		"instrumentation": [],
-		"commission-label": "",
+		"commission-info": "",
 		"categories": [],
 		"awards": [],
 		"performances": {
@@ -39,9 +39,9 @@
 			"vc",
 			"elec"
 		],
-		"commission-label": "Commissioned by the Chicago Center for Contemporary Composition at the University of Chicago",
+		"commission-info": "Commissioned by the Chicago Center for Contemporary Composition at the University of Chicago",
 		"categories": [
-			"chamber",
+			"large ensemble",
 			"mixed",
 			"electronic"
 		],
@@ -80,9 +80,9 @@
 			"vc",
 			"db"
 		],
-		"commission-label": "Commissioned by Alarm Will Sound and Alan Pierson for the 2020 Mizzou International Composer Festival",
+		"commission-info": "Commissioned by Alarm Will Sound and Alan Pierson for the 2020 Mizzou International Composer Festival",
 		"categories": [
-			"chamber"
+			"large ensemble"
 		],
 		"awards": [],
 		"performances": {
@@ -122,9 +122,9 @@
 			"db",
 			"kbd/elec"
 		],
-		"commission-label": "Commissioned by and premiered by the IU New Music Ensemble through the Dean's Prize Commission and Award",
+		"commission-info": "Commissioned by and premiered by the IU New Music Ensemble through the Dean's Prize Commission and Award",
 		"categories": [
-			"chamber",
+			"large ensemble",
 			"mixed",
 			"electronic"
 		],
@@ -177,13 +177,14 @@
 			"vc",
 			"db"
 		],
-		"commission-label": "Written for and commissioned by Bibiana Ordoñez Velandia, with the support of the art endowment fund 'Beca para la creación de música contemporánea, Ministerio de Cultura de Colombia",
+		"commission-info": "Written for and commissioned by Bibiana Ordoñez Velandia, with the support of the art endowment fund 'Beca para la creación de música contemporánea, Ministerio de Cultura de Colombia",
 		"categories": [
-			"chamber",
+			"large ensemble",
 			"concerto"
 		],
 		"awards": [
-			"2016 ASCAP Morton Gould Young Composer Awards"
+			"2018 ASCAP Morton Gould Young Composer Awards",
+			"2017 Beca para la Creación de Música Contemporánea. Ministerio de Cultura"
 		],
 		"performances": {
 			"2017-12-05": {
@@ -209,7 +210,7 @@
 			"va",
 			"vc"
 		],
-		"commission-label": "Commissioned by Guarneri Hall NFP and NEXUS Chamber Music",
+		"commission-info": "Commissioned by Guarneri Hall NFP and NEXUS Chamber Music",
 		"categories": [
 			"chamber"
 		],
@@ -237,7 +238,7 @@
 		"instrumentation": [
 			"carillon"
 		],
-		"commission-label": "Commissioned by Rockefeller Chapel for the 90th Anniversary of the Rockefeller Chapel Carillon",
+		"commission-info": "Commissioned by Rockefeller Chapel for the 90th Anniversary of the Rockefeller Chapel Carillon",
 		"categories": [
 			"solo",
 			"electronic"
@@ -266,7 +267,7 @@
 			"va",
 			"vc"
 		],
-		"commission-label": "Commissioned by the Chicago Center for Contemporary Composition at the University of Chicago",
+		"commission-info": "Commissioned by the Chicago Center for Contemporary Composition at the University of Chicago",
 		"categories": [
 			"chamber"
 		],
@@ -294,7 +295,7 @@
 			"va",
 			"vc"
 		],
-		"commission-label": "Commissioned by FilarMed for the Nacido En Cuarentena event series",
+		"commission-info": "Commissioned by FilarMed for the Nacido En Cuarentena event series",
 		"categories": [
 			"chamber"
 		],
@@ -320,7 +321,7 @@
 		"instrumentation": [
 			"va"
 		],
-		"commission-label": "",
+		"commission-info": "",
 		"categories": [],
 		"awards": [],
 		"performances": {
@@ -366,8 +367,9 @@
 		"instrumentation": [
 			"light.void~"
 		],
-		"commission-label": "",
+		"commission-info": "",
 		"categories": [
+			"solo",
 			"electronic"
 		],
 		"awards": [],
@@ -414,8 +416,9 @@
 		"instrumentation": [
 			"eh"
 		],
-		"commission-label": "Commissioned by Jake Gunnar Walsh",
+		"commission-info": "Commissioned by Jake Gunnar Walsh",
 		"categories": [
+			"solo",
 			"electronic"
 		],
 		"awards": [],
@@ -456,7 +459,7 @@
 			"pnf",
 			"perc"
 		],
-		"commission-label": "Commissioned by the Society of Composers, Inc. (SCI) and the American Society of Composers, Authors and Publishers (ASCAP) for the 2019 SCI National Conference",
+		"commission-info": "Commissioned by the Society of Composers, Inc. (SCI) and the American Society of Composers, Authors and Publishers (ASCAP) for the 2019 SCI National Conference",
 		"categories": [
 			"chamber"
 		],
@@ -496,7 +499,7 @@
 			"fl",
 			"elec"
 		],
-		"commission-label": "Commissioned by José Martinez through the 2018-2019 Rainwater Innovation Grant from University of Texas at Austin",
+		"commission-info": "Commissioned by José Martinez through the 2018-2019 Rainwater Innovation Grant from University of Texas at Austin",
 		"categories": [
 			"solo",
 			"electronic"
@@ -617,7 +620,7 @@
 			"vc",
 			"mar"
 		],
-		"commission-label": "Commissioned by Ensamble Periscopio in celebration of the 20th anniversary of Universidad EAFIT's Music Department.",
+		"commission-info": "Commissioned by Ensamble Periscopio in celebration of the 20th anniversary of Universidad EAFIT's Music Department.",
 		"categories": [
 			"chamber"
 		],
@@ -654,7 +657,7 @@
 		"subtitle": "immersive, 8-screen/8-channel surround installation (in collaboration with Susanne Schwibs)",
 		"duration": "",
 		"instrumentation": [],
-		"commission-label": "Commissioned through the IU College of Arts & Sciences Ostrom Grant by IU faculty Norbert Herber for the Big Tent showcase during the 2018 Lotus Festival",
+		"commission-info": "Commissioned through the IU College of Arts & Sciences Ostrom Grant by IU faculty Norbert Herber for the Big Tent showcase during the 2018 Lotus Festival",
 		"categories": [
 			"installation",
 			"electronic"
@@ -688,7 +691,7 @@
 		"instrumentation": [
 			"viol"
 		],
-		"commission-label": "Commissioned by Brady Lanier",
+		"commission-info": "Commissioned by Brady Lanier",
 		"categories": [
 			"solo",
 			"electronic"
@@ -721,7 +724,7 @@
 			"2perc",
 			"pnf"
 		],
-		"commission-label": "",
+		"commission-info": "",
 		"categories": [],
 		"awards": [
 			"2016 Jacobs School of Music Dean's Prize Award",
@@ -751,7 +754,7 @@
 			"cl",
 			"elec"
 		],
-		"commission-label": "",
+		"commission-info": "",
 		"categories": [
 			"solo",
 			"electronic"
@@ -888,7 +891,7 @@
 		"instrumentation": [
 			"org"
 		],
-		"commission-label": "",
+		"commission-info": "",
 		"categories": [
 			"solo"
 		],
@@ -927,7 +930,7 @@
 		"instrumentation": [
 			"ch[SSAATTBB]"
 		],
-		"commission-label": "",
+		"commission-info": "",
 		"categories": [
 			"choir",
 			"chamber"
@@ -970,7 +973,7 @@
 			"vn",
 			"pnf"
 		],
-		"commission-label": "",
+		"commission-info": "",
 		"categories": [
 			"chamber"
 		],
@@ -979,9 +982,279 @@
 			"2015-06-09": {
 				"event": "BM Recital: Felipe Tovar-Henao",
 				"performers": {
-					"name": "role"
+					"Wilfer Vanegas": "violin",
+					"Felipe Tovar-Henao": "piano"
 				},
 				"venue": "Auditorio 103, Bloque 38, Universidad EAFIT",
+				"city": "Medellín, Antioquia",
+				"country": "Colombia",
+				"audio": "",
+				"video": ""
+			}
+		}
+	},
+	"tubiphona exequialis": {
+		"year": 2014,
+		"subtitle": "images for large brass ensemble, percussion, and celesta",
+		"duration": 7,
+		"instrumentation": [
+			"3tpt",
+			"4hn",
+			"tba",
+			"perc"
+		],
+		"commission-info": "Commissioned by Andrés Orozco Estrada and Orquesta Sinfónica EAFIT",
+		"categories": [
+			"large ensemble"
+		],
+		"awards": [],
+		"performances": {
+			"2014-12-05": {
+				"event": "Mahler's Sixth Symphony",
+				"performers": {
+					"Andrés Orozco Estrada": "conductor",
+					"Orquesta Sinfónica EAFIT and Orquesta Sinfónica Juvenil Red de Escuelas de Medellín": "ensemble"
+				},
+				"venue": "Teatro Metropolitano José Gutiérrez Gómez",
+				"city": "Medellín, Antioquia",
+				"country": "Colombia",
+				"audio": "",
+				"video": ""
+			},
+			"2016-03-03": {
+				"event": "Concierto Música de Cámara",
+				"performers": {
+					"Cecilia Espinoza Arango": "conductor",
+					"Orquesta Sinfónica EAFIT": "ensemble"
+				},
+				"venue": "Auditorio Fundadores, Universidad EAFIT",
+				"city": "Medellín, Antioquia",
+				"country": "Colombia",
+				"audio": "https://open.spotify.com/track/7G4VheD7Kcoe9cbX9qnAk7?si=59a4586fb6714a8c",
+				"video": ""
+			}
+		}
+	},
+	"astronomía": {
+		"year": 2013,
+		"subtitle": "for mezzo-soprano and piano",
+		"duration": 4,
+		"instrumentation": [
+			"mez",
+			"pnf"
+		],
+		"commission-info": "",
+		"categories": [
+			"chamber"
+		],
+		"awards": [],
+		"performances": {
+			"2015-06-09": {
+				"event": "BM Recital: Felipe Tovar-Henao",
+				"performers": {
+					"Andrea Vásquez": "mezzo-soprano",
+					"David Sánchez": "piano"
+				},
+				"venue": "Auditorio 103, Bloque 38, Universidad EAFIT",
+				"city": "Medellín, Antioquia",
+				"country": "Colombia",
+				"audio": "",
+				"video": ""
+			}
+		}
+	},
+	"cinco cantos embera-chamí": {
+		"year": 2013,
+		"subtitle": "song cycle for mixed choir a cappella",
+		"duration": 20,
+		"instrumentation": [
+			"ch[SSAATTBB]"
+		],
+		"commission-info": "Commissioned by Alcaldía de Medellín through the art endowment fund X Convocatoria de Becas para la Creación Artística y Cultural Medellín - Choral Music Category",
+		"categories": [
+			"choir"
+		],
+		"awards": [],
+		"performances": {
+			"2013-11-27": {
+				"event": "Cinco Cantos Embera Chamí",
+				"performers": {
+					"Juan David Osorio": "conductor",
+					"Ensamble Vocal Macondo": "chorus"
+				},
+				"venue": "Auditorio 103, Bloque 38, Universidad EAFIT",
+				"city": "Medellín, Antioquia",
+				"country": "Colombia",
+				"audio": "https://soundcloud.com/felipetovarhenao/sets/cinco-cantos-embera-chami",
+				"video": "https://youtu.be/G47cRiLftPQ"
+			}
+		}
+	},
+	"Un arracacho en La Heroica": {
+		"year": 2013,
+		"subtitle": "for cello and piano",
+		"duration": 5,
+		"instrumentation": [
+			"vc",
+			"pnf"
+		],
+		"commission-info": "Commissioned by Carlos Montoya",
+		"categories": [
+			"chamber"
+		],
+		"awards": [],
+		"performances": {
+			"2013-10-21": {
+				"event": "Recital de Estudiantes 2013-2",
+				"performers": {
+					"Carlos Montoya": "cello",
+					"Juan Camilo Yepes": "piano"
+				},
+				"venue": "Auditorio Fundadores, Universidad EAFIT",
+				"city": "Medellín, Antioquia",
+				"country": "Colombia",
+				"audio": "",
+				"video": ""
+			}
+		}
+	},
+	"hýpnos": {
+		"year": 2012,
+		"subtitle": "for harp, clarinet, and cello",
+		"duration": 6,
+		"instrumentation": [
+			"cl",
+			"hp",
+			"vc"
+		],
+		"commission-info": "",
+		"categories": [
+			"chamber"
+		],
+		"awards": [
+			"Premios para el fomento de la creación artística - Banco Virtual de Partituras - Categoría 1. Ministerio de Cultura"
+		],
+		"performances": {
+			"2013-07-17": {
+				"event": "Invocación y Danzas",
+				"performers": {
+					"Bibiana Ordóñez Velandia": "harp",
+					"José Gomez": "clarinet",
+					"Ana Isabel Zorro": "cello"
+				},
+				"venue": "Teatro R-101",
+				"city": "Bogotá",
+				"country": "Colombia",
+				"audio": "",
+				"video": ""
+			},
+			"2016-09-14": {
+				"event": "XVII Encuentro de Música EAFIT",
+				"performers": {
+					"Bibiana Ordóñez Velandia": "harp",
+					"Jhoser Salazar": "clarinet",
+					"Daniel Estéban Arango": "cello"
+				},
+				"venue": "Auditorio Fundadores, Universidad EAFIT",
+				"city": "Medellín, Antioquia",
+				"country": "Colombia",
+				"audio": "https://soundcloud.com/felipetovarhenao/hypnos",
+				"video": "https://youtu.be/EWwFIDeQLjY"
+			},
+			"2017-02-22": {
+				"event": "Salón Latino Chamber Music Series: New Music by Latin American Composers",
+				"performers": {
+					"Emmanuel Padilla Holguin": "harp",
+					"Cameron Winrow": "clarinet",
+					"Gabriel Jimbo Viteri": "cello"
+				},
+				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "",
+				"video": ""
+			}
+		}
+	},
+	"camazotz": {
+		"year": 2012,
+		"subtitle": "for string quartet",
+		"duration": 8,
+		"instrumentation": [
+			"2vn",
+			"va",
+			"vc"
+		],
+		"commission-info": "",
+		"categories": [
+			"chamber"
+		],
+		"awards": [
+			"Periscopio Ensemble Composition Contest"
+		],
+		"performances": {
+			"2013-05-24": {
+				"event": "Concierto: Ensamble Periscopio, Música Nueva",
+				"performers": {
+					"Cuarteto Tayrona": "string quartet"
+				},
+				"venue": "Auditorio Fundadores, Universidad EAFIT",
+				"city": "Medellín, Antioquia",
+				"country": "Colombia",
+				"audio": "",
+				"video": ""
+			}
+		}
+	},
+	"afanes y costumbres": {
+		"year": 2012,
+		"subtitle": "for piano trio",
+		"duration": 6,
+		"instrumentation": [
+			"vn",
+			"vc",
+			"pnf"
+		],
+		"commission-info": "",
+		"categories": [],
+		"awards": [],
+		"performances": {
+			"2012-05-22": {
+				"event": "Concierto: Ensamble Periscopio, Música Nueva",
+				"performers": {
+					"Wilfer Vanegas": "violin",
+					"Matías Uribe": "cello",
+					"Juan Gonzalo Jimenez": "piano"
+				},
+				"venue": "Auditorio Fundadores, Universidad EAFIT",
+				"city": "Medellín, Antioquia",
+				"country": "Colombia",
+				"audio": "",
+				"video": ""
+			}
+		}
+	},
+	"Percepciones sobre una imagen diáfana": {
+		"year": 2011,
+		"subtitle": "for clarinet and piano",
+		"duration": 6,
+		"instrumentation": [
+			"cl",
+			"pnf"
+		],
+		"commission-info": "",
+		"categories": [
+			"chamber"
+		],
+		"awards": [],
+		"performances": {
+			"2012-04-30": {
+				"event": "Música Contemporánea o de Vanguardia, en Camino a la Apropiación",
+				"performers": {
+					"Jhoser Salazar": "clarinet",
+					"Alejandra Montoya": "piano"
+				},
+				"venue": "Auditorio Cámara de Comercio",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
 				"audio": "",
