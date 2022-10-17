@@ -8,7 +8,7 @@
 		"categories": [],
 		"awards": [],
 		"performances": {
-			"date[yyyy-mm-dd]": {
+			"[yyyy-mm-dd]": {
 				"event": "",
 				"performers": {
 					"name": "role"
@@ -25,7 +25,20 @@
 		"year": 2022,
 		"subtitle": "[re]presentations for large chamber ensemble and live electronics",
 		"duration": 11,
-		"instrumentation": [],
+		"instrumentation": [
+			"fl/afl",
+			"ob",
+			"cl",
+			"sax",
+			"hn",
+			"2perc",
+			"hp",
+			"pnf",
+			"2vn",
+			"va",
+			"vc",
+			"elec"
+		],
 		"commission-label": "Commissioned by the Chicago Center for Contemporary Composition at the University of Chicago",
 		"categories": [
 			"chamber",
@@ -52,7 +65,21 @@
 		"year": "2020, rev. 2022",
 		"subtitle": "for large chamber ensemble",
 		"duration": 8,
-		"instrumentation": [],
+		"instrumentation": [
+			"fl",
+			"ob",
+			"cl[Eb]",
+			"bcl",
+			"hn",
+			"tpt",
+			"tbn",
+			"2perc",
+			"pnf",
+			"2vn",
+			"va",
+			"vc",
+			"db"
+		],
 		"commission-label": "Commissioned by Alarm Will Sound and Alan Pierson for the 2020 Mizzou International Composer Festival",
 		"categories": [
 			"chamber"
@@ -77,7 +104,24 @@
 		"year": "2017",
 		"subtitle": "Dream cycles for sinfonietta and electronics",
 		"duration": 10,
-		"instrumentation": [],
+		"instrumentation": [
+			"fl",
+			"ob",
+			"cl",
+			"bn",
+			"hn",
+			"tpt",
+			"btbn",
+			"tba",
+			"2perc",
+			"hp",
+			"pnf/cel",
+			"2vn",
+			"va",
+			"vc",
+			"db",
+			"kbd/elec"
+		],
 		"commission-label": "Commissioned by and premiered by the IU New Music Ensemble through the Dean's Prize Commission and Award",
 		"categories": [
 			"chamber",
@@ -116,7 +160,23 @@
 		"year": 2017,
 		"subtitle": "concerto for harp and sinfonietta",
 		"duration": 20,
-		"instrumentation": [],
+		"instrumentation": [
+			"hp",
+			"fl/bfl",
+			"ob",
+			"cl/bcl",
+			"bn",
+			"hn",
+			"tpt",
+			"tbn",
+			"tba",
+			"2perc",
+			"pnf/cel",
+			"2vn",
+			"va",
+			"vc",
+			"db"
+		],
 		"commission-label": "Written for and commissioned by Bibiana Ordoñez Velandia, with the support of the art endowment fund 'Beca para la creación de música contemporánea, Ministerio de Cultura de Colombia",
 		"categories": [
 			"chamber",
@@ -202,7 +262,7 @@
 		"subtitle": "attractors for amplified string quartet",
 		"duration": 5,
 		"instrumentation": [
-			"2 vn",
+			"2vn",
 			"va",
 			"vc"
 		],
@@ -230,7 +290,7 @@
 		"subtitle": "praeludium for string quartet",
 		"duration": 8,
 		"instrumentation": [
-			"2 vn",
+			"2vn",
 			"va",
 			"vc"
 		],
@@ -418,7 +478,7 @@
 				"event": "DM Recital: Felipe Tovar-Henao",
 				"performers": {
 					"Andrew Downs": "conductor",
-					"IU student ensemble": "ensemble"
+					"IU JSoM students": "ensemble"
 				},
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
@@ -532,6 +592,400 @@
 				"country": "USA",
 				"audio": "",
 				"video": "https://youtu.be/J9rcUzRgWl4"
+			},
+			"2019-11-14": {
+				"event": "2019 Electro-acoustic Barn Dance (EABD)",
+				"performers": {
+					"Sarah Jane Young": "flute"
+				},
+				"venue": "Jacksonville University",
+				"city": "Jacksonville, FL",
+				"country": "USA",
+				"audio": "",
+				"video": ""
+			}
+		}
+	},
+	"...de lo voluble...": {
+		"year": 2018,
+		"subtitle": "roulette for chamber ensemble",
+		"duration": 7,
+		"instrumentation": [
+			"fl",
+			"cl",
+			"vn",
+			"vc",
+			"mar"
+		],
+		"commission-label": "Commissioned by Ensamble Periscopio in celebration of the 20th anniversary of Universidad EAFIT's Music Department.",
+		"categories": [
+			"chamber"
+		],
+		"awards": [],
+		"performances": {
+			"2018-10-22": {
+				"event": "Concierto: Ensamble Periscopio, Música Nueva",
+				"performers": {
+					"Juan David Osorio": "conductor",
+					"Ensamble Periscopio": "ensemble"
+				},
+				"venue": "Auditorio Fundadores, Universidad EAFIT",
+				"city": "Medellín, Antioquia",
+				"country": "Colombia",
+				"audio": "https://soundcloud.com/felipetovarhenao/de-lo-voluble",
+				"video": ""
+			},
+			"2020-02-14": {
+				"event": "DM Recital: Felipe Tovar-Henao",
+				"performers": {
+					"Andrew Downs": "conductor",
+					"IU JSoM students": "ensemble"
+				},
+				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "",
+				"video": ""
+			}
+		}
+	},
+	"fire song": {
+		"year": 2018,
+		"subtitle": "immersive, 8-screen/8-channel surround installation (in collaboration with Susanne Schwibs)",
+		"duration": "",
+		"instrumentation": [],
+		"commission-label": "Commissioned through the IU College of Arts & Sciences Ostrom Grant by IU faculty Norbert Herber for the Big Tent showcase during the 2018 Lotus Festival",
+		"categories": [
+			"installation",
+			"electronic"
+		],
+		"awards": [],
+		"performances": {
+			"2018-09-12": {
+				"event": "Lotus World Music and Arts Festival: Big Tent",
+				"performers": {},
+				"venue": "4th & Washington street",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "",
+				"video": ""
+			},
+			"2019-04-01": {
+				"event": "Big Tent",
+				"performers": {},
+				"venue": "Ballroom 450, IUPUI Campus Center",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "",
+				"video": ""
+			}
+		}
+	},
+	"el impulso sumergido": {
+		"year": 2018,
+		"subtitle": ") rêverie for viola da gamba and live electronics",
+		"duration": 7,
+		"instrumentation": [
+			"viol"
+		],
+		"commission-label": "Commissioned by Brady Lanier",
+		"categories": [
+			"solo",
+			"electronic"
+		],
+		"awards": [],
+		"performances": {
+			"2018-04-22": {
+				"event": "Indiana University Center for Electronic and Computer Music: Spring concert",
+				"performers": {
+					"Brady Lanier": "viola da gamba"
+				},
+				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "",
+				"video": ""
+			}
+		}
+	},
+	"los trópicos ocultos": {
+		"year": 2016,
+		"subtitle": "proloquor for solo trumpet and chamber ensemble",
+		"duration": 14,
+		"instrumentation": [
+			"tpt",
+			"2vn",
+			"va",
+			"vc",
+			"db",
+			"2perc",
+			"pnf"
+		],
+		"commission-label": "",
+		"categories": [],
+		"awards": [
+			"2016 Jacobs School of Music Dean's Prize Award",
+			"Honorable mention, 2016 ASCAP Morton Gould Young Composer Awards"
+		],
+		"performances": {
+			"2016-11-01": {
+				"event": "MM Recital: Felipe Tovar-Henao",
+				"performers": {
+					"Felipe Tovar-Henao": "conductor",
+					"Drew Pritchard": "trumpet",
+					"IU JSoM students": "ensemble"
+				},
+				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "https://soundcloud.com/felipetovarhenao/los-tropicos-ocultos",
+				"video": "https://youtu.be/BH18PnkmBFA"
+			}
+		}
+	},
+	"¡Carnaval del Diablo!": {
+		"year": 2016,
+		"subtitle": "matachinesque ritual for clarinet and electronics",
+		"duration": 6,
+		"instrumentation": [
+			"cl",
+			"elec"
+		],
+		"commission-label": "",
+		"categories": [
+			"solo",
+			"electronic"
+		],
+		"awards": [],
+		"performances": {
+			"2021-11-18": {
+				"event": "Electric Forests: Electric Forests: The UIndy Composers Forum featuring Felipe Tovar-Henao",
+				"performers": {
+					"Wai Ki Wun": "clarinet"
+				},
+				"venue": "Christel De Haan Fine Arts Center, University of Indianapolis",
+				"city": "Indianapolis, IN",
+				"country": "USA",
+				"audio": "",
+				"video": "https://youtu.be/IHZssZ1yWow"
+			},
+			"2016-11-01": {
+				"event": "MM Recital: Felipe Tovar-Henao",
+				"performers": {
+					"Wai Ki Wun": "clarinet"
+				},
+				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "https://soundcloud.com/felipetovarhenao/carnaval-del-diablo",
+				"video": ""
+			},
+			"2016-11-05": {
+				"event": "2016 Midwest Composer Symposium",
+				"performers": {
+					"Wai Ki Wun": "clarinet"
+				},
+				"venue": "Voxman Music Building Concert Hall, University of Iowa",
+				"city": "Iowa City, IA",
+				"country": "USA",
+				"audio": "",
+				"video": ""
+			},
+			"2018-02-22": {
+				"event": "Latin American Music Center Concert",
+				"performers": {
+					"Wai Ki Wun": "clarinet"
+				},
+				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
+				"city": "Iowa City, IA",
+				"country": "USA",
+				"audio": "",
+				"video": ""
+			},
+			"2018-03-29": {
+				"event": "2018 SEAMUS National Conference: Concert 4",
+				"performers": {
+					"Colleen White": "clarinet"
+				},
+				"venue": "Room 190, University of Oregon",
+				"city": "Eugene, OR",
+				"country": "USA",
+				"audio": "",
+				"video": ""
+			},
+			"2017-10-25": {
+				"event": "2017 Seoul International Computer Music Festival",
+				"performers": {
+					"Yang-Ji Baek": "clarinet"
+				},
+				"venue": "Atelier 1, Asia Culture Center",
+				"city": "Gwangju",
+				"country": "South Korea",
+				"audio": "",
+				"video": "https://youtu.be/sNnlz72PXQc"
+			},
+			"2018-06-14": {
+				"event": "Denisty512: Stack Overflow",
+				"performers": {
+					"Ivan Javier Valbuena Paez": "clarinet"
+				},
+				"venue": "Tap Brewing Co-op",
+				"city": "Austin, TX",
+				"country": "USA",
+				"audio": "",
+				"video": ""
+			},
+			"2016-10-15": {
+				"event": "2016 Electronic Music Midwest (EMM): Concert 6",
+				"performers": {
+					"Emily Mehigh": "clarinet"
+				},
+				"venue": "Philip Lynch Theatre, Lewis University",
+				"city": "Romeoville, IL",
+				"country": "USA",
+				"audio": "",
+				"video": ""
+			},
+			"2019-20-29": {
+				"event": "Ensamble Periscopio: Hexaphonos",
+				"performers": {
+					"Javier Asdrubal Vinasco": "clarinet"
+				},
+				"venue": "Teatro Julio Mario Santo Domingo",
+				"city": "Bogotá",
+				"country": "Colombia",
+				"audio": "https://music.youtube.com/watch?v=B5B7tfI_9wo&feature=share",
+				"video": ""
+			},
+			"2021-05-14": {
+				"event": "Clarinete Mestizo (Virtual concert series)",
+				"performers": {
+					"Javier Asdrubal Vinasco": "clarinet"
+				},
+				"venue": "N/A",
+				"city": "Medellín, Antioquia",
+				"country": "Colombia",
+				"audio": "",
+				"video": "https://youtu.be/XJTP7Oi3Y58"
+			},
+			"2021-08-05": {
+				"event": "AURA Ensemble's One on one: Episode 19 (Virtual concert series)",
+				"performers": {
+					"Jhoser Salazar": "clarinet"
+				},
+				"venue": "N/A",
+				"city": "Houston, TX",
+				"country": "USA",
+				"audio": "",
+				"video": "https://youtu.be/hmEq72XyD4Y"
+			}
+		}
+	},
+	"o llanto místico": {
+		"year": 2016,
+		"subtitle": "threnody for solo organ",
+		"duration": 11,
+		"instrumentation": [
+			"org"
+		],
+		"commission-label": "",
+		"categories": [
+			"solo"
+		],
+		"awards": [
+			"finalist, 2016 BMI Student composition award"
+		],
+		"performances": {
+			"2016-04-13": {
+				"event": "2016 Hammer and Nail Concert",
+				"performers": {
+					"Brent Tevelde": "organ"
+				},
+				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "https://soundcloud.com/felipetovarhenao/o-llanto-mistico",
+				"video": "https://youtu.be/Z5P3I4RS_Zg"
+			},
+			"2016-11-01": {
+				"event": "MM Recital: Felipe Tovar-Henao",
+				"performers": {
+					"Chere Ko": "organ"
+				},
+				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "",
+				"video": "https://youtu.be/x-2L34KDv5s"
+			}
+		}
+	},
+	"oh, misteriosa alma mía": {
+		"year": 2015,
+		"subtitle": "a nadaist poem for mixed choir a cappella",
+		"duration": 10,
+		"instrumentation": [
+			"ch[SSAATTBB]"
+		],
+		"commission-label": "",
+		"categories": [
+			"choir",
+			"chamber"
+		],
+		"awards": [
+			"2016 Honorable mention, NOTUS composition contest"
+		],
+		"performances": {
+			"2016-03-01": {
+				"event": "JSoM Student Composition Recital",
+				"performers": {
+					"Gabrielle Gaudreault": "conductor",
+					"IU JSoM students": "chorus"
+				},
+				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "https://soundcloud.com/felipetovarhenao/oh-misteriosa-alma-mia",
+				"video": "https://youtu.be/HVa_hcyHudM"
+			},
+			"2016-11-01": {
+				"event": "MM Recital: Felipe Tovar-Henao",
+				"performers": {
+					"Gabrielle Gaudreault": "conductor",
+					"IU JSoM students": "chorus"
+				},
+				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "",
+				"video": ""
+			}
+		}
+	},
+	"elegía litúrgica": {
+		"year": 2015,
+		"subtitle": "for scordatura violin and piano",
+		"duration": 9,
+		"instrumentation": [
+			"vn",
+			"pnf"
+		],
+		"commission-label": "",
+		"categories": [
+			"chamber"
+		],
+		"awards": [],
+		"performances": {
+			"2015-06-09": {
+				"event": "BM Recital: Felipe Tovar-Henao",
+				"performers": {
+					"name": "role"
+				},
+				"venue": "Auditorio 103, Bloque 38, Universidad EAFIT",
+				"city": "Medellín, Antioquia",
+				"country": "Colombia",
+				"audio": "",
+				"video": ""
 			}
 		}
 	}
