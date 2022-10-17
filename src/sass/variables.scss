@@ -1,0 +1,60 @@
+/* font */
+
+/* palette */
+
+:root {
+  --bg1: #f6f6f6;
+  --bg2: #ececec;
+  --bg3: #d8d7d7;
+  --bord: #959595;
+  --txt: #292929;
+  --primary: #337fc2;
+  --secondary: #6fb7eb;
+  --danger: #d0573f;
+  --bg-hl: #ffffff;
+  --bg-sel: #d8d8d8;
+  --inactive: #949494;
+  --glow: #fff4a377;
+}
+
+.dark {
+  --bg1: #292929;
+  --bg2: #222222;
+  --bg3: #161616;
+  --bord: #414141;
+  --txt: #fcfcfcff;
+  --primary: #6fade3;
+  --secondary: #8bd7ff;
+  --danger: #d86e58ff;
+  --bg-hl: #313131;
+  --bg-sel: #3b3a39;
+  --inactive: #949494;
+  --glow: #28272755;
+}
+
+/* fonts */
+$font1: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+$font2: "Courier New", Courier, monospace;
+
+/* sizes */
+$gap-xs: 1px;
+$gap-sm: 2.5px;
+$gap-md: 5px;
+$gap-lg: 10px;
+$gap-xl: 15px;
+
+$txt-xs: 9.5px;
+$txt-sm: 11px;
+$txt-md: 14px;
+$txt-lg: 18px;
+$txt-ml: 24px;
+$txt-xl: 30px;
+
+$border-sm: 1px;
+$border-md: 1.5px;
+$border-lg: 3px;
+
+$radius-sm: 2.5px;
+$radius-md: 5px;
+
+$grow: 1.025;

@@ -1,0 +1,33 @@
+.work-list {
+  @include v-stack;
+  .work-card {
+    @include v-stack;
+    border-style: solid;
+    @include pad($gap-lg);
+    .work-card-header {
+      .title {
+        font-weight: bolder;
+      }
+      .duration {
+        color: var(--inactive);
+      }
+    }
+    .work-card-details {
+      .instrument-list {
+        @include h-stack-c;
+        .instrument-abbr {
+          @include vh-pad($gap-md, $gap-sm);
+          font-family: $font2;
+        }
+      }
+      @include l-pad($gap-lg);
+      height: fit-content;
+    }
+  }
+  .key-value {
+    @include col-grid(20% auto);
+    .key {
+      @include crop-text;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+/* primitive classes */
+.v-stack {
+  @include v-stack;
+}
+.h-stack {
+  @include h-stack;
+}
+.v-center {
+  @include v-center;
+}
+.h-center {
+  @include h-center;
+}
+.center {
+  @include center;
+}
+.h-stack-c {
+  @include h-stack-c;
+}
+.v-stack-c {
+  @include v-stack-c;
+}
+.to-right {
+  @include to-right;
+}
+.to-left {
+  @include to-left;
+}
+.to-top {
+  @include to-top;
+}
+.to-bottom {
+  @include to-bottom;
+}
+.material-icons {
+  @include h-center;
+  @include v-center;
+}
+.link {
+  @include link;
+}

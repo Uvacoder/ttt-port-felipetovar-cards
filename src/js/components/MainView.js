@@ -9,7 +9,9 @@ import ViewTemplate from "./views/ViewTemplate";
 import WorksView from "./views/WorksView";
 import ContactView from "./views/ContactView";
 
+
 export default function MainView() {
+
   const routeMap = {
     bio: {
       header: "Bio",
@@ -39,23 +41,23 @@ export default function MainView() {
   };
 
   return (
-    <div>
-      <Routes>
-        {Object.keys(routeMap).map((k) => {
-          const map = routeMap[k];
-          return (
-            <Route
-              key={k}
-              path={map.path}
-              element={
-                <ViewTemplate key={`view-${k}`} header={map.header}>
-                  {map.element}
-                </ViewTemplate>
-              }
-            />
-          );
-        })}
-      </Routes>
-    </div>
+      <div>
+        <Routes>
+          {Object.keys(routeMap).map((k) => {
+            const map = routeMap[k];
+            return (
+              <Route
+                key={k}
+                path={map.path}
+                element={
+                  <ViewTemplate key={`view-${k}`} header={map.header}>
+                    {map.element}
+                  </ViewTemplate>
+                }
+              />
+            );
+          })}
+        </Routes>
+      </div>
   );
 }

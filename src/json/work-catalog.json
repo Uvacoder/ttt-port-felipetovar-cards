@@ -4,7 +4,7 @@
 		"subtitle": "",
 		"duration": "",
 		"instrumentation": [],
-		"commission-info": "",
+		"commission": "",
 		"categories": [],
 		"awards": [],
 		"performances": {
@@ -21,7 +21,7 @@
 			}
 		}
 	},
-	"simulacra": {
+	"«Simulacra»": {
 		"year": 2022,
 		"subtitle": "[re]presentations for large chamber ensemble and live electronics",
 		"duration": 11,
@@ -39,7 +39,7 @@
 			"vc",
 			"elec"
 		],
-		"commission-info": "Commissioned by the Chicago Center for Contemporary Composition at the University of Chicago",
+		"commission": "Commissioned by the Chicago Center for Contemporary Composition at the University of Chicago",
 		"categories": [
 			"large ensemble",
 			"mixed",
@@ -61,8 +61,8 @@
 			}
 		}
 	},
-	"enjambres": {
-		"year": "2020, rev. 2022",
+	"«Enjambres»": {
+		"year": "2022",
 		"subtitle": "for large chamber ensemble",
 		"duration": 8,
 		"instrumentation": [
@@ -80,7 +80,7 @@
 			"vc",
 			"db"
 		],
-		"commission-info": "Commissioned by Alarm Will Sound and Alan Pierson for the 2020 Mizzou International Composer Festival",
+		"commission": "Commissioned by Alarm Will Sound and Alan Pierson for the 2020 Mizzou International Composer Festival",
 		"categories": [
 			"large ensemble"
 		],
@@ -100,7 +100,7 @@
 			}
 		}
 	},
-	"danzas encefálicas": {
+	"«Danzas encefálicas»": {
 		"year": "2017",
 		"subtitle": "Dream cycles for sinfonietta and electronics",
 		"duration": 10,
@@ -122,7 +122,7 @@
 			"db",
 			"kbd/elec"
 		],
-		"commission-info": "Commissioned by and premiered by the IU New Music Ensemble through the Dean's Prize Commission and Award",
+		"commission": "Commissioned by and premiered by the IU New Music Ensemble through the Dean's Prize Commission and Award",
 		"categories": [
 			"large ensemble",
 			"mixed",
@@ -156,7 +156,7 @@
 			"country": "Mexico"
 		}
 	},
-	"la mirada del ouroboros": {
+	"«La mirada del ouroboros»": {
 		"year": 2017,
 		"subtitle": "concerto for harp and sinfonietta",
 		"duration": 20,
@@ -177,7 +177,7 @@
 			"vc",
 			"db"
 		],
-		"commission-info": "Written for and commissioned by Bibiana Ordoñez Velandia, with the support of the art endowment fund 'Beca para la creación de música contemporánea, Ministerio de Cultura de Colombia",
+		"commission": "Written for and commissioned by Bibiana Ordoñez Velandia, with the support of the art endowment fund 'Beca para la creación de música contemporánea, Ministerio de Cultura de Colombia",
 		"categories": [
 			"large ensemble",
 			"concerto"
@@ -201,16 +201,16 @@
 			}
 		}
 	},
-	"di.ver.ti.men.to": {
+	"«Di.ver.ti.men.to»": {
 		"year": 2022,
 		"subtitle": "allegro-remix for string trio",
-		"duration": "",
+		"duration": 6,
 		"instrumentation": [
 			"vn",
 			"va",
 			"vc"
 		],
-		"commission-info": "Commissioned by Guarneri Hall NFP and NEXUS Chamber Music",
+		"commission": "Commissioned by Guarneri Hall NFP and NEXUS Chamber Music",
 		"categories": [
 			"chamber"
 		],
@@ -231,14 +231,14 @@
 			}
 		}
 	},
-	"canticum": {
+	"«Canticum»": {
 		"year": 2022,
 		"subtitle": "for carillon and electronics",
-		"duration": "",
+		"duration": 5,
 		"instrumentation": [
 			"carillon"
 		],
-		"commission-info": "Commissioned by Rockefeller Chapel for the 90th Anniversary of the Rockefeller Chapel Carillon",
+		"commission": "Commissioned by Rockefeller Chapel for the 90th Anniversary of the Rockefeller Chapel Carillon",
 		"categories": [
 			"solo",
 			"electronic"
@@ -258,7 +258,7 @@
 			}
 		}
 	},
-	"...como la pólvora...": {
+	"«...como la pólvora...»": {
 		"year": 2022,
 		"subtitle": "attractors for amplified string quartet",
 		"duration": 5,
@@ -267,7 +267,7 @@
 			"va",
 			"vc"
 		],
-		"commission-info": "Commissioned by the Chicago Center for Contemporary Composition at the University of Chicago",
+		"commission": "Commissioned by the Chicago Center for Contemporary Composition at the University of Chicago",
 		"categories": [
 			"chamber"
 		],
@@ -286,7 +286,7 @@
 			}
 		}
 	},
-	"introducción a la esquizofrenia": {
+	"«Introducción a la esquizofrenia»": {
 		"year": 2020,
 		"subtitle": "praeludium for string quartet",
 		"duration": 8,
@@ -295,7 +295,7 @@
 			"va",
 			"vc"
 		],
-		"commission-info": "Commissioned by FilarMed for the Nacido En Cuarentena event series",
+		"commission": "Commissioned by FilarMed for the Nacido En Cuarentena event series",
 		"categories": [
 			"chamber"
 		],
@@ -314,14 +314,14 @@
 			}
 		}
 	},
-	"ruido, ceniza": {
+	"«Ruido, ceniza»": {
 		"year": 2020,
 		"subtitle": "morphisms for one or more amplified string instruments",
 		"duration": 8,
 		"instrumentation": [
 			"va"
 		],
-		"commission-info": "",
+		"commission": "",
 		"categories": [],
 		"awards": [],
 		"performances": {
@@ -360,14 +360,14 @@
 			}
 		}
 	},
-	"umbra": {
+	"«Umbra»": {
 		"year": 2019,
 		"subtitle": "semi-improvisation for light.void~, handmade digital photo-controller",
 		"duration": 7,
 		"instrumentation": [
 			"light.void~"
 		],
-		"commission-info": "",
+		"commission": "",
 		"categories": [
 			"solo",
 			"electronic"
@@ -409,14 +409,14 @@
 			}
 		}
 	},
-	"ataxia": {
+	"«Ataxia»": {
 		"year": 2019,
 		"subtitle": "for English horn and live electronics",
 		"duration": 6,
 		"instrumentation": [
 			"eh"
 		],
-		"commission-info": "Commissioned by Jake Gunnar Walsh",
+		"commission": "Commissioned by Jake Gunnar Walsh",
 		"categories": [
 			"solo",
 			"electronic"
@@ -447,7 +447,7 @@
 			}
 		}
 	},
-	"paroxismos": {
+	"«Paroxismos»": {
 		"year": 2019,
 		"subtitle": "mosaic on violence for chamber ensemble",
 		"duration": 6,
@@ -459,7 +459,7 @@
 			"pnf",
 			"perc"
 		],
-		"commission-info": "Commissioned by the Society of Composers, Inc. (SCI) and the American Society of Composers, Authors and Publishers (ASCAP) for the 2019 SCI National Conference",
+		"commission": "Commissioned by the Society of Composers, Inc. (SCI) and the American Society of Composers, Authors and Publishers (ASCAP) for the 2019 SCI National Conference",
 		"categories": [
 			"chamber"
 		],
@@ -491,7 +491,7 @@
 			}
 		}
 	},
-	"arborescencia": {
+	"«Arborescencia»": {
 		"year": 2018,
 		"subtitle": "birdsong for flute and live electronics",
 		"duration": 9,
@@ -499,7 +499,7 @@
 			"fl",
 			"elec"
 		],
-		"commission-info": "Commissioned by José Martinez through the 2018-2019 Rainwater Innovation Grant from University of Texas at Austin",
+		"commission": "Commissioned by José Martinez through the 2018-2019 Rainwater Innovation Grant from University of Texas at Austin",
 		"categories": [
 			"solo",
 			"electronic"
@@ -609,7 +609,7 @@
 			}
 		}
 	},
-	"...de lo voluble...": {
+	"«...de lo voluble...»": {
 		"year": 2018,
 		"subtitle": "roulette for chamber ensemble",
 		"duration": 7,
@@ -620,7 +620,7 @@
 			"vc",
 			"mar"
 		],
-		"commission-info": "Commissioned by Ensamble Periscopio in celebration of the 20th anniversary of Universidad EAFIT's Music Department.",
+		"commission": "Commissioned by Ensamble Periscopio in celebration of the 20th anniversary of Universidad EAFIT's Music Department.",
 		"categories": [
 			"chamber"
 		],
@@ -652,12 +652,14 @@
 			}
 		}
 	},
-	"fire song": {
+	"Fire song": {
 		"year": 2018,
 		"subtitle": "immersive, 8-screen/8-channel surround installation (in collaboration with Susanne Schwibs)",
-		"duration": "",
-		"instrumentation": [],
-		"commission-info": "Commissioned through the IU College of Arts & Sciences Ostrom Grant by IU faculty Norbert Herber for the Big Tent showcase during the 2018 Lotus Festival",
+		"duration": 4,
+		"instrumentation": [
+			"N/A"
+		],
+		"commission": "Commissioned through the IU College of Arts & Sciences Ostrom Grant by IU faculty Norbert Herber for the Big Tent showcase during the 2018 Lotus Festival",
 		"categories": [
 			"installation",
 			"electronic"
@@ -684,14 +686,14 @@
 			}
 		}
 	},
-	"el impulso sumergido": {
+	"«El impulso sumergido»": {
 		"year": 2018,
 		"subtitle": ") rêverie for viola da gamba and live electronics",
 		"duration": 7,
 		"instrumentation": [
 			"viol"
 		],
-		"commission-info": "Commissioned by Brady Lanier",
+		"commission": "Commissioned by Brady Lanier",
 		"categories": [
 			"solo",
 			"electronic"
@@ -711,7 +713,7 @@
 			}
 		}
 	},
-	"los trópicos ocultos": {
+	"«Los trópicos ocultos»": {
 		"year": 2016,
 		"subtitle": "proloquor for solo trumpet and chamber ensemble",
 		"duration": 14,
@@ -724,7 +726,7 @@
 			"2perc",
 			"pnf"
 		],
-		"commission-info": "",
+		"commission": "",
 		"categories": [],
 		"awards": [
 			"2016 Jacobs School of Music Dean's Prize Award",
@@ -746,7 +748,7 @@
 			}
 		}
 	},
-	"¡Carnaval del Diablo!": {
+	"«¡Carnaval del Diablo!»": {
 		"year": 2016,
 		"subtitle": "matachinesque ritual for clarinet and electronics",
 		"duration": 6,
@@ -754,7 +756,7 @@
 			"cl",
 			"elec"
 		],
-		"commission-info": "",
+		"commission": "",
 		"categories": [
 			"solo",
 			"electronic"
@@ -884,14 +886,14 @@
 			}
 		}
 	},
-	"o llanto místico": {
+	"«O llanto místico»": {
 		"year": 2016,
 		"subtitle": "threnody for solo organ",
 		"duration": 11,
 		"instrumentation": [
 			"org"
 		],
-		"commission-info": "",
+		"commission": "",
 		"categories": [
 			"solo"
 		],
@@ -923,14 +925,14 @@
 			}
 		}
 	},
-	"oh, misteriosa alma mía": {
+	"«Oh, misteriosa alma mía»": {
 		"year": 2015,
 		"subtitle": "a nadaist poem for mixed choir a cappella",
 		"duration": 10,
 		"instrumentation": [
 			"ch[SSAATTBB]"
 		],
-		"commission-info": "",
+		"commission": "",
 		"categories": [
 			"choir",
 			"chamber"
@@ -965,7 +967,7 @@
 			}
 		}
 	},
-	"elegía litúrgica": {
+	"«Elegía litúrgica»": {
 		"year": 2015,
 		"subtitle": "for scordatura violin and piano",
 		"duration": 9,
@@ -973,7 +975,7 @@
 			"vn",
 			"pnf"
 		],
-		"commission-info": "",
+		"commission": "",
 		"categories": [
 			"chamber"
 		],
@@ -993,7 +995,7 @@
 			}
 		}
 	},
-	"tubiphona exequialis": {
+	"«Tubiphona exequialis»": {
 		"year": 2014,
 		"subtitle": "images for large brass ensemble, percussion, and celesta",
 		"duration": 7,
@@ -1003,7 +1005,7 @@
 			"tba",
 			"perc"
 		],
-		"commission-info": "Commissioned by Andrés Orozco Estrada and Orquesta Sinfónica EAFIT",
+		"commission": "Commissioned by Andrés Orozco Estrada and Orquesta Sinfónica EAFIT",
 		"categories": [
 			"large ensemble"
 		],
@@ -1035,7 +1037,7 @@
 			}
 		}
 	},
-	"astronomía": {
+	"«Astronomía»": {
 		"year": 2013,
 		"subtitle": "for mezzo-soprano and piano",
 		"duration": 4,
@@ -1043,7 +1045,7 @@
 			"mez",
 			"pnf"
 		],
-		"commission-info": "",
+		"commission": "",
 		"categories": [
 			"chamber"
 		],
@@ -1063,14 +1065,14 @@
 			}
 		}
 	},
-	"cinco cantos embera-chamí": {
+	"«Cinco cantos Embera-Chamí»": {
 		"year": 2013,
 		"subtitle": "song cycle for mixed choir a cappella",
 		"duration": 20,
 		"instrumentation": [
 			"ch[SSAATTBB]"
 		],
-		"commission-info": "Commissioned by Alcaldía de Medellín through the art endowment fund X Convocatoria de Becas para la Creación Artística y Cultural Medellín - Choral Music Category",
+		"commission": "Commissioned by Alcaldía de Medellín through the art endowment fund X Convocatoria de Becas para la Creación Artística y Cultural Medellín - Choral Music Category",
 		"categories": [
 			"choir"
 		],
@@ -1090,7 +1092,7 @@
 			}
 		}
 	},
-	"Un arracacho en La Heroica": {
+	"«Un arracacho en La Heroica»": {
 		"year": 2013,
 		"subtitle": "for cello and piano",
 		"duration": 5,
@@ -1098,7 +1100,7 @@
 			"vc",
 			"pnf"
 		],
-		"commission-info": "Commissioned by Carlos Montoya",
+		"commission": "Commissioned by Carlos Montoya",
 		"categories": [
 			"chamber"
 		],
@@ -1118,7 +1120,7 @@
 			}
 		}
 	},
-	"hýpnos": {
+	"«Hýpnos»": {
 		"year": 2012,
 		"subtitle": "for harp, clarinet, and cello",
 		"duration": 6,
@@ -1127,7 +1129,7 @@
 			"hp",
 			"vc"
 		],
-		"commission-info": "",
+		"commission": "",
 		"categories": [
 			"chamber"
 		],
@@ -1176,7 +1178,7 @@
 			}
 		}
 	},
-	"camazotz": {
+	"«Camazotz»": {
 		"year": 2012,
 		"subtitle": "for string quartet",
 		"duration": 8,
@@ -1185,7 +1187,7 @@
 			"va",
 			"vc"
 		],
-		"commission-info": "",
+		"commission": "",
 		"categories": [
 			"chamber"
 		],
@@ -1206,7 +1208,7 @@
 			}
 		}
 	},
-	"afanes y costumbres": {
+	"«Afanes y costumbres»": {
 		"year": 2012,
 		"subtitle": "for piano trio",
 		"duration": 6,
@@ -1215,7 +1217,7 @@
 			"vc",
 			"pnf"
 		],
-		"commission-info": "",
+		"commission": "",
 		"categories": [],
 		"awards": [],
 		"performances": {
@@ -1234,7 +1236,7 @@
 			}
 		}
 	},
-	"Percepciones sobre una imagen diáfana": {
+	"«Percepciones sobre una imagen diáfana»": {
 		"year": 2011,
 		"subtitle": "for clarinet and piano",
 		"duration": 6,
@@ -1242,7 +1244,7 @@
 			"cl",
 			"pnf"
 		],
-		"commission-info": "",
+		"commission": "",
 		"categories": [
 			"chamber"
 		],
