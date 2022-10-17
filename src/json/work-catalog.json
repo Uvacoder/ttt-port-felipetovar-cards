@@ -1,29 +1,29 @@
 {
 	"work-title": {
-		"year": "",
-		"subtitle": "",
-		"duration": "",
-		"instrumentation": [],
-		"commission": "",
-		"categories": [],
-		"awards": [],
+		"year": false,
+		"subtitle": false,
+		"duration": false,
+		"instrumentation": false,
+		"commission": false,
+		"categories": false,
+		"awards": false,
 		"performances": {
 			"[yyyy-mm-dd]": {
-				"event": "",
+				"event": false,
 				"performers": {
 					"name": "role"
 				},
-				"venue": "",
-				"city": "",
-				"country": "",
-				"audio": "",
-				"video": ""
+				"venue": false,
+				"city": false,
+				"country": false,
+				"audio": false,
+				"video": false
 			}
 		}
 	},
 	"«Simulacra»": {
 		"year": 2022,
-		"subtitle": "[re]presentations for large chamber ensemble and live electronics",
+		"subtitle": "[re]presentations for large chamber ensemble and electronics",
 		"duration": 11,
 		"instrumentation": [
 			"fl/afl",
@@ -45,7 +45,7 @@
 			"mixed",
 			"electronic"
 		],
-		"awards": [],
+		"awards": false,
 		"performances": {
 			"2022-03-04": {
 				"event": "Grossman Ensemble with Tim Weiss, conductor",
@@ -84,7 +84,7 @@
 		"categories": [
 			"large ensemble"
 		],
-		"awards": [],
+		"awards": false,
 		"performances": {
 			"2022-07-30": {
 				"event": "Alarm Will Sound: Eight world premieres",
@@ -95,7 +95,7 @@
 				"venue": "Missouri Theater",
 				"city": "Columbia, MO",
 				"country": "USA",
-				"audio": "",
+				"audio": false,
 				"video": "https://youtu.be/t75QG8oSDVY?t=553"
 			}
 		}
@@ -214,7 +214,7 @@
 		"categories": [
 			"chamber"
 		],
-		"awards": [],
+		"awards": false,
 		"performances": {
 			"2022-08-28": {
 				"event": "Ravinia Festival - NEXUS Chamber Music: Dancing with the Shadow",
@@ -226,8 +226,8 @@
 				"venue": "Bennett Gordon Hall",
 				"city": "Chicago, IL",
 				"country": "USA",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			}
 		}
 	},
@@ -243,7 +243,7 @@
 			"solo",
 			"electronic"
 		],
-		"awards": [],
+		"awards": false,
 		"performances": {
 			"2022-06-15": {
 				"event": "2O22 Guild of Carilloneurs of North America (GCNA) Congress: Opening concert",
@@ -253,8 +253,8 @@
 				"venue": "Rockefeller Chapel",
 				"city": "Chicago, IL",
 				"country": "USA",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			}
 		}
 	},
@@ -271,7 +271,7 @@
 		"categories": [
 			"chamber"
 		],
-		"awards": [],
+		"awards": false,
 		"performances": {
 			"2022-04-10": {
 				"event": "UChicago Presents: Quatuor Diotima",
@@ -282,7 +282,7 @@
 				"city": "Chicago, IL",
 				"country": "USA",
 				"audio": "https://soundcloud.com/felipetovarhenao/como-la-polvora-2022-attractors-for-amplified-string-quartet",
-				"video": ""
+				"video": false
 			}
 		}
 	},
@@ -299,7 +299,7 @@
 		"categories": [
 			"chamber"
 		],
-		"awards": [],
+		"awards": false,
 		"performances": {
 			"2021-03-13": {
 				"event": "Música Pandémica",
@@ -321,9 +321,9 @@
 		"instrumentation": [
 			"va"
 		],
-		"commission": "",
-		"categories": [],
-		"awards": [],
+		"commission": false,
+		"categories": false,
+		"awards": false,
 		"performances": {
 			"2020-02-14": {
 				"event": "DM Recital: Felipe Tovar-Henao",
@@ -334,7 +334,7 @@
 				"city": "Bloomington, IN",
 				"country": "USA",
 				"audio": "https://soundcloud.com/felipetovarhenao/ruido-ceniza",
-				"video": ""
+				"video": false
 			},
 			"2021-11-18": {
 				"event": "DM Recital: Felipe Tovar-Henao",
@@ -344,7 +344,7 @@
 				"venue": "Christel De Haan Fine Arts Center, University of Indianapolis",
 				"city": "Indianapolis, IN",
 				"country": "USA",
-				"audio": "",
+				"audio": false,
 				"video": "https://youtu.be/20Nkils_nCI"
 			},
 			"2020-12-01": {
@@ -355,8 +355,8 @@
 				"venue": "Teatro Pablo Tobón Uribe",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			}
 		}
 	},
@@ -367,12 +367,12 @@
 		"instrumentation": [
 			"light.void~"
 		],
-		"commission": "",
+		"commission": false,
 		"categories": [
 			"solo",
 			"electronic"
 		],
-		"awards": [],
+		"awards": false,
 		"performances": {
 			"2020-02-14": {
 				"event": "DM Recital: Felipe Tovar-Henao",
@@ -382,8 +382,8 @@
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			},
 			"2019-12-08": {
 				"event": "Indiana University Center for Electronic and Computer Music: Fall concert",
@@ -393,7 +393,7 @@
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
-				"audio": "",
+				"audio": false,
 				"video": "https://youtu.be/llalU1W5x4k"
 			},
 			"2020-02-04": {
@@ -404,8 +404,8 @@
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			}
 		}
 	},
@@ -421,7 +421,7 @@
 			"solo",
 			"electronic"
 		],
-		"awards": [],
+		"awards": false,
 		"performances": {
 			"2019-04-14": {
 				"event": "Indiana University Center for Electronic and Computer Music: Spring concert",
@@ -432,7 +432,7 @@
 				"city": "Bloomington, IN",
 				"country": "USA",
 				"audio": "https://soundcloud.com/felipetovarhenao/ataxia",
-				"video": ""
+				"video": false
 			},
 			"2020-02-14": {
 				"event": "DM Recital: Felipe Tovar-Henao",
@@ -442,8 +442,8 @@
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			}
 		}
 	},
@@ -463,7 +463,7 @@
 		"categories": [
 			"chamber"
 		],
-		"awards": [],
+		"awards": false,
 		"performances": {
 			"2019-03-30": {
 				"event": "The 2019 Society of Composers Inc. National Conference & John Donald Robb Composers' Symposium: Concert 9",
@@ -475,7 +475,7 @@
 				"city": "Albuquerque, NM",
 				"country": "USA",
 				"audio": "https://soundcloud.com/felipetovarhenao/paroxismos",
-				"video": ""
+				"video": false
 			},
 			"2020-02-14": {
 				"event": "DM Recital: Felipe Tovar-Henao",
@@ -486,7 +486,7 @@
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
-				"audio": "",
+				"audio": false,
 				"video": "https://youtu.be/gJi4ZLcrA_A?list=PLY28U8LUrteY9uDtCdhKOBR_Davv42IhL"
 			}
 		}
@@ -517,7 +517,7 @@
 				"city": "Bloomington, IN",
 				"country": "USA",
 				"audio": "https://soundcloud.com/felipetovarhenao/arborescencia",
-				"video": ""
+				"video": false
 			},
 			"2020-02-04": {
 				"event": "Latin American Music Center's Salón Latino Chamber Music Series: New Music from Colombia, Peru, and Mexico",
@@ -527,8 +527,8 @@
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			},
 			"2019-11-09": {
 				"event": "2019 Midwest Composer Symposium",
@@ -538,8 +538,8 @@
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			},
 			"2020-02-14": {
 				"event": "DM Recital: Felipe Tovar-Henao",
@@ -549,8 +549,8 @@
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			},
 			"2022-09-16": {
 				"event": "Hochschule der Künste Bern: 20 Years of Sound Arts Symposium",
@@ -560,8 +560,8 @@
 				"venue": "Univesity of the Arts Bern",
 				"city": "Bern",
 				"country": "Switzerland",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			},
 			"2019-10-19": {
 				"event": "CEMIcircles: Concert 3",
@@ -571,8 +571,8 @@
 				"venue": "Merrill Ellis Intermedia Theater, University of North Texas",
 				"city": "Denton, TX",
 				"country": "USA",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			},
 			"2019-12-14": {
 				"event": "2019 International Workshop of Computer Music and Audio Technology Conference Concert",
@@ -582,8 +582,8 @@
 				"venue": "International Conference Hall",
 				"city": "Hsinchu City",
 				"country": "Taiwan",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			},
 			"2019-09-21": {
 				"event": "Stack Overflow Concert Series: C3 Colombian Composer Collective",
@@ -593,7 +593,7 @@
 				"venue": "First Street Studio",
 				"city": "Austin, TX",
 				"country": "USA",
-				"audio": "",
+				"audio": false,
 				"video": "https://youtu.be/J9rcUzRgWl4"
 			},
 			"2019-11-14": {
@@ -604,8 +604,8 @@
 				"venue": "Jacksonville University",
 				"city": "Jacksonville, FL",
 				"country": "USA",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			}
 		}
 	},
@@ -624,7 +624,7 @@
 		"categories": [
 			"chamber"
 		],
-		"awards": [],
+		"awards": false,
 		"performances": {
 			"2018-10-22": {
 				"event": "Concierto: Ensamble Periscopio, Música Nueva",
@@ -636,7 +636,7 @@
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
 				"audio": "https://soundcloud.com/felipetovarhenao/de-lo-voluble",
-				"video": ""
+				"video": false
 			},
 			"2020-02-14": {
 				"event": "DM Recital: Felipe Tovar-Henao",
@@ -647,8 +647,8 @@
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			}
 		}
 	},
@@ -664,31 +664,31 @@
 			"installation",
 			"electronic"
 		],
-		"awards": [],
+		"awards": false,
 		"performances": {
 			"2018-09-12": {
 				"event": "Lotus World Music and Arts Festival: Big Tent",
-				"performers": {},
+				"performers": false,
 				"venue": "4th & Washington street",
 				"city": "Bloomington, IN",
 				"country": "USA",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			},
 			"2019-04-01": {
 				"event": "Big Tent",
-				"performers": {},
+				"performers": false,
 				"venue": "Ballroom 450, IUPUI Campus Center",
 				"city": "Bloomington, IN",
 				"country": "USA",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			}
 		}
 	},
 	"«El impulso sumergido»": {
 		"year": 2018,
-		"subtitle": ") rêverie for viola da gamba and live electronics",
+		"subtitle": "rêverie for viola da gamba and live electronics",
 		"duration": 7,
 		"instrumentation": [
 			"viol"
@@ -698,7 +698,7 @@
 			"solo",
 			"electronic"
 		],
-		"awards": [],
+		"awards": false,
 		"performances": {
 			"2018-04-22": {
 				"event": "Indiana University Center for Electronic and Computer Music: Spring concert",
@@ -708,8 +708,8 @@
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			}
 		}
 	},
@@ -726,8 +726,8 @@
 			"2perc",
 			"pnf"
 		],
-		"commission": "",
-		"categories": [],
+		"commission": false,
+		"categories": false,
 		"awards": [
 			"2016 Jacobs School of Music Dean's Prize Award",
 			"Honorable mention, 2016 ASCAP Morton Gould Young Composer Awards"
@@ -756,12 +756,12 @@
 			"cl",
 			"elec"
 		],
-		"commission": "",
+		"commission": false,
 		"categories": [
 			"solo",
 			"electronic"
 		],
-		"awards": [],
+		"awards": false,
 		"performances": {
 			"2021-11-18": {
 				"event": "Electric Forests: Electric Forests: The UIndy Composers Forum featuring Felipe Tovar-Henao",
@@ -771,7 +771,7 @@
 				"venue": "Christel De Haan Fine Arts Center, University of Indianapolis",
 				"city": "Indianapolis, IN",
 				"country": "USA",
-				"audio": "",
+				"audio": false,
 				"video": "https://youtu.be/IHZssZ1yWow"
 			},
 			"2016-11-01": {
@@ -783,7 +783,7 @@
 				"city": "Bloomington, IN",
 				"country": "USA",
 				"audio": "https://soundcloud.com/felipetovarhenao/carnaval-del-diablo",
-				"video": ""
+				"video": false
 			},
 			"2016-11-05": {
 				"event": "2016 Midwest Composer Symposium",
@@ -793,8 +793,8 @@
 				"venue": "Voxman Music Building Concert Hall, University of Iowa",
 				"city": "Iowa City, IA",
 				"country": "USA",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			},
 			"2018-02-22": {
 				"event": "Latin American Music Center Concert",
@@ -804,8 +804,8 @@
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Iowa City, IA",
 				"country": "USA",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			},
 			"2018-03-29": {
 				"event": "2018 SEAMUS National Conference: Concert 4",
@@ -815,8 +815,8 @@
 				"venue": "Room 190, University of Oregon",
 				"city": "Eugene, OR",
 				"country": "USA",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			},
 			"2017-10-25": {
 				"event": "2017 Seoul International Computer Music Festival",
@@ -826,7 +826,7 @@
 				"venue": "Atelier 1, Asia Culture Center",
 				"city": "Gwangju",
 				"country": "South Korea",
-				"audio": "",
+				"audio": false,
 				"video": "https://youtu.be/sNnlz72PXQc"
 			},
 			"2018-06-14": {
@@ -837,8 +837,8 @@
 				"venue": "Tap Brewing Co-op",
 				"city": "Austin, TX",
 				"country": "USA",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			},
 			"2016-10-15": {
 				"event": "2016 Electronic Music Midwest (EMM): Concert 6",
@@ -848,8 +848,8 @@
 				"venue": "Philip Lynch Theatre, Lewis University",
 				"city": "Romeoville, IL",
 				"country": "USA",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			},
 			"2019-20-29": {
 				"event": "Ensamble Periscopio: Hexaphonos",
@@ -860,7 +860,7 @@
 				"city": "Bogotá",
 				"country": "Colombia",
 				"audio": "https://music.youtube.com/watch?v=B5B7tfI_9wo&feature=share",
-				"video": ""
+				"video": false
 			},
 			"2021-05-14": {
 				"event": "Clarinete Mestizo (Virtual concert series)",
@@ -870,7 +870,7 @@
 				"venue": "N/A",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
-				"audio": "",
+				"audio": false,
 				"video": "https://youtu.be/XJTP7Oi3Y58"
 			},
 			"2021-08-05": {
@@ -881,7 +881,7 @@
 				"venue": "N/A",
 				"city": "Houston, TX",
 				"country": "USA",
-				"audio": "",
+				"audio": false,
 				"video": "https://youtu.be/hmEq72XyD4Y"
 			}
 		}
@@ -893,7 +893,7 @@
 		"instrumentation": [
 			"org"
 		],
-		"commission": "",
+		"commission": false,
 		"categories": [
 			"solo"
 		],
@@ -920,7 +920,7 @@
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
-				"audio": "",
+				"audio": false,
 				"video": "https://youtu.be/x-2L34KDv5s"
 			}
 		}
@@ -932,7 +932,7 @@
 		"instrumentation": [
 			"ch[SSAATTBB]"
 		],
-		"commission": "",
+		"commission": false,
 		"categories": [
 			"choir",
 			"chamber"
@@ -962,8 +962,8 @@
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			}
 		}
 	},
@@ -975,11 +975,11 @@
 			"vn",
 			"pnf"
 		],
-		"commission": "",
+		"commission": false,
 		"categories": [
 			"chamber"
 		],
-		"awards": [],
+		"awards": false,
 		"performances": {
 			"2015-06-09": {
 				"event": "BM Recital: Felipe Tovar-Henao",
@@ -990,8 +990,8 @@
 				"venue": "Auditorio 103, Bloque 38, Universidad EAFIT",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			}
 		}
 	},
@@ -1009,7 +1009,7 @@
 		"categories": [
 			"large ensemble"
 		],
-		"awards": [],
+		"awards": false,
 		"performances": {
 			"2014-12-05": {
 				"event": "Mahler's Sixth Symphony",
@@ -1020,8 +1020,8 @@
 				"venue": "Teatro Metropolitano José Gutiérrez Gómez",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			},
 			"2016-03-03": {
 				"event": "Concierto Música de Cámara",
@@ -1033,7 +1033,7 @@
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
 				"audio": "https://open.spotify.com/track/7G4VheD7Kcoe9cbX9qnAk7?si=59a4586fb6714a8c",
-				"video": ""
+				"video": false
 			}
 		}
 	},
@@ -1045,11 +1045,11 @@
 			"mez",
 			"pnf"
 		],
-		"commission": "",
+		"commission": false,
 		"categories": [
 			"chamber"
 		],
-		"awards": [],
+		"awards": false,
 		"performances": {
 			"2015-06-09": {
 				"event": "BM Recital: Felipe Tovar-Henao",
@@ -1060,8 +1060,8 @@
 				"venue": "Auditorio 103, Bloque 38, Universidad EAFIT",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			}
 		}
 	},
@@ -1076,7 +1076,7 @@
 		"categories": [
 			"choir"
 		],
-		"awards": [],
+		"awards": false,
 		"performances": {
 			"2013-11-27": {
 				"event": "Cinco Cantos Embera Chamí",
@@ -1104,7 +1104,7 @@
 		"categories": [
 			"chamber"
 		],
-		"awards": [],
+		"awards": false,
 		"performances": {
 			"2013-10-21": {
 				"event": "Recital de Estudiantes 2013-2",
@@ -1115,8 +1115,8 @@
 				"venue": "Auditorio Fundadores, Universidad EAFIT",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			}
 		}
 	},
@@ -1129,7 +1129,7 @@
 			"hp",
 			"vc"
 		],
-		"commission": "",
+		"commission": false,
 		"categories": [
 			"chamber"
 		],
@@ -1147,8 +1147,8 @@
 				"venue": "Teatro R-101",
 				"city": "Bogotá",
 				"country": "Colombia",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			},
 			"2016-09-14": {
 				"event": "XVII Encuentro de Música EAFIT",
@@ -1173,8 +1173,8 @@
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			}
 		}
 	},
@@ -1187,7 +1187,7 @@
 			"va",
 			"vc"
 		],
-		"commission": "",
+		"commission": false,
 		"categories": [
 			"chamber"
 		],
@@ -1203,8 +1203,8 @@
 				"venue": "Auditorio Fundadores, Universidad EAFIT",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			}
 		}
 	},
@@ -1217,9 +1217,9 @@
 			"vc",
 			"pnf"
 		],
-		"commission": "",
-		"categories": [],
-		"awards": [],
+		"commission": false,
+		"categories": false,
+		"awards": false,
 		"performances": {
 			"2012-05-22": {
 				"event": "Concierto: Ensamble Periscopio, Música Nueva",
@@ -1231,8 +1231,8 @@
 				"venue": "Auditorio Fundadores, Universidad EAFIT",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			}
 		}
 	},
@@ -1244,11 +1244,11 @@
 			"cl",
 			"pnf"
 		],
-		"commission": "",
+		"commission": false,
 		"categories": [
 			"chamber"
 		],
-		"awards": [],
+		"awards": false,
 		"performances": {
 			"2012-04-30": {
 				"event": "Música Contemporánea o de Vanguardia, en Camino a la Apropiación",
@@ -1259,8 +1259,8 @@
 				"venue": "Auditorio Cámara de Comercio",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
-				"audio": "",
-				"video": ""
+				"audio": false,
+				"video": false
 			}
 		}
 	}

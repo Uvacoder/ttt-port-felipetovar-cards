@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 @mixin stack {
   display: flex;
 }
@@ -62,54 +64,74 @@
   margin-top: auto;
 }
 
-@mixin l-pad($gap) {
+@mixin l-pad($gap: $gap-md) {
   padding-left: $gap;
 }
 
-@mixin r-pad($gap) {
+@mixin r-pad($gap: $gap-md) {
   padding-right: $gap;
 }
 
-@mixin t-pad($gap) {
+@mixin t-pad($gap: $gap-md) {
   padding-top: $gap;
 }
 
-@mixin b-pad($gap) {
+@mixin b-pad($gap: $gap-md) {
   padding-bottom: $gap;
 }
 
-@mixin pad($gap) {
+@mixin h-pad($gap: $gap-md) {
+  @include l-pad($gap);
+  @include r-pad($gap);
+}
+
+@mixin v-pad($gap: $gap-md) {
+  @include t-pad($gap);
+  @include b-pad($gap);
+}
+
+@mixin pad($gap: $gap-md) {
   padding: $gap;
 }
 
-@mixin vh-pad($v-gap, $h-gap) {
+@mixin vh-pad($v-gap: $gap-md, $h-gap: $gap-md) {
   @include l-pad($h-gap);
   @include r-pad($h-gap);
   @include t-pad($v-gap);
   @include b-pad($v-gap);
 }
 
-@mixin l-mar($gap) {
+@mixin l-mar($gap: $gap-md) {
   margin-left: $gap;
 }
 
-@mixin r-mar($gap) {
+@mixin r-mar($gap: $gap-md) {
   margin-right: $gap;
 }
 
-@mixin t-mar($gap) {
+@mixin t-mar($gap: $gap-md) {
   margin-top: $gap;
 }
 
-@mixin b-mar($gap) {
+@mixin b-mar($gap: $gap-md) {
   margin-bottom: $gap;
 }
 
-@mixin mar($gap) {
+@mixin h-mar($gap: $gap-md) {
+  @include l-mar($gap);
+  @include r-mar($gap);
+}
+
+@mixin v-mar($gap: $gap-md) {
+  @include t-mar($gap);
+  @include b-mar($gap);
+}
+
+@mixin mar($gap: $gap-md) {
   margin: $gap;
 }
 
-@mixin vh-mar($v-gap, $h-gap) {
+@mixin vh-mar($v-gap: $gap-md, $h-gap: $gap-md) {
   @include l-mar($h-gap);
   @include r-mar($h-gap);
   @include t-mar($v-gap);
@@ -126,7 +148,7 @@
   grid-template-rows: $sizes;
 }
 
-@mixin trans($time: 0.25s) {
+@mixin trans($time: 0.5s) {
   transition: $time ease-in-out;
   &:hover {
     transition: $time ease-in-out;
@@ -186,4 +208,12 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+@mixin border($color: var(--bord), $size: $border-md) {
+  border: $size solid $color;
+}
+
+@mixin round {
+  border-radius: $radius-md;
 }

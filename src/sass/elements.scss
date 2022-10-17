@@ -1,0 +1,22 @@
+* {
+  font-family: $font1;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: $txt-md;
+  color: var(--txt);
+  border-color: var(--bord);
+  outline-width: $border-sm;
+  outline-color: var(--bg-hl);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-style: none;
+  border: 0.5px solid var(--bord);
+}
+
+html,
+body,
+#root {
+  width: 100vw;
+  height: 100%;
+}

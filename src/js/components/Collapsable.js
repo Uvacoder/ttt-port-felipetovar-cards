@@ -1,11 +1,11 @@
 import { useState } from "react";
 
 export default function Collapsable({ headerClosed, headerOpened, children }) {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   return (
     <>
-      <span onClick={() => setShow((x) => !x)}>{show ? headerOpened : headerClosed}</span>
+      <span className="handle" onClick={() => setShow((x) => !x)}>{show ? headerOpened : headerClosed}</span>
       {show && children}
     </>
   );

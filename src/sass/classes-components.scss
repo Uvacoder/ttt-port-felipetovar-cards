@@ -1,33 +1,85 @@
-.work-list {
-  @include v-stack;
-  .work-card {
-    @include v-stack;
-    border-style: solid;
-    @include pad($gap-lg);
-    .work-card-header {
-      .title {
-        font-weight: bolder;
-      }
-      .duration {
-        color: var(--inactive);
-      }
-    }
-    .work-card-details {
-      .instrument-list {
-        @include h-stack-c;
-        .instrument-abbr {
-          @include vh-pad($gap-md, $gap-sm);
-          font-family: $font2;
-        }
-      }
-      @include l-pad($gap-lg);
-      height: fit-content;
-    }
-  }
-  .key-value {
-    @include col-grid(20% auto);
-    .key {
-      @include crop-text;
-    }
-  }
-}
+// .work-list {
+//   @include h-stack;
+//   justify-content: space-evenly;
+//   .col {
+//     @include v-stack;
+//     width: 100%;
+//     .work-card {
+//       @include v-stack;
+//       @include border;
+//       @include pad($gap-lg);
+//       @include mar($gap-lg);
+//       @include round;
+//       background-color: var(--bg2);
+//       text-align: center;
+//       .work-image {
+//         @include h-center;
+//         @include v-mar($gap-lg);
+//         @include border;
+//         @include trans;
+
+//         width: 225px;
+//         height: 225px;
+//         border-radius: 50%;
+//         &:hover {
+//           rotate: 360deg;
+//         }
+//       }
+//       .work-card-header {
+//         .title {
+//           font-weight: bolder;
+//         }
+//         .duration {
+//           color: var(--inactive);
+//         }
+//       }
+//       .work-subtitle {
+//         font-style: italic;
+//       }
+//       .handle {
+//         @include b-pad($gap-md);
+//         @include link;
+//         text-align: left;
+//       }
+//       .work-card-details {
+//         text-align: left;
+//         display: grid;
+//         grid-template-columns: auto auto;
+//         .key,
+//         .value {
+//           @include b-pad($gap-md);
+//         }
+//         .award {
+//           @include v-stack;
+//         }
+//         .instrument-list {
+//           @include h-stack-c;
+//           @include mar($gap-sm);
+//           flex-wrap: wrap;
+//           .instrument-abbr {
+//             background-color: var(--bg1);
+//             @include border;
+//             @include round;
+//             @include r-mar($gap-md);
+//             // @include b-mar($gap-md);
+//             @include vh-pad($gap-sm, $gap-md);
+//             font-family: $font2;
+//           }
+//         }
+//         .performance {
+//           @include b-mar($gap-lg);
+//           .performers {
+//             @include t-pad($gap-sm);
+//             @include v-stack;
+//             .event {
+//               font-weight: bold;
+//             }
+//             .role {
+//               font-style: italic;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

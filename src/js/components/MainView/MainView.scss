@@ -1,0 +1,6 @@
+@import "../../../sass/variables.scss";
+@import "../../../sass/mixins.scss";
+.main-view {
+	@include to-right;
+	width: calc(100% - $navbar-size);
+}

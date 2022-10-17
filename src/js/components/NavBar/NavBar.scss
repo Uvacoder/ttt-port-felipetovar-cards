@@ -1,0 +1,17 @@
+@import "../../../sass/mixins.scss";
+@import "../../../sass/variables.scss";
+.navbar {
+  @include v-stack;
+  @include pad;
+  position: fixed;
+  height: 100vh;
+  width: $navbar-size;
+  .links {
+    @include v-stack;
+    .navbar-link {
+      @include link;
+      @include v-pad($gap-lg);
+      font-size: $txt-md;
+    }
+  }
+}

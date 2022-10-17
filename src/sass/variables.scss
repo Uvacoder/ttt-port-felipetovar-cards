@@ -33,8 +33,10 @@
 }
 
 /* fonts */
-$font1: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-$font2: "Courier New", Courier, monospace;
+// $font1: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+// $font2: "Courier New", Courier, monospace;
+$font1: 'Rubik', sans-serif;
+$font2: 'Share Tech Mono', monospace;
 
 /* sizes */
 $gap-xs: 1px;
@@ -58,3 +60,7 @@ $radius-sm: 2.5px;
 $radius-md: 5px;
 
 $grow: 1.025;
+
+$work-img-size: 225px;
+
+$navbar-size: 280px;
