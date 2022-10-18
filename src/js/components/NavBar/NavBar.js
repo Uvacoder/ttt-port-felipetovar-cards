@@ -1,15 +1,20 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { ThemeContext } from "../../contexts/ThemeContext";
 import AppHeader from "../AppHeader/AppHeader";
 import "./NavBar.scss";
 
 export default function NavBar() {
+  const { darkTheme, setDarkTheme } = useContext(ThemeContext);
+
   const links = [
     ["/", "bio", "auto_stories"],
     ["/works", "works", "library_music"],
     ["/listen-watch", "listen/watch", "video_library"],
-    ["/software", "software", "code"],
+    ["/software", "code", "code"],
     ["/contact", "contact", "alternate_email"],
   ];
+
   return (
     <div className="navbar">
       <AppHeader />
@@ -21,6 +26,7 @@ export default function NavBar() {
           </Link>
         ))}
       </div>
+      <div className="theme-switch" onClick={() => setDarkTheme((x) => !x)}>{darkTheme ? "light" : "dark"} theme</div>
     </div>
   );
 }

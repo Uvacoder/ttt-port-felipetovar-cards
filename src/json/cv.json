@@ -250,6 +250,164 @@
 					"country": "Colombia"
 				}
 			}
+		},
+		"residencies": {
+			"2022-07-22": {
+				"role": "resident composer",
+				"event": "Mizzou International Composer Festival",
+				"end": "2022-07-30",
+				"activities": [
+					"guest lecture",
+					"rehearsals",
+					"feature concert"
+				]
+			},
+			"2021-11-18": {
+				"role": "guest composer",
+				"event": "The UIndy Composers Forum featuring Felipe Tovar-Henao",
+				"end": "2021-11-19",
+				"activities": [
+					"guest lecture",
+					"private lessons",
+					"rehearsals",
+					"feature concert"
+				]
+			}
+		}
+	},
+	"skills": {
+		"languages": [
+			"Spanish (native)",
+			"English (professional)",
+			"French (intermediate)"
+		],
+		"technology": {
+			"languages": {
+				"python": {
+					"level": "advanced",
+					"libraries": [
+						"librosa",
+						"django",
+						"numpy"
+					]
+				},
+				"Javascript": {
+					"level": "intermediate",
+					"libraries": [
+						"react",
+						"web audio API"
+					]
+				},
+				"Common Lisp": {
+					"level": "intermediate",
+					"libraries": [
+						"om"
+					]
+				},
+				"html": {
+					"level": "intermediate",
+					"libraries": false
+				},
+				"css": {
+					"level": "intermediate",
+					"libraries": [
+						"sass"
+					]
+				},
+				"GLSL": {
+					"level": "intermediate",
+					"libraries": false
+				},
+				"CLI": {
+					"level": "intermediate",
+					"libraries": false
+				},
+				"git/github": {
+					"level": "intermediate",
+					"libraries": false
+				}
+			},
+			"software": {
+				"audio": {
+					"MaxMSP": {
+						"level": "advanced",
+						"libraries": [
+							"bach",
+							"cage",
+							"dada",
+							"mubu"
+						]
+					},
+					"RTcmix": {
+						"level": "advanced",
+						"libraries": false
+					},
+					"OpenMusic": {
+						"level": "advanced",
+						"libraries": [
+							"OM-Data",
+							"OM-Tristan"
+						]
+					},
+					"Ableton Live": {
+						"level": "intermediate",
+						"libraries": false
+					},
+					"GRM tools": {
+						"level": "intermediate",
+						"libraries": false
+					}
+				},
+				"video": {
+					"Touch Designer": {
+						"level": "intermediate",
+						"libraries": false
+					},
+					"Processing": {
+						"level": "intermediate",
+						"libraries": false
+					},
+					"Adobe Premiere": {
+						"level": "basic",
+						"libraries": false
+					}
+				},
+				"notation": {
+					"Finale": {
+						"level": "advanced",
+						"libraries": [
+							"JW plugins"
+						]
+					},
+					"MuseScore": {
+						"level": "basic",
+						"libraries": false
+					}
+				},
+				"programming": {
+					"VS Code": {
+						"level": "advanced",
+						"libraries": false
+					}
+				},
+				"design": {
+					"Arduino": {
+						"level": "basic",
+						"libraries": false
+					}
+				}
+			},
+			"hardware": {
+				"OS": [
+					"MacOS"
+				],
+				"audio": [
+					"microphones",
+					"interfaces",
+					"cables (XLR, TRS, etc.)",
+					"mixers"
+				]
+			}
 		}
 	}
 }

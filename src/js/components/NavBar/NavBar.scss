@@ -24,4 +24,9 @@
       }
     }
   }
+  .theme-switch {
+    @include h-center;
+    @include btn;
+    @include to-bottom;
+  }
 }

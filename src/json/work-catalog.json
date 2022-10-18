@@ -323,7 +323,7 @@
 			"va"
 		],
 		"commission": "Commissioned by Estéban Hernández Parra",
-		"categories": false,
+		"categories": ["solo"],
 		"awards": false,
 		"performances": {
 			"2021-04-13": {
@@ -377,7 +377,7 @@
 		"subtitle": "semi-improvisation for light.void~, handmade digital photo-controller",
 		"duration": 7,
 		"instrumentation": [
-			"light.void~"
+			"elec"
 		],
 		"commission": false,
 		"categories": [
@@ -669,7 +669,7 @@
 		"subtitle": "immersive, 8-screen/8-channel surround installation (in collaboration with Susanne Schwibs)",
 		"duration": 4,
 		"instrumentation": [
-			"N/A"
+			"elec"
 		],
 		"commission": "Commissioned through the IU College of Arts & Sciences Ostrom Grant by IU faculty Norbert Herber for the Big Tent showcase during the 2018 Lotus Festival",
 		"categories": [
@@ -739,7 +739,7 @@
 			"pnf"
 		],
 		"commission": false,
-		"categories": false,
+		"categories": ["chamber"],
 		"awards": [
 			"2016 Jacobs School of Music Dean's Prize Award",
 			"Honorable mention, 2016 ASCAP Morton Gould Young Composer Awards"
@@ -1230,7 +1230,7 @@
 			"pnf"
 		],
 		"commission": false,
-		"categories": false,
+		"categories": ["chamber"],
 		"awards": false,
 		"performances": {
 			"2012-05-22": {

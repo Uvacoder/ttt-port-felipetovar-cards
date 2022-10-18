@@ -179,10 +179,24 @@
   @include clickable;
 }
 
+@mixin border($color: var(--bord), $size: $border-md) {
+  border: $size solid $color;
+}
+
+@mixin round {
+  border-radius: $radius-md;
+}
+
+@mixin round-border($args...) {
+  @include border($args...);
+  @include round;
+}
+
 @mixin btn {
   @include clickable;
-  border-radius: $radius-md;
-  border-style: none;
+  @include round-border;
+  @include vh-pad($gap-md, $gap-lg);
+  width: fit-content;
   &:not([disabled]):hover {
     background-color: var(--bg-hl);
   }
@@ -191,7 +205,6 @@
 @mixin btn-primary {
   @include btn;
   @include t-mar($gap-lg);
-  @include vh-pad($gap-md, 0px);
   &:not([disabled]) {
     color: var(--primary);
     &:hover {
@@ -217,17 +230,4 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-
-@mixin border($color: var(--bord), $size: $border-md) {
-  border: $size solid $color;
-}
-
-@mixin round {
-  border-radius: $radius-md;
-}
-
-@mixin round-border($args...) {
-  @include border($args...);
-  @include round;
 }

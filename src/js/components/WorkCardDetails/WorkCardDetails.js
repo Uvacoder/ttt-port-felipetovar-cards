@@ -9,7 +9,7 @@ export default function WorkCardDetails({ work }) {
     <div className="work-card-details">
       {work.categories && (
         <KeyValue
-          k={"tags"}
+          k={"categories"}
           v={work.categories.map((x, i) => {
             return (
               <span className="tag" key={`tag-${i}`}>

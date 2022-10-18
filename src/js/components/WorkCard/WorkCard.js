@@ -18,7 +18,7 @@ export default function WorkCard({ work, id }) {
       <div className="work-card">
         <WorkCardImage img={work.image} alt={work.title} />
         <div className="header">
-          <span className="title">{work.title}</span> <span className="year">({work.year})</span> <span className="duration">{work.duration}'</span>{" "}
+          <span className="title">{work.title}</span> <span className="year">({work.year})</span> <span className="duration"> ~{work.duration}'</span>{" "}
           <br />
         </div>
         <div className="subtitle">
