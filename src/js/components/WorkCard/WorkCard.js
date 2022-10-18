@@ -27,11 +27,11 @@ export default function WorkCard({ work, id }) {
         <br />
         {work.commission && (
           <>
-            <div className="commission">{work.commission}</div>
+            <div className="commission">{work.commission}.</div>
             <br />
           </>
         )}
-        <Collapsable handler={exclusiveToggle} show={selected === id} label='details' >
+        <Collapsable handler={exclusiveToggle} show={selected === id} label='info' >
           <WorkCardDetails work={work} />
         </Collapsable>
       </div>

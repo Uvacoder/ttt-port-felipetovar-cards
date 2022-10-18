@@ -1,4 +1,5 @@
 @import "../../../sass/mixins.scss";
+@import "../../../sass/variables.scss";
 
 .image-slide {
   @include h-stack-c;
@@ -9,7 +10,7 @@
     height: 400px;
     .img {
 			@include h-center;
-			@include round-border;
+			@include round-border($size: $border-lg);
       height: 100%;
 			object-fit: fit;
 			background-position: center center;

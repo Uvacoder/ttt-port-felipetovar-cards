@@ -2,16 +2,26 @@
 @import "../../../sass/variables.scss";
 .navbar {
   @include v-stack;
-  @include pad;
+  @include pad($gap-lg);
   position: fixed;
   height: 100vh;
   width: $navbar-size;
+  border-right: $border-md solid var(--bord);
   .links {
     @include v-stack;
+    @include t-pad($gap-lg);
     .navbar-link {
+      @include h-stack-c;
+      @include v-mar($gap-sm);
+      @include round-border;
       @include link;
-      @include v-pad($gap-lg);
+      @include pad($gap-lg);
+      background-color: var(--bg2);
       font-size: $txt-md;
+      .label {
+        @include l-pad;
+        text-transform: uppercase;
+      }
     }
   }
 }

@@ -1,11 +1,24 @@
 @import "../../../sass/variables.scss";
+@import "../../../sass/mixins.scss";
+
 .app-header {
-	font-size: large;
-	.title {
-		font-size: $txt-ml;
-		font-weight: bold;
-	}
-	.subtitle {
-		font-size: $txt-md;
-	}
+  font-size: large;
+  text-align: center;
+  .title {
+    font-size: $txt-ml;
+    font-weight: bold;
+  }
+  .subtitle {
+    font-size: $txt-md;
+  }
+  .icons {
+    @include h-stack-c;
+		@include h-center;
+		@include v-pad;
+		justify-content: center;
+		.material-icons {
+			@include mar;
+			padding: 0;
+		}
+  }
 }

@@ -9,7 +9,7 @@ import "./index.scss";
 
 export default function App() {
   return (
-    <div className="app dark">
+    <div className="app">
       <NavBar />
       <MainView />
     </div>
