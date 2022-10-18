@@ -8,7 +8,7 @@ export default function NavBar() {
   const { darkTheme, setDarkTheme } = useContext(ThemeContext);
 
   const links = [
-    ["/", "bio", "auto_stories"],
+    ["/", "about", "auto_stories"],
     ["/works", "works", "library_music"],
     ["/listen-watch", "listen/watch", "video_library"],
     ["/software", "code", "code"],

@@ -31,7 +31,7 @@ export default function WorkCard({ work, id }) {
             <br />
           </>
         )}
-        <Collapsable handler={exclusiveToggle} show={selected === id} label='info' >
+        <Collapsable handler={exclusiveToggle} show={selected === id} label={`show ${selected === id ? "less" : "more"}`}>
           <WorkCardDetails work={work} />
         </Collapsable>
       </div>

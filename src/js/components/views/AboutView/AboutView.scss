@@ -1,0 +1,16 @@
+@import "../../../../sass/mixins.scss";
+@import "../../../../sass/variables.scss";
+.about-view {
+  @include v-stack;
+  .bio {
+		@include pad;
+    @include b-pad($gap-lg);
+		@include round-border;
+		background-color: var(--bg2);
+    h2.header {
+			@include b-pad;
+      font-size: $txt-lg;
+			font-weight: bold;
+    }
+  }
+}

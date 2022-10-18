@@ -2,7 +2,7 @@
 import { Routes, Route } from "react-router-dom";
 
 /* components */
-import BioView from "../views/BioView";
+import AboutView from "../views/AboutView/AboutView";
 import ListenWatchView from "../views/ListenWatchView";
 import SoftwareView from "../views/SoftwareView";
 import ViewTemplate from "../views/ViewTemplate/ViewTemplate";
@@ -14,8 +14,8 @@ import "./MainView.scss";
 export default function MainView() {
   const routeMap = {
     bio: {
-      header: "Bio",
-      element: <BioView />,
+      header: "About",
+      element: <AboutView />,
       path: "/",
     },
     listenWatch: {

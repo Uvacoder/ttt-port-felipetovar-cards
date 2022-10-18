@@ -2,6 +2,8 @@
 	"education": {
 		"DM": {
 			"university": "Indiana University, Jacobs School of Music",
+			"city": "Bloomington, IN",
+			"country": "USA",
 			"years": [
 				2017,
 				2020
@@ -14,6 +16,8 @@
 		},
 		"MM": {
 			"university": "Indiana University, Jacobs School of Music",
+			"city": "Bloomington, IN",
+			"country": "USA",
 			"years": [
 				2015,
 				2017
@@ -23,6 +27,8 @@
 		},
 		"BM": {
 			"university": "Universidad EAFIT",
+			"city": "Medellín, Antioquia",
+			"country": "Colombia",
 			"years": [
 				2011,
 				2015
@@ -33,18 +39,21 @@
 	},
 	"other education": {
 		"CIEE Paris Contemporary Music Creation and Critique Program, ManiFeste & l’Académie": {
+			"institution": "IRCAM-Centre Pompidou",
 			"location": "Paris, France",
 			"date": "June-4 – July 2. 2016"
 		}
 	},
-	"professional experience": {
+	"experience": {
 		"teaching": {
 			"Postdoctoral Researcher in Music Composition": {
 				"terms": [
-					2021,
-					2022
+					[
+						2021,
+						2022
+					]
 				],
-				"institution": "Chicago Center for Contemporary Composition, University of Chicago",
+				"institution": "Chicago Center for Contemporary Composition. University of Chicago",
 				"city": "Chicago, IL",
 				"country": "USA",
 				"courses": {
@@ -71,10 +80,15 @@
 				}
 			},
 			"Adjunct Professor of Composition and Music Theory": {
-				"years": [
-					2020,
-					2021,
-					2022
+				"terms": [
+					[
+						2020,
+						2021
+					],
+					[
+						2022,
+						true
+					]
 				],
 				"institution": "Music Department. Universidad EAFIT",
 				"city": "Medellín, Antioquia",
@@ -109,9 +123,11 @@
 				}
 			},
 			"Associate Instructor and Coordinator of Composition": {
-				"years": [
-					2017,
-					2022
+				"terms": [
+					[
+						2017,
+						2022
+					]
 				],
 				"institution": "Composition Department. Indiana University",
 				"city": "Bloomington, IN",
