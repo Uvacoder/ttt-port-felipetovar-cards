@@ -1,5 +1,5 @@
 import "./WorkCard.scss";
-import Collapsable from "../Collapsable/Collapsable";
+import CollapsableExclusive from "../CollapsableExclusive/CollapsableExclusive";
 import WorkCardDetails from "../WorkCardDetails/WorkCardDetails";
 import { SelectedWorkContext } from "../../contexts/SelectedWorkContext";
 import WorkCardImage from "../WorkCardImage/WorkCardImage";
@@ -31,9 +31,9 @@ export default function WorkCard({ work, id }) {
             <br />
           </>
         )}
-        <Collapsable handler={exclusiveToggle} show={selected === id} label={`show ${selected === id ? "less" : "more"}`}>
+        <CollapsableExclusive handler={exclusiveToggle} show={selected === id} label={`show ${selected === id ? "less" : "more"}`}>
           <WorkCardDetails work={work} />
-        </Collapsable>
+        </CollapsableExclusive>
       </div>
     </>
   );

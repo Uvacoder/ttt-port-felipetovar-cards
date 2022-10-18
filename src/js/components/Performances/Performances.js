@@ -1,5 +1,6 @@
 import "./Performances.scss";
 import PerformerList from "../PerformerList";
+import formatDate from "../../utils/formatDate";
 
 export default function Performances({ performances }) {
   const keys = Object.keys(performances);
@@ -26,7 +27,8 @@ export default function Performances({ performances }) {
           );
           return (
             <div key={i} className="performance">
-              {event} {i === keys.length - 1 && "(première)"} @ {venue}. {city} – {country}.<div className="performers">{performers}</div>
+              {event} {i === keys.length - 1 && "(première)"} @ {venue}. {formatDate(k)}. {city} – {country}.
+              <div className="performers">{performers}</div>
               <div className="media-links">
                 {audio} {video}
               </div>
