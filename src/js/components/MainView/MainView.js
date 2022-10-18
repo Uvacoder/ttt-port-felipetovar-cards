@@ -6,7 +6,7 @@ import BioView from "../views/BioView";
 import ListenWatchView from "../views/ListenWatchView";
 import SoftwareView from "../views/SoftwareView";
 import ViewTemplate from "../views/ViewTemplate/ViewTemplate";
-import WorksView from "../views/WorksView";
+import WorksView from "../views/WorksView/WorksView";
 import ContactView from "../views/ContactView";
 
 import "./MainView.scss";

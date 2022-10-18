@@ -9,8 +9,8 @@ export default function WorkCardDetails({ work }) {
       {work.awards && (
         <KeyValue
           k={"awards"}
-          v={work.awards.map((x) => (
-            <div className="award">{x}</div>
+          v={work.awards.map((x, i) => (
+            <div className="award" key={i}>{x}</div>
           ))}
         />
       )}

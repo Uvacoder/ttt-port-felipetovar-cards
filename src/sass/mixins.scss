@@ -162,12 +162,21 @@
   }
 }
 
-@mixin link {
-  @include clickable;
-  color: var(--primary);
-  &:hover {
+@mixin link-color {
+  &,
+  * {
+    @include trans;
+    color: var(--primary);
+  }
+  &:hover,
+  &:hover * {
+    @include trans;
     color: var(--secondary);
   }
+}
+@mixin link {
+  @include link-color;
+  @include clickable;
 }
 
 @mixin btn {

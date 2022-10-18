@@ -1,6 +1,8 @@
 @import "../../../../sass/variables.scss";
 
 .view-template {
+	width: 100%;
+	overflow: auto;
   .header {
     font-size: $txt-ml;
   }
