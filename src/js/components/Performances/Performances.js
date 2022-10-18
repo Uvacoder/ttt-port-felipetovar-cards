@@ -26,8 +26,7 @@ export default function Performances({ performances }) {
           );
           return (
             <div key={i} className="performance">
-              {event} {i === keys.length - 1 && "(premiere)"} @ {venue}. {city}. {country}
-              <div className="performers">{performers}</div>
+              {event} {i === keys.length - 1 && "(première)"} @ {venue}. {city} – {country}.<div className="performers">{performers}</div>
               <div className="media-links">
                 {audio} {video}
               </div>

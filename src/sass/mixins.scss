@@ -226,3 +226,8 @@
 @mixin round {
   border-radius: $radius-md;
 }
+
+@mixin round-border($args...) {
+  @include border($args...);
+  @include round;
+}
