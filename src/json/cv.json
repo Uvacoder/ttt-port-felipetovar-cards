@@ -1,0 +1,255 @@
+{
+	"education": {
+		"DM": {
+			"university": "Indiana University, Jacobs School of Music",
+			"years": [
+				2017,
+				2020
+			],
+			"major": "Music composition",
+			"minors": [
+				"Music theory",
+				"Computer Music"
+			]
+		},
+		"MM": {
+			"university": "Indiana University, Jacobs School of Music",
+			"years": [
+				2015,
+				2017
+			],
+			"major": "Music composition",
+			"minors": false
+		},
+		"BM": {
+			"university": "Universidad EAFIT",
+			"years": [
+				2011,
+				2015
+			],
+			"major": "Music composition",
+			"minors": false
+		}
+	},
+	"other education": {
+		"CIEE Paris Contemporary Music Creation and Critique Program, ManiFeste & l’Académie": {
+			"location": "Paris, France",
+			"date": "June-4 – July 2. 2016"
+		}
+	},
+	"professional experience": {
+		"teaching": {
+			"Postdoctoral Researcher in Music Composition": {
+				"terms": [
+					2021,
+					2022
+				],
+				"institution": "Chicago Center for Contemporary Composition, University of Chicago",
+				"city": "Chicago, IL",
+				"country": "USA",
+				"courses": {
+					"MUSI 24000/34000: Composition lessons": {
+						"terms": [
+							"Autumn 2021-Spring 2022"
+						]
+					},
+					"MUSI 29900 Senior Research: Music": {
+						"terms": [
+							"Winter 2022 - Spring 2022"
+						]
+					},
+					"MUSI 10300: Introduction to Music: Materials and Design": {
+						"terms": [
+							"Spring 2022"
+						]
+					},
+					"MUSI 39900: Independent study (PhD), Spring 2022": {
+						"terms": [
+							"Spring 2022"
+						]
+					}
+				}
+			},
+			"Adjunct Professor of Composition and Music Theory": {
+				"years": [
+					2020,
+					2021,
+					2022
+				],
+				"institution": "Music Department. Universidad EAFIT",
+				"city": "Medellín, Antioquia",
+				"country": "Colombia",
+				"courses": {
+					"MU0890: Seminario Tutorial": {
+						"terms": [
+							"Fall 2022"
+						]
+					},
+					"MU0456: Contrapunto 4": {
+						"terms": [
+							"Fall 2022"
+						]
+					},
+					"MU0601-9: Composición": {
+						"terms": [
+							"Fall 2020 – Spring 2021"
+						]
+					},
+					"MU0456: Contrapunto 3": {
+						"terms": [
+							"Fall 2020 - Spring 2021",
+							"Fall 2022"
+						]
+					},
+					"MU0900: Proyecto Final (MM)": {
+						"terms": [
+							"Spring 2021"
+						]
+					}
+				}
+			},
+			"Associate Instructor and Coordinator of Composition": {
+				"years": [
+					2017,
+					2022
+				],
+				"institution": "Composition Department. Indiana University",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"courses": {
+					"MUS-K100: Composition (non-majors)": {
+						"terms": [
+							"Fall 2017 - Spring 2020"
+						]
+					},
+					"MUS-K214: Instrumentation I": {
+						"terms": [
+							"Fall 2017."
+						]
+					},
+					"MUS-K215: Instrumentation II": {
+						"terms": [
+							"Spring 2018."
+						]
+					},
+					"MUS-I301: Composition Seminar for non-majors": {
+						"terms": [
+							"Fall 2018 - Spring 2019"
+						]
+					},
+					"MUS-K231: Free Counterpoint I": {
+						"terms": [
+							"Fall 2019"
+						]
+					},
+					"MUS-K232: Free Counterpoint II": {
+						"terms": [
+							"Spring 2020"
+						]
+					}
+				}
+			}
+		},
+		"guest lectures & talks": {
+			"Simulating Constraints: Approaches to Computer-Assisted Algorithmic Composition in my Recent Works": {
+				"2022-08-10": {
+					"language": "Spanish",
+					"event": "Coloquio de Composición",
+					"venue": "Universidad EAFIT",
+					"city": "Medellín, Antioquia",
+					"country": "Colombia"
+				},
+				"2022-07-27": {
+					"language": "English",
+					"event": "Mizzou International Composer Festival",
+					"venue": "University of Mizzou",
+					"city": "Columbia, MI",
+					"country": "USA"
+				}
+			},
+			"Frames of meaning: Revisiting the concept of instrumental technique": {
+				"2021-10-04": {
+					"language": "English",
+					"event": "Composition Seminar",
+					"venue": "University of Chicago",
+					"city": "Chicago, IL",
+					"country": "USA"
+				}
+			},
+			"The trap of the inner voice": {
+				"2020-08-24": {
+					"language": "Spanish",
+					"event": "Coloquio de Composición",
+					"venue": "Universidad EAFIT",
+					"city": "Medellín, Antioquia",
+					"country": "Colombia"
+				},
+				"2020-07-28": {
+					"language": "English",
+					"event": "Mizzou International Composer Festival",
+					"venue": "University of Mizzou",
+					"city": "Columbia, MI",
+					"country": "USA"
+				}
+			},
+			"Coding, samples, and many, many patch chords": {
+				"2019-09-20": {
+					"language": "English",
+					"event": "Computer Music Seminar",
+					"venue": "University of Texas at Austin Electronic Music Studios (UTEMS)",
+					"city": "Austin, TX",
+					"country": "USA"
+				}
+			},
+			"La Mirada del Ouroboros": {
+				"2017-12-05": {
+					"language": "Spanish",
+					"event": "Charla/Concierto: La Mirada del Ouroboros",
+					"venue": "Room 115, Universidad EAFIT",
+					"city": "Medellín, Antioquia",
+					"country": "Colombia"
+				}
+			}
+		},
+		"workshops": {
+			"OpenMusic intensive workshop": {
+				"2021-05-10": {
+					"language": "Spanish",
+					"sessions": {
+						"2021-05-10": 4,
+						"2021-05-24": 4,
+						"2021-05-31": 4,
+						"2021-06-21": 4
+					},
+					"host": "Universidad de Antioquia [online]",
+					"city": "Medellín, Antioquia",
+					"country": "Colombia"
+				}
+			},
+			"Synthesis and digital signal processing with RTcmix": {
+				"2021-03-02": {
+					"language": "Spanish",
+					"sessions": {
+						"2021-03-02": 2,
+						"2021-03-09": 2,
+						"2021-03-16": 2
+					},
+					"host": "Universidad EAFIT [online]",
+					"city": "Medellín, Antioquia",
+					"country": "Colombia"
+				},
+				"2020-11-30": {
+					"language": "Spanish",
+					"sessions": {
+						"2020-12-04": 2,
+						"2020-12-02": 2,
+						"2020-11-30": 2
+					},
+					"host": "Transversal Sonora [online]",
+					"city": "Bogotá",
+					"country": "Colombia"
+				}
+			}
+		}
+	}
+}

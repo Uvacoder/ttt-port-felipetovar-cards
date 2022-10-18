@@ -19,7 +19,7 @@ $work-img-size: 200px;
   }
   background-color: var(--bg2);
   .header {
-    // @include crop-text;
+    @include t-pad($gap-lg);
     .title {
       font-weight: bold;
     }

@@ -4,7 +4,7 @@
 .view-template {
   width: 100%;
   overflow: auto;
-  .header {
+  & > .header {
     text-transform: uppercase;
     font-size: $txt-ml;
     font-weight: bold;
