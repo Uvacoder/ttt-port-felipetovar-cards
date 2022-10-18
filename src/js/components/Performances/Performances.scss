@@ -1,0 +1,14 @@
+@import "../../../sass/mixins.scss";
+@import "../../../sass/variables.scss";
+
+.media-links {
+	@include h-stack;
+	a {
+		font-size: $txt-lg;
+		@include r-pad;
+		@include t-pad;
+		&:hover {
+			scale: 1.1;
+		}
+	}
+}

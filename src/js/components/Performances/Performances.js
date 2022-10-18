@@ -1,4 +1,5 @@
-import PerformerList from "./PerformerList";
+import "./Performances.scss";
+import PerformerList from "../PerformerList";
 
 export default function Performances({ performances }) {
   const keys = Object.keys(performances);
@@ -13,11 +14,22 @@ export default function Performances({ performances }) {
           const city = <span className="city">{p.city}</span>;
           const country = <span className="country">{p.country}</span>;
           const performers = <PerformerList performers={p.performers} />;
+          const audio = p.audio && (
+            <a target="_blank" rel="noreferrer" href={p.audio} className="material-icons">
+              headset
+            </a>
+          );
+          const video = p.video && (
+            <a target="_blank" rel="noreferrer" href={p.video} className="material-icons">
+              smart_display
+            </a>
+          );
           return (
             <div key={i} className="performance">
               {event} {i === keys.length - 1 && "(premiere)"} @ {venue}. {city}. {country}
-              <div className="performers">
-                {performers}
+              <div className="performers">{performers}</div>
+              <div className="media-links">
+                {audio} {video}
               </div>
             </div>
           );

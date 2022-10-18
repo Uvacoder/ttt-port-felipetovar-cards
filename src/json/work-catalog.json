@@ -129,9 +129,10 @@
 			"electronic"
 		],
 		"awards": [
-			"finalist, 2019 ASCAP/SEAMUS student award"
+			"Finalist, 2019 ASCAP/SEAMUS student award"
 		],
 		"performances": {
+			
 			"2018-02-01": {
 				"event": "David Dzubay, director; Kate Soper, guest composer/soprano; Felipe Tovar-Henao, composer",
 				"performers": {
@@ -143,17 +144,17 @@
 				"country": "USA",
 				"audio": "https://soundcloud.com/felipetovarhenao/danzas-encefalicas-studio",
 				"video": "https://youtu.be/M0wPJW5fMkI"
-			}
-		},
-		"2018-05-29": {
-			"event": "IU Mexico Gateway: New Music Ensemble Concert",
-			"performers": {
-				"David Dzubay": "conductor",
-				"Indiana University New Music Ensemble": "ensemble"
 			},
-			"venue": "Sala Xochipilli, Universidad Nacional Autónoma de México",
-			"city": "Mexico city",
-			"country": "Mexico"
+			"2018-05-29": {
+				"event": "IU Mexico Gateway: New Music Ensemble Concert",
+				"performers": {
+					"David Dzubay": "conductor",
+					"Indiana University New Music Ensemble": "ensemble"
+				},
+				"venue": "Sala Xochipilli, Universidad Nacional Autónoma de México",
+				"city": "Mexico city",
+				"country": "Mexico"
+			}
 		}
 	},
 	"«La mirada del ouroboros»": {
@@ -325,6 +326,17 @@
 		"categories": false,
 		"awards": false,
 		"performances": {
+			"2021-04-13": {
+				"event": "DM Recital: Esteban Hernández Parra",
+				"performers": {
+					"Estéban Hernández Parra": "viola"
+				},
+				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"audio": "",
+				"video": false
+			},
 			"2020-02-14": {
 				"event": "DM Recital: Felipe Tovar-Henao",
 				"performers": {
@@ -337,7 +349,7 @@
 				"video": false
 			},
 			"2021-11-18": {
-				"event": "DM Recital: Felipe Tovar-Henao",
+				"event": "Electric Forests: The UIndy Composers Forum featuring Felipe Tovar-Henao",
 				"performers": {
 					"Estéban Hernández Parra": "viola"
 				},
@@ -764,7 +776,7 @@
 		"awards": false,
 		"performances": {
 			"2021-11-18": {
-				"event": "Electric Forests: Electric Forests: The UIndy Composers Forum featuring Felipe Tovar-Henao",
+				"event": "Electric Forests: The UIndy Composers Forum featuring Felipe Tovar-Henao",
 				"performers": {
 					"Wai Ki Wun": "clarinet"
 				},
@@ -898,7 +910,7 @@
 			"solo"
 		],
 		"awards": [
-			"finalist, 2016 BMI Student composition award"
+			"Finalist, 2016 BMI Student composition award"
 		],
 		"performances": {
 			"2016-04-13": {

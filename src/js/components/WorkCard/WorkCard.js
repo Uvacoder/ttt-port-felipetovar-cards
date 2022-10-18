@@ -1,6 +1,6 @@
 import "./WorkCard.scss";
 import Collapsable from "../Collapsable/Collapsable";
-import WorkCardDetails from "../WorkCardDetails";
+import WorkCardDetails from "../WorkCardDetails/WorkCardDetails";
 import { SelectedWorkContext } from "../../contexts/SelectedWorkContext";
 import WorkCardImage from "../WorkCardImage/WorkCardImage";
 

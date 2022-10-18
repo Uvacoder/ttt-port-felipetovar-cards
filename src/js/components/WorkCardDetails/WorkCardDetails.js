@@ -1,8 +1,11 @@
-import InstrumentList from "./InstrumentList";
-import Performances from "./Performances";
-import KeyValue from "./KeyValue";
+import InstrumentList from "../InstrumentList";
+import Performances from "../Performances/Performances";
+import KeyValue from "../KeyValue";
+
+import "./WorkCardDetails.scss";
 
 export default function WorkCardDetails({ work }) {
+
   return (
     <div className="work-card-details">
       <KeyValue k={"instrumentation"} v={<InstrumentList instruments={work.instrumentation} />} />
@@ -10,7 +13,9 @@ export default function WorkCardDetails({ work }) {
         <KeyValue
           k={"awards"}
           v={work.awards.map((x, i) => (
-            <div className="award" key={i}>{x}</div>
+            <div className="award" key={i}>
+              {x}
+            </div>
           ))}
         />
       )}

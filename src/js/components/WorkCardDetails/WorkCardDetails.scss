@@ -1,0 +1,43 @@
+@import "../../../sass/mixins.scss";
+@import "../../../sass/variables.scss";
+
+.work-card-details {
+  text-align: left;
+  display: grid;
+  grid-template-columns: auto auto;
+  .key,
+  .value {
+    @include b-pad($gap-md);
+		@include r-pad;
+  }
+  .award {
+    @include v-stack;
+  }
+  .instrument-list {
+    @include h-stack-c;
+    @include mar($gap-sm);
+    flex-wrap: wrap;
+    .instrument-abbr {
+      background-color: var(--bg1);
+      @include border;
+      @include round;
+      @include r-mar($gap-md);
+      @include b-mar($gap-sm);
+      @include vh-pad($gap-sm, $gap-md);
+      font-family: $font2;
+    }
+  }
+  .performance {
+    @include b-mar($gap-lg);
+    .event {
+      font-weight: bolder;
+    }
+    .performers {
+      @include t-pad($gap-sm);
+      @include v-stack;
+      .role {
+        font-style: italic;
+      }
+    }
+  }
+}
