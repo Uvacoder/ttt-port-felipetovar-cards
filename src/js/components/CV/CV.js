@@ -2,6 +2,7 @@ import "./CV.scss";
 import cvJSON from "../../../json/cv.json";
 import Education from "../Education/Education";
 import ExperienceCV from "../ExperienceCV/ExperienceCV";
+import SkillsCV from "../SkillsCV/SkillsCV";
 
 export default function CV() {
   
@@ -10,6 +11,7 @@ export default function CV() {
       <h2>Curriculum Vitae</h2>
       <Education education={cvJSON.education} otherEducation={cvJSON["other education"]} />
       <ExperienceCV experience={cvJSON.experience} />
+      <SkillsCV skills={cvJSON.skills} />
     </div>
   );
 }

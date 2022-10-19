@@ -269,7 +269,7 @@
 		},
 		"residencies": {
 			"2022-07-22": {
-				"role": "resident composer",
+				"role": "Resident composer",
 				"event": "Mizzou International Composer Festival",
 				"end": "2022-07-30",
 				"activities": [
@@ -279,8 +279,8 @@
 				]
 			},
 			"2021-11-18": {
-				"role": "guest composer",
-				"event": "The UIndy Composers Forum featuring Felipe Tovar-Henao",
+				"role": "Guest composer",
+				"event": "The UIndy Composers Forum, featuring Felipe Tovar-Henao",
 				"end": "2021-11-19",
 				"activities": [
 					"guest lecture",
@@ -299,8 +299,8 @@
 		],
 		"technology": {
 			"languages": {
-				"python": {
-					"level": "advanced",
+				"Python": {
+					"level": 0,
 					"libraries": [
 						"librosa",
 						"django",
@@ -308,45 +308,46 @@
 					]
 				},
 				"Javascript": {
-					"level": "intermediate",
+					"level": 1,
 					"libraries": [
 						"react",
-						"web audio API"
+						"web audio API",
+						"canvas API"
 					]
 				},
 				"Common Lisp": {
-					"level": "intermediate",
+					"level": 1,
 					"libraries": [
 						"om"
 					]
 				},
-				"html": {
-					"level": "intermediate",
+				"HTML": {
+					"level": 1,
 					"libraries": false
 				},
-				"css": {
-					"level": "intermediate",
+				"CSS": {
+					"level": 1,
 					"libraries": [
 						"sass"
 					]
 				},
 				"GLSL": {
-					"level": "intermediate",
+					"level": 1,
 					"libraries": false
 				},
 				"CLI": {
-					"level": "intermediate",
+					"level": 1,
 					"libraries": false
 				},
-				"git/github": {
-					"level": "intermediate",
+				"git": {
+					"level": 1,
 					"libraries": false
 				}
 			},
 			"software": {
-				"audio": {
+				"Audio": {
 					"MaxMSP": {
-						"level": "advanced",
+						"level": 0,
 						"libraries": [
 							"bach",
 							"cage",
@@ -355,60 +356,60 @@
 						]
 					},
 					"RTcmix": {
-						"level": "advanced",
+						"level": 0,
 						"libraries": false
 					},
 					"OpenMusic": {
-						"level": "advanced",
+						"level": 0,
 						"libraries": [
 							"OM-Data",
 							"OM-Tristan"
 						]
 					},
 					"Ableton Live": {
-						"level": "intermediate",
+						"level": 1,
 						"libraries": false
 					},
 					"GRM tools": {
-						"level": "intermediate",
+						"level": 1,
 						"libraries": false
 					}
 				},
-				"video": {
+				"Video": {
 					"Touch Designer": {
-						"level": "intermediate",
+						"level": 1,
 						"libraries": false
 					},
 					"Processing": {
-						"level": "intermediate",
+						"level": 1,
 						"libraries": false
 					},
 					"Adobe Premiere": {
-						"level": "basic",
+						"level": 2,
 						"libraries": false
 					}
 				},
-				"notation": {
+				"Notation": {
 					"Finale": {
-						"level": "advanced",
+						"level": 0,
 						"libraries": [
 							"JW plugins"
 						]
 					},
 					"MuseScore": {
-						"level": "basic",
+						"level": 2,
 						"libraries": false
 					}
 				},
-				"programming": {
+				"Programming": {
 					"VS Code": {
-						"level": "advanced",
+						"level": 0,
 						"libraries": false
 					}
 				},
-				"design": {
+				"Design": {
 					"Arduino": {
-						"level": "basic",
+						"level": 2,
 						"libraries": false
 					}
 				}

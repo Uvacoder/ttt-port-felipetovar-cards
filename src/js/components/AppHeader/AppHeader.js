@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react";
 
 export default function AppHeader() {
   const icons = [
-    ["https://github.com/felipetovarhenao", "akar-icons:github-fill"],
+    ["https://github.com/felipetovarhenao", "ant-design:github-outlined"],
     ["https://soundcloud.com/felipetovarhenao", "ri:soundcloud-fill"],
     ["https://www.youtube.com/channel/UC3aVagLgs4lENH6VSgd_O9g", "icomoon-free:youtube"],
   ];

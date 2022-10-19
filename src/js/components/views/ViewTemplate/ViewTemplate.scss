@@ -2,6 +2,7 @@
 @import "../../../../sass/mixins.scss";
 
 .view-template {
+  @include onload-animation(fade-in);
   width: 100%;
   overflow: auto;
   & > .header {

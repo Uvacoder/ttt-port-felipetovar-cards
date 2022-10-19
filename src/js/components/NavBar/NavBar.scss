@@ -1,5 +1,6 @@
 @import "../../../sass/mixins.scss";
 @import "../../../sass/variables.scss";
+
 .navbar {
   @include v-stack;
   @include pad($gap-lg);
@@ -7,6 +8,9 @@
   height: 100vh;
   width: $navbar-size;
   border-right: $border-md solid var(--bord);
+  * {
+    @include onload-animation(slide-right);
+  }
   .links {
     @include v-stack;
     @include t-pad($gap-lg);

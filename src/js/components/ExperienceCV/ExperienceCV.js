@@ -1,6 +1,7 @@
 import TeachingCV from "../TeachingCV/TeachingCV";
 import LecturesCV from "../LecturesCV/LecturesCV";
 import WorkshopsCV from "../WorkshopsCV/WorkshopsCV";
+import ResidenciesCV from "../ResidenciesCV/ResidenciesCV";
 import SkillsCV from "../SkillsCV/SkillsCV";
 
 export default function ExperienceCV({ experience }) {
@@ -10,7 +11,7 @@ export default function ExperienceCV({ experience }) {
       <TeachingCV teaching={experience.teaching} />
       <LecturesCV lectures={experience.lectures} />
       <WorkshopsCV workshops={experience.workshops} />
-      <SkillsCV skills={experience.skills} />
+      <ResidenciesCV residencies={experience.residencies} />
     </div>
   );
 }
