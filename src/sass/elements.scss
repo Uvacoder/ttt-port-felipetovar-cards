@@ -1,3 +1,4 @@
+@import "./variables.scss";
 * {
   font-family: $font1;
   font-weight: 400;
@@ -23,4 +24,10 @@ body,
 
 a {
   @include link;
+}
+
+hr {
+  background-color: var(--bord);
+  border-radius: $radius-md;
+  height: $gap-xs;
 }

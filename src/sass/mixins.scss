@@ -233,6 +233,16 @@
   white-space: nowrap;
 }
 
+@mixin container {
+  @include round-border;
+  @include pad($gap-lg);
+  background-color: var(--bg2);
+}
+
+@mixin indent($size: 1) {
+  @include l-mar(calc($gap-lg * $size));
+}
+
 @mixin onload-animation($name) {
   animation: $name 1s ease-in-out 0s 1 normal forwards;
 }

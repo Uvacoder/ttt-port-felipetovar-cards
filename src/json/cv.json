@@ -41,7 +41,7 @@
 		"CIEE Paris Contemporary Music Creation and Critique Program, ManiFeste & l’Académie": {
 			"institution": "IRCAM-Centre Pompidou",
 			"location": "Paris, France",
-			"date": "June-4 – July 2. 2016"
+			"date": "June 4 – July 2. 2016"
 		}
 	},
 	"experience": {
@@ -82,12 +82,12 @@
 			"Lecturer in Composition and Music Theory": {
 				"terms": [
 					[
-						2020,
-						2021
-					],
-					[
 						2022,
 						true
+					],
+					[
+						2020,
+						2021
 					]
 				],
 				"institution": "Music Department. Universidad EAFIT",
@@ -167,7 +167,7 @@
 			}
 		},
 		"lectures": {
-			"Simulating Constraints: Approaches to Computer-Assisted Algorithmic Composition in my Recent Works": {
+			"Simulating constraints: Approaches to computer-assisted algorithmic composition in my recent works": {
 				"2022-08-10": {
 					"language": "Spanish",
 					"event": "Coloquio de Composición",
@@ -352,7 +352,7 @@
 							"bach",
 							"cage",
 							"dada",
-							"mubu"
+							"MuBu"
 						]
 					},
 					"RTcmix": {

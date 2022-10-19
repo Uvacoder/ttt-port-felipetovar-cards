@@ -1,0 +1,11 @@
+@import "../../../sass/mixins.scss";
+
+.education {
+  .degree,
+  .university,
+  .institution,
+  .other-ed,
+	.minor-label {
+    font-weight: bold;
+  }
+}

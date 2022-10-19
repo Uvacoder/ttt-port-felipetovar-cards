@@ -39,3 +39,24 @@
 .link {
   @include link;
 }
+.indent-1 {
+  @include indent;
+}
+.indent-2 {
+  @include indent(2);
+}
+.indent-3 {
+  @include indent(3);
+}
+.indent-3 {
+  @include indent(4);
+}
+.t-pad {
+  @include t-pad;
+}
+.b-pad {
+  @include b-pad;
+}
+.bold {
+  font-weight: bold;
+}

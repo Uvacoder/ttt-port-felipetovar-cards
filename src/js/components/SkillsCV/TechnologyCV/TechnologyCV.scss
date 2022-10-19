@@ -1,0 +1,13 @@
+@import "../../../../sass/mixins.scss";
+@import "../../../../sass/variables.scss";
+
+.lang {
+	@include h-stack-c;
+	vertical-align: middle;
+	@include v-pad;
+}
+.icon {
+	@include r-mar;
+	@include h-stack-c;
+	scale: 1.2;
+}

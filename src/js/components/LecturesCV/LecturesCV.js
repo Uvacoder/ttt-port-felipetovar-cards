@@ -3,13 +3,13 @@ import formatDate from "../../utils/formatDate";
 
 export default function LecturesCV({ lectures }) {
   return (
-    <div>
-      <h3>Guest lectures</h3>
+    <div className="cv-subsection">
+      <h3 className="cv-subsubheader">Guest lectures</h3>
       {Object.keys(lectures).map((k, i) => {
         const lecture = lectures[k];
         return (
-          <div key={i}>
-            <div>{k}</div>
+          <div key={i} className="cv-item">
+            <div className="bold">{k}</div>
             {Object.keys(lecture).map((date, j) => {
               const l = lecture[date];
               const lang = l.language;
@@ -18,9 +18,10 @@ export default function LecturesCV({ lectures }) {
               const city = l.city;
               const country = l.country;
               return (
-                <div key={j}>
+                <div key={j} className="indent-1">
+                  
                   <span>
-                    • {event} @ {venue} [{lang.slice(0, 3)}]. {formatDate(date)}. {city} – {country}
+                    <span className="cv-hl">@</span> {event}, {venue} [{lang.slice(0, 3)}]. {formatDate(date)}. {city} – {country}
                   </span>
                 </div>
               );

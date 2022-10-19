@@ -37,8 +37,13 @@
 /* fonts */
 // $font1: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 // $font2: "Courier New", Courier, monospace;
-$font1: 'Rubik', sans-serif;
-$font2: 'Share Tech Mono', monospace;
+$font1: 'Lato', sans-serif;
+$font2: 'Ubuntu Mono', monospace;;
+// font-family: 'Ubuntu Mono', monospace;
+
+// font-family: 'Lato', sans-serif;
+// font-family: 'Rubik', sans-serif;
+// font-family: 'Signika Negative', sans-serif;
 
 /* sizes */
 $gap-xs: 1px;
@@ -47,9 +52,9 @@ $gap-md: 5px;
 $gap-lg: 10px;
 $gap-xl: 15px;
 
-$txt-xs: 9.5px;
-$txt-sm: 11px;
-$txt-md: 14px;
+$txt-xs: 10px;
+$txt-sm: 12px;
+$txt-md: 15px;
 $txt-lg: 18px;
 $txt-ml: 24px;
 $txt-xl: 30px;

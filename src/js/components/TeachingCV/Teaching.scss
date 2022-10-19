@@ -1,0 +1,11 @@
+@import "../../../sass/mixins.scss";
+@import "../../../sass/variables.scss";
+
+.teaching {
+  .position {
+    @include h-stack;
+		.title {
+			font-weight: bold;
+		}
+  }
+}

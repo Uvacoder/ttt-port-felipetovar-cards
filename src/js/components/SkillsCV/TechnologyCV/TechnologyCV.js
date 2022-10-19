@@ -27,11 +27,16 @@ export default function TechnologyCV({ technology }) {
       ));
 
     return (
-      <div key={i}>
-        • <Icon icon={iconMap[k.toLowerCase()]} />
-        <span> {k}</span>
-        {lang.libraries && <> ({libraries})</>}.
-      </div>
+      <span key={i} className="lang">
+        <div className="icon">
+          <Icon icon={iconMap[k.toLowerCase()]} />
+        </div>
+        <span>
+          {" "}
+          {k}
+          {lang.libraries && <> ({libraries})</>}.
+        </span>
+      </span>
     );
   });
 
@@ -41,8 +46,9 @@ export default function TechnologyCV({ technology }) {
     const category = software[cat];
     const categoryKeys = Object.keys(category);
     return (
-      <div key={i}>
-        <h6>{cat}</h6>
+      <div key={i} className="cv-item indent-1">
+        <span className="bold">{cat}</span>
+        :<> </> 
         {categoryKeys.map((app, j) => {
           const application = category[app];
           return (
@@ -50,10 +56,11 @@ export default function TechnologyCV({ technology }) {
               {app}
               {application.libraries && (
                 <>
+                  {" "}
                   (
                   {application.libraries.map((lib, k) => (
                     <span key={k}>
-                      {lib}
+                      <i>{lib}</i>
                       {k < application.libraries.length - 1 && ", "}
                     </span>
                   ))}
@@ -68,13 +75,19 @@ export default function TechnologyCV({ technology }) {
     );
   });
 
+  let hardware = technology.hardware;
+  const hardwareKeys = Object.keys(hardware);
+
   return (
-    <div>
-      <h5>Technology</h5>
-      <h6>Computer languages</h6>
-      {languages}
-      <h6>Software</h6>
-      {software}
-    </div>
+    <>
+      <div className="cv-subsection">
+        <span className="bold">Computer languages</span>
+        <div className="indent-1">{languages}</div>
+      </div>
+      <div className="cv-subsection">
+        <h6 className="bold">Software</h6>
+        {software}
+      </div>
+    </>
   );
 }

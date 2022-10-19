@@ -3,8 +3,8 @@ import "./ResidenciesCV.scss";
 
 export default function ResidenciesCV({ residencies }) {
   return (
-    <div>
-      <h4>Residencies</h4>
+    <div className="cv-subsection">
+      <h4 className="cv-subsubheader">Residencies</h4>
       {Object.keys(residencies).map((k, i) => {
         const date = k;
         const r = residencies[k];
@@ -18,12 +18,11 @@ export default function ResidenciesCV({ residencies }) {
           </span>
         ));
         return (
-          <div key={i}>
-            <div>{dateRange(date, end)}</div>
+          <div key={i} className="cv-item h-stack">
             <div>
-              <span>{role} </span>
+              <span>{role}</span>,<span className="bold"> {event}</span>.
               <span>
-                @ {event}. Activities: {activities}
+                {" "}{dateRange(date, end)}. <i>Activities:</i> {activities}
               </span>
             </div>
           </div>

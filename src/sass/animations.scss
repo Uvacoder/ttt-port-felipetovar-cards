@@ -55,11 +55,11 @@ $slide-delta: 30px;
 
 @keyframes drop-down {
   from {
-    display: none;
+    overflow: hidden;
     height: 0px;
   }
   to {
-    display: flex;
+    overflow: auto;
     height: 100%;
   }
 }
