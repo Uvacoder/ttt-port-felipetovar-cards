@@ -30,7 +30,7 @@ export default function TeachingCV({ teaching }) {
           <div>
             <span className="title">{x[0]}. </span>
             <span>
-              {institution}. {city} – {country}
+              {institution}. {city} – {country}.
             </span>
             <Collapsable label="courses">
               <CoursesCV courses={courses} />

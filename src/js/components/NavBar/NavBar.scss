@@ -15,6 +15,7 @@
     @include v-stack;
     @include t-pad($gap-lg);
     .navbar-link {
+      @include grow;
       @include h-stack-c;
       @include v-mar($gap-sm);
       @include round-border;

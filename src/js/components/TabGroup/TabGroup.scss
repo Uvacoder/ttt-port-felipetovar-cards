@@ -1,0 +1,19 @@
+@import "../../../sass/mixins.scss";
+.tab-view {
+	@include v-stack;
+	@include h-mar($gap-xl);
+	.tabs {
+		@include to-left;
+		@include h-stack-c;
+		z-index: 2;
+		translate: 0px calc($border-md);
+	}
+	.view {
+		background-color: var(--bg2);
+		box-sizing: border-box;
+		@include round-border;
+		@include pad($gap-xl);
+		z-index: 1;
+		border-top-left-radius: 0px;
+	}
+}

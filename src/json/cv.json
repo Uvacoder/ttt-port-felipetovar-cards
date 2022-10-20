@@ -337,15 +337,26 @@
 				},
 				"CLI": {
 					"level": 1,
-					"libraries": false
+					"libraries": [
+						"bash",
+						"zsh"
+					]
+				},
+				"SQL": {
+					"level": 1,
+					"libraries": ["postgres", "sqlite"]
 				},
 				"git": {
 					"level": 1,
 					"libraries": false
+				},
+				"docker": {
+					"level": 2,
+					"libraries": false
 				}
 			},
 			"software": {
-				"Audio": {
+				"Audio+Music": {
 					"MaxMSP": {
 						"level": 0,
 						"libraries": [
@@ -373,6 +384,16 @@
 					"GRM tools": {
 						"level": 1,
 						"libraries": false
+					},
+					"Finale": {
+						"level": 0,
+						"libraries": [
+							"JW plugins"
+						]
+					},
+					"MuseScore": {
+						"level": 2,
+						"libraries": false
 					}
 				},
 				"Video": {
@@ -386,24 +407,6 @@
 					},
 					"Adobe Premiere": {
 						"level": 2,
-						"libraries": false
-					}
-				},
-				"Notation": {
-					"Finale": {
-						"level": 0,
-						"libraries": [
-							"JW plugins"
-						]
-					},
-					"MuseScore": {
-						"level": 2,
-						"libraries": false
-					}
-				},
-				"Programming": {
-					"VS Code": {
-						"level": 0,
 						"libraries": false
 					}
 				},

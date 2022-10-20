@@ -4,7 +4,7 @@ import formatDate from "../../utils/formatDate";
 export default function LecturesCV({ lectures }) {
   return (
     <div className="cv-subsection">
-      <h3 className="cv-subsubheader">Guest lectures</h3>
+      <h3 className="cv-subsubheader">Academic lectures</h3>
       {Object.keys(lectures).map((k, i) => {
         const lecture = lectures[k];
         return (

@@ -1,0 +1,10 @@
+@import "../../../../../sass/mixins.scss";
+
+.bio-view {
+	@include onload-animation(slide-right);
+	h2 {
+		text-align: center;
+		font-size: large;
+		font-weight: bold;
+	}
+}

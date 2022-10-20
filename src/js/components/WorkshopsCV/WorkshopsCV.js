@@ -14,6 +14,7 @@ export default function WorkshopsCV({ workshops }) {
             {Object.keys(workshop).map((d, j) => {
               const w = workshop[d];
               const sessionDates = Object.keys(w.sessions);
+              const year = formatDate(sessionDates[0], true, false, false);
               const sessions = sessionDates.map((s, n) => (
                 <span key={n}>
                   {formatDate(s, false)} ({w.sessions[s]}h)
@@ -26,7 +27,7 @@ export default function WorkshopsCV({ workshops }) {
               return (
                 <div key={j} className="indent-1">
                   <span className="cv-hl">@ </span>
-                  {host}. {city} – {country}. Sessions: {sessions}
+                  {host}. {city} – {country}. {year}. Sessions: {sessions}
                 </div>
               );
             })}

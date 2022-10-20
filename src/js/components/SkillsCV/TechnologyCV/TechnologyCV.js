@@ -11,6 +11,8 @@ export default function TechnologyCV({ technology }) {
     css: "akar-icons:css-fill",
     glsl: "file-icons:opengl",
     git: "bi:git",
+    docker: "fa6-brands:docker",
+    sql: "cib:postgresql",
   };
 
   const langKeys = Object.keys(technology.languages);
@@ -31,10 +33,10 @@ export default function TechnologyCV({ technology }) {
         <div className="icon">
           <Icon icon={iconMap[k.toLowerCase()]} />
         </div>
-        <span>
-          {" "}
-          {k}
-          {lang.libraries && <> ({libraries})</>}.
+        <span className="lang-name"> {k}</span>
+        <span className="libs">
+          {lang.libraries && <>&nbsp;({libraries})</>}
+          {i < langKeys.length - 1 ? ", " : "."}
         </span>
       </span>
     );
@@ -47,20 +49,18 @@ export default function TechnologyCV({ technology }) {
     const categoryKeys = Object.keys(category);
     return (
       <div key={i} className="cv-item indent-1">
-        <span className="bold">{cat}</span>
-        :<> </> 
+        <span className="bold">{cat}</span>:&nbsp;
         {categoryKeys.map((app, j) => {
           const application = category[app];
           return (
-            <span key={j}>
+            <span key={j} className="libs">
               {app}
               {application.libraries && (
                 <>
-                  {" "}
-                  (
+                  &nbsp; (
                   {application.libraries.map((lib, k) => (
                     <span key={k}>
-                      <i>{lib}</i>
+                      {lib}
                       {k < application.libraries.length - 1 && ", "}
                     </span>
                   ))}
@@ -81,8 +81,8 @@ export default function TechnologyCV({ technology }) {
   return (
     <>
       <div className="cv-subsection">
-        <span className="bold">Computer languages</span>
-        <div className="indent-1">{languages}</div>
+        <span className="bold">Programming</span>
+        <div className="indent-1 langs">{languages}</div>
       </div>
       <div className="cv-subsection">
         <h6 className="bold">Software</h6>
