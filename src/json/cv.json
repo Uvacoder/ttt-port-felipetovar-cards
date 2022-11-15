@@ -1,47 +1,109 @@
 {
 	"education": {
-		"DM": {
-			"university": "Indiana University, Jacobs School of Music",
-			"city": "Bloomington, IN",
-			"country": "USA",
-			"years": [
-				2017,
-				2020
-			],
-			"major": "Music composition",
-			"minors": [
-				"Music theory",
-				"Computer Music"
-			]
+		"degrees": {
+			"DM": {
+				"university": "Indiana University, Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"years": [
+					2017,
+					2020
+				],
+				"major": "Music composition",
+				"minors": [
+					"Music theory",
+					"Computer Music"
+				]
+			},
+			"MM": {
+				"university": "Indiana University, Jacobs School of Music",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"years": [
+					2015,
+					2017
+				],
+				"major": "Music composition",
+				"minors": false
+			},
+			"BM": {
+				"university": "Universidad EAFIT",
+				"city": "Medellín, Antioquia",
+				"country": "Colombia",
+				"years": [
+					2011,
+					2015
+				],
+				"major": "Music composition",
+				"minors": false
+			}
 		},
-		"MM": {
-			"university": "Indiana University, Jacobs School of Music",
-			"city": "Bloomington, IN",
-			"country": "USA",
-			"years": [
-				2015,
-				2017
-			],
-			"major": "Music composition",
-			"minors": false
-		},
-		"BM": {
-			"university": "Universidad EAFIT",
-			"city": "Medellín, Antioquia",
-			"country": "Colombia",
-			"years": [
-				2011,
-				2015
-			],
-			"major": "Music composition",
-			"minors": false
+		"other": {
+			"CS50: Web Programming with Python and JavaScript": {
+				"url": false,
+				"type": "professional certificate",
+				"institution": "HarvardX",
+				"location": "Online",
+				"date": "July 20 – Aug 20. 2022"
+			},
+			"CS50: Introduction to Artificial Intelligence with Python": {
+				"url": "https://cs50.harvard.edu/certificates/efc25672-2098-4b61-9e0e-6843eb896b12",
+				"type": "professional certificate",
+				"institution": "HarvardX",
+				"location": "Online",
+				"date": "July 20 – Aug 20. 2022"
+			},
+			"CIEE Paris Contemporary Music Creation and Critique Program, ManiFeste & l’Académie": {
+				"url": false,
+				"type": "summer course",
+				"institution": "IRCAM-Centre Pompidou",
+				"location": "Paris, France",
+				"date": "June 4 – July 2. 2016"
+			}
 		}
 	},
-	"other education": {
-		"CIEE Paris Contemporary Music Creation and Critique Program, ManiFeste & l’Académie": {
-			"institution": "IRCAM-Centre Pompidou",
-			"location": "Paris, France",
-			"date": "June 4 – July 2. 2016"
+	"awards": {
+		"academic": {
+			"Associate Instructorship in Music Composition": {
+				"years": [2017, 2020],
+				"institution": "Indiana University, Jacobs School of Music",
+				"country": "USA"
+			},
+			"Juan Orrego-Salas Scholarship Fund": {
+				"years": [2017, 2020],
+				"institution": "Indiana University, Jacobs School of Music",
+				"country": "USA"
+			},
+			"Artistic Excellence Award": {
+				"years": [2015, 2015],
+				"institution": "Indiana University, Jacobs School of Music",
+				"country": "USA"
+			},
+			"Graduate Tuition Award": {
+				"years": [2015, 2015],
+				"institution": "Indiana University, Jacobs School of Music",
+				"country": "USA"
+			},
+			"Becas para colombianos en proceso de formación artística y cultural en el exterior": {
+				"years": [2015, 2015],
+				"institution": "Ministerio de Cultura",
+				"country": "Colombia"
+			},
+			"Programa Crédito Beca": {
+				"years": [2015, 2017],
+				"institution": "COLFUTURO",
+				"country": "Colombia"
+			},
+			"Beca de Rectoría": {
+				"years": [2011, 2015],
+				"institution": "Universidad EAFIT",
+				"country": "Colombia"
+			},
+			"Beca de Honor": {
+				"years": [2011],
+				"institution": "Universidad EAFIT",
+				"country": "Colombia"
+			}
 		}
 	},
 	"experience": {
@@ -289,6 +351,79 @@
 					"feature concert"
 				]
 			}
+		},
+		"publications": {
+			"light.void~: An Autographic Case Study on Approaches, Constraints, and Affordances with a Light-dependent Musical Interface.": {
+				"author": "Tovar Henao, F.",
+				"year": 2022,
+				"publisher": "Ricercare",
+				"edition": 15,
+				"pages": [
+					107,
+					102
+				],
+				"doi": "https://doi.org/10.17230/ricercare.2022.15.5"
+			},
+			"«Danzas Encefálicas» for sinfonietta and electronics.": {
+				"author": "Tovar Henao, F.",
+				"year": 2020,
+				"publisher": "Ricercare",
+				"edition": 13,
+				"pages": [
+					79,
+					127
+				],
+				"doi": "https://doi.org/10.17230/ricercare.2020.13.3p"
+			},
+			"«Elegía Litúrgica» para violín y piano": {
+				"author": "Tovar Henao, F.",
+				"year": 2015,
+				"publisher": "Ricercare",
+				"edition": 4,
+				"pages": [
+					65,
+					74
+				],
+				"doi": "https://doi.org/10.17230/ricercare.2015.4.7"
+			}
+		},
+		"software": {
+			"scattergrain": {
+				"url": "https://scattergrain.app/",
+				"year": 2022,
+				"active": true,
+				"description": "Full-stack web application for interactive, corpus-based granular audio synthesis, using ML and MIR techniques"
+			},
+			"GAMuT": {
+				"url": "https://pypi.org/project/gamut/",
+				"year": 2022,
+				"active": true,
+				"description": "High-level, user-friendly granular audio musaicing toolkit implemented in Python, using ML and MIR techniques"
+			},
+			"M4L exquisitecorpus": {
+				"url": "https://github.com/felipetovarhenao/exquisitecorpus",
+				"year": 2021,
+				"active": true,
+				"description": "Open-source, Max for Live device (audio plug-in) for corpus-based sampling transposition and analysis in Ableton Live."
+			},
+			"miniOMsynth": {
+				"url": "https://github.com/felipetovarhenao/miniOMsynth",
+				"year": 2021,
+				"active": true,
+				"description": "Cross-platform (MacOS, Windows), open-source audio synthesizer application for OpenMusic playback support, via OSC protocol."
+			},
+			"OM-Data": {
+				"url": "https://github.com/felipetovarhenao/OM-Data",
+				"year": 2021,
+				"active": true,
+				"description": "Open-source, CLOS library for computer-aided composition in OpenMusic. Mainly aimed at data modelling and analysis."
+			},
+			"light.void~": {
+				"url": "https://github.com/felipetovarhenao/light.void",
+				"year": 2019,
+				"active": true,
+				"description": "Open-source, light-dependent digital music interface based on Leafcutter John's light thing. Built with Arduino and MaxMSP"
+			}
 		}
 	},
 	"skills": {
@@ -344,7 +479,10 @@
 				},
 				"SQL": {
 					"level": 1,
-					"libraries": ["postgres", "sqlite"]
+					"libraries": [
+						"postgres",
+						"sqlite"
+					]
 				},
 				"git": {
 					"level": 1,

@@ -2,10 +2,10 @@
 import { Routes, Route } from "react-router-dom";
 
 /* components */
-import AboutView from "../views/AboutView/AboutView";
-import ListenWatchView from "../views/ListenWatchView";
-import SoftwareView from "../views/SoftwareView";
 import ViewTemplate from "../views/ViewTemplate/ViewTemplate";
+import AboutView from "../views/AboutView/AboutView";
+import ListenWatchView from "../views/ListenWatchView/ListenWatchView";
+import SoftwareView from "../views/SoftwareView";
 import WorksView from "../views/WorksView/WorksView";
 import ContactView from "../views/ContactView";
 

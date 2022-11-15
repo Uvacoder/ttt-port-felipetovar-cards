@@ -21,7 +21,7 @@ export default function Performances({ performances }) {
             </a>
           );
           const video = p.video && (
-            <a target="_blank" rel="noreferrer" href={p.video} className="material-icons">
+            <a target="_blank" rel="noreferrer" href={`https://youtu.be/${p.video}`} className="material-icons">
               smart_display
             </a>
           );
