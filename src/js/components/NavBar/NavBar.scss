@@ -1,0 +1,10 @@
+@import "../../../sass/mixins.scss";
+@import "../../../sass/variables.scss";
+.navbar {
+  @include h-stack-c;
+  height: 50px;
+  .theme-switch {
+    @include to-right;
+  }
+}
+
