@@ -1,8 +1,458 @@
 {
-	"education": {
-		"degrees": {
-			"DM": {
+	"basics": {
+		"name": "Felipe Tovar-Henao",
+		"label": "Developer | Composer | Educator",
+		"image": "https://i1.sndcdn.com/avatars-GgWqaPPepI33Iwpg-l4g08Q-t500x500.jpg",
+		"email": "felipe.tovar.henao@gmail.com",
+		"phone": "(310) 539-5831",
+		"url": "http://felipe-tovar-henao.com",
+		"summary": "Profile summary goes here",
+		"location": {
+			"address": "Cra 30 No. 7A 227 Apto 202 Ed. Guaymaral",
+			"postalCode": "050021",
+			"city": "Medellín",
+			"countryCode": "COL",
+			"region": "Antioquia"
+		},
+		"profiles": [
+			{
+				"network": "GitHub",
+				"username": "felipetovarhenao",
+				"url": "https://github.com/felipetovarhenao/"
+			},
+			{
+				"network": "SoundCloud",
+				"username": "felipetovarhenao",
+				"url": "https://soundcloud.com/felipetovarhenao/"
+			},
+			{
+				"network": "YouTube",
+				"username": "felipetovarhenao",
+				"url": "https://youtube.com/@felipetovarhenao"
+			},
+			{
+				"network": "LinkedIn",
+				"username": "felipe-tovar-henao",
+				"url": "https://linkedin.com/in/felipetovarhenao"
+			}
+		]
+	},
+	"awards": {
+		"academic": [
+			{
+				"name": "Juan Orrego-Salas Scholarship Fund",
+				"date": [
+					2017,
+					2020
+				],
 				"institution": "Indiana University, Jacobs School of Music",
+				"country": "USA"
+			},
+			{
+				"name": "Artistic Excellence Award",
+				"date": [
+					2015,
+					2015
+				],
+				"institution": "Indiana University, Jacobs School of Music",
+				"country": "USA"
+			},
+			{
+				"name": "Graduate Tuition Award",
+				"date": [
+					2015,
+					2015
+				],
+				"institution": "Indiana University, Jacobs School of Music",
+				"country": "USA"
+			},
+			{
+				"name": "Becas para colombianos en proceso de formación artística y cultural en el exterior",
+				"date": [
+					2015,
+					2015
+				],
+				"institution": "Ministerio de Cultura",
+				"country": "Colombia"
+			},
+			{
+				"name": "Programa Crédito Beca",
+				"date": [
+					2015,
+					2017
+				],
+				"institution": "COLFUTURO",
+				"country": "Colombia"
+			},
+			{
+				"name": "Beca de Rectoría",
+				"date": [
+					2011,
+					2015
+				],
+				"institution": "Universidad EAFIT",
+				"country": "Colombia"
+			},
+			{
+				"name": "Beca de Honor",
+				"date": [
+					2011
+				],
+				"institution": "Universidad EAFIT",
+				"country": "Colombia"
+			}
+		]
+	},
+	"experience": {
+		"teaching": [
+			{
+				"name": "Postdoctoral Researcher in Music Composition",
+				"date": [
+					2021,
+					2022
+				],
+				"institution": "Chicago Center for Contemporary Composition. University of Chicago",
+				"city": "Chicago, IL",
+				"country": "USA",
+				"courses": [
+					{
+						"name": "MUSI 24000/34000: Composition lessons",
+						"terms": "Autumn 2021 - Spring 2022"
+					},
+					{
+						"name": "MUSI 29900 Senior Research: Music",
+						"terms": "Winter 2022 - Spring 2022"
+					},
+					{
+						"name": "MUSI 10300: Introduction to Music: Materials and Design",
+						"terms": "Spring 2022"
+					},
+					{
+						"name": "MUSI 39900: Independent study (PhD)",
+						"terms": "Spring 2022"
+					}
+				]
+			},
+			{
+				"name": "Lecturer in Music Theory",
+				"date": [
+					2022,
+					true
+				],
+				"institution": "Music Department. Universidad EAFIT",
+				"city": "Medellín, Antioquia",
+				"country": "Colombia",
+				"courses": [
+					{
+						"name": "MU0890: Seminario Tutorial",
+						"terms": "Fall 2022"
+					},
+					{
+						"name": "MU0456: Contrapunto 4",
+						"terms": "Fall 2022"
+					},
+					{
+						"name": "MU0456: Contrapunto 3",
+						"terms": "Fall 2022"
+					}
+				]
+			},
+			{
+				"name": "Lecturer in Composition and Music Theory",
+				"date": [
+					2020,
+					2021
+				],
+				"institution": "Music Department. Universidad EAFIT",
+				"city": "Medellín, Antioquia",
+				"country": "Colombia",
+				"courses": [
+					{
+						"name": "MU0601-9: Composición",
+						"terms": "Fall 2020 - Spring 2021"
+					},
+					{
+						"name": "MU0456: Contrapunto 3",
+						"terms": "Fall 2020 - Spring 2021"
+					},
+					{
+						"name": "MU0900: Proyecto Final (MM)",
+						"terms": "Spring 2021"
+					}
+				]
+			},
+			{
+				"name": "Associate Instructor and Coordinator of Composition",
+				"date": [
+					2017,
+					2020
+				],
+				"institution": "Composition Department. Indiana University",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"courses": [
+					{
+						"name": "MUS-K100: Composition (non-majors)",
+						"terms": "Fall 2017 - Spring 2020"
+					},
+					{
+						"name": "MUS-K214: Instrumentation I",
+						"terms": "Fall 2017"
+					},
+					{
+						"name": "MUS-K215: Instrumentation II",
+						"terms": "Spring 2018"
+					},
+					{
+						"name": "MUS-I301: Composition Seminar for non-majors",
+						"terms": "Fall 2018 - Spring 2019"
+					},
+					{
+						"name": "MUS-K231: Free Counterpoint I",
+						"terms": "Fall 2019"
+					},
+					{
+						"name": "MUS-K232: Free Counterpoint II",
+						"terms": "Spring 2020"
+					}
+				]
+			}
+		],
+		"lectures": [
+			{
+				"name": "Simulating constraints: Approaches to computer-assisted algorithmic composition in my recent works",
+				"events": [
+					{
+						"language": "Spanish",
+						"name": "Coloquio de Composición",
+						"date": "2022-08-10",
+						"venue": "Universidad EAFIT",
+						"city": "Medellín, Antioquia",
+						"country": "Colombia"
+					},
+					{
+						"language": "English",
+						"event": "Mizzou International Composer Festival",
+						"date": "2022-07-27",
+						"venue": "University of Mizzou",
+						"city": "Columbia, MI",
+						"country": "USA"
+					}
+				]
+			},
+			{
+				"name": "Frames of meaning: Revisiting the concept of instrumental technique",
+				"events": [
+					{
+						"language": "English",
+						"name": "Composition Seminar",
+						"date": "2021-10-04",
+						"venue": "University of Chicago",
+						"city": "Chicago, IL",
+						"country": "USA"
+					}
+				]
+			},
+			{
+				"name": "The trap of the inner voice",
+				"events": [
+					{
+						"language": "Spanish",
+						"name": "Coloquio de Composición",
+						"date": "2020-08-24",
+						"venue": "Universidad EAFIT",
+						"city": "Medellín, Antioquia",
+						"country": "Colombia"
+					},
+					{
+						"language": "English",
+						"name": "Mizzou International Composer Festival",
+						"date": "2020-07-28",
+						"venue": "University of Mizzou",
+						"city": "Columbia, MI",
+						"country": "USA"
+					}
+				]
+			},
+			{
+				"name": "Coding, samples, and many, many patch chords",
+				"events": [
+					{
+						"language": "English",
+						"name": "Computer Music Seminar",
+						"date": "2019-09-20",
+						"venue": "University of Texas at Austin Electronic Music Studios (UTEMS)",
+						"city": "Austin, TX",
+						"country": "USA"
+					}
+				]
+			},
+			{
+				"name": "La Mirada del Ouroboros",
+				"events": [
+					{
+						"language": "Spanish",
+						"name": "Charla/Concierto: La Mirada del Ouroboros",
+						"date": "2017-12-05",
+						"venue": "Room 115, Universidad EAFIT",
+						"city": "Medellín, Antioquia",
+						"country": "Colombia"
+					}
+				]
+			}
+		],
+		"workshops": [
+			{
+				"name": "OpenMusic intensive workshop",
+				"events": [
+					{
+						"language": "Spanish",
+						"date": "2021-05-10",
+						"numSessions": 4,
+						"totalHours": 16,
+						"institution": "Universidad de Antioquia [online]",
+						"city": "Medellín, Antioquia",
+						"country": "Colombia"
+					}
+				]
+			},
+			{
+				"name": "Synthesis and digital signal processing with RTcmix",
+				"events": [
+					{
+						"language": "Spanish",
+						"date": "2021-03-02",
+						"numSessions": 3,
+						"totalHours": 6,
+						"institution": "Universidad EAFIT [online]",
+						"city": "Medellín, Antioquia",
+						"country": "Colombia"
+					},
+					{
+						"language": "Spanish",
+						"date": "2020-11-30",
+						"numSessions": 3,
+						"totalHours": 6,
+						"institution": "Transversal Sonora [online]",
+						"city": "Bogotá",
+						"country": "Colombia"
+					}
+				]
+			}
+		],
+		"residencies": [
+			{
+				"role": "Resident composer",
+				"date": "2022-07-22",
+				"event": "Mizzou International Composer Festival",
+				"end": "2022-07-30",
+				"activities": [
+					"guest lecture",
+					"rehearsals",
+					"feature concert"
+				]
+			},
+			{
+				"role": "Guest composer",
+				"date": "2021-11-18",
+				"event": "The UIndy Composers Forum, featuring Felipe Tovar-Henao",
+				"end": "2021-11-19",
+				"activities": [
+					"guest lecture",
+					"private lessons",
+					"rehearsals",
+					"feature concert"
+				]
+			}
+		],
+		"publications": [
+			{
+				"name": "light.void~: An Autographic Case Study on Approaches, Constraints, and Affordances with a Light-dependent Musical Interface",
+				"author": "Tovar Henao, F.",
+				"date": 2022,
+				"publisher": "Ricercare",
+				"edition": 15,
+				"pages": [
+					107,
+					102
+				],
+				"doi": "https://doi.org/10.17230/ricercare.2022.15.5"
+			},
+			{
+				"name": "«Danzas Encefálicas» for sinfonietta and electronics",
+				"author": "Tovar Henao, F.",
+				"date": 2020,
+				"publisher": "Ricercare",
+				"edition": 13,
+				"pages": [
+					79,
+					127
+				],
+				"doi": "https://doi.org/10.17230/ricercare.2020.13.3p"
+			},
+			{
+				"name": "«Elegía Litúrgica» para violín y piano",
+				"author": "Tovar Henao, F.",
+				"date": 2015,
+				"publisher": "Ricercare",
+				"edition": 4,
+				"pages": [
+					65,
+					74
+				],
+				"doi": "https://doi.org/10.17230/ricercare.2015.4.7"
+			}
+		],
+		"software": [
+			{
+				"name": "scattergrain",
+				"url": "https://scattergrain.app/",
+				"date": 2022,
+				"active": true,
+				"description": "Full-stack web application for interactive, corpus-based granular audio synthesis, using ML and MIR techniques"
+			},
+			{
+				"name": "GAMuT",
+				"url": "https://pypi.org/project/gamut/",
+				"date": 2022,
+				"active": true,
+				"description": "High-level, user-friendly granular audio musaicing toolkit implemented in Python, using ML and MIR techniques"
+			},
+			{
+				"name": "M4L exquisitecorpus",
+				"url": "https://github.com/felipetovarhenao/exquisitecorpus",
+				"date": 2021,
+				"active": true,
+				"description": "Open-source, Max for Live device (audio plug-in) for corpus-based sampling transposition and analysis in Ableton Live"
+			},
+			{
+				"name": "miniOMsynth",
+				"url": "https://github.com/felipetovarhenao/miniOMsynth",
+				"date": 2021,
+				"active": true,
+				"description": "Cross-platform (MacOS, Windows), open-source audio synthesizer application for OpenMusic playback support, via OSC protocol"
+			},
+			{
+				"name": "OM-Data",
+				"url": "https://github.com/felipetovarhenao/OM-Data",
+				"date": 2021,
+				"active": true,
+				"description": "Open-source, CLOS library for computer-aided composition in OpenMusic. Mainly aimed at data modelling and analysis"
+			},
+			{
+				"name": "light.void~",
+				"url": "https://github.com/felipetovarhenao/light.void",
+				"date": 2019,
+				"active": true,
+				"description": "Open-source, light-dependent digital music interface based on Leafcutter John's light thing. Built with Arduino and MaxMSP"
+			}
+		]
+	},
+	"education": {
+		"degrees": [
+			{
+				"institution": "Indiana University, Jacobs School of Music",
+				"degree": "DM",
 				"city": "Bloomington, IN",
 				"country": "USA",
 				"date": [
@@ -15,8 +465,9 @@
 					"Computer Music"
 				]
 			},
-			"MM": {
+			{
 				"institution": "Indiana University, Jacobs School of Music",
+				"degree": "MM",
 				"city": "Bloomington, IN",
 				"country": "USA",
 				"date": [
@@ -26,8 +477,9 @@
 				"major": "Music composition",
 				"minors": false
 			},
-			"BM": {
+			{
 				"institution": "Universidad EAFIT",
+				"degree": "BM",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
 				"date": [
@@ -37,9 +489,10 @@
 				"major": "Music composition",
 				"minors": false
 			}
-		},
-		"other": {
-			"CS50: Web Programming with Python and JavaScript": {
+		],
+		"other": [
+			{
+				"name": "CS50: Web Programming with Python and JavaScript",
 				"url": false,
 				"type": "professional certificate",
 				"institution": "HarvardX",
@@ -49,7 +502,8 @@
 					"2022-08-20"
 				]
 			},
-			"CS50: Introduction to Artificial Intelligence with Python": {
+			{
+				"name": "CS50: Introduction to Artificial Intelligence with Python",
 				"url": "https://cs50.harvard.edu/certificates/efc25672-2098-4b61-9e0e-6843eb896b12",
 				"type": "professional certificate",
 				"institution": "HarvardX",
@@ -59,7 +513,8 @@
 					"2022-10-15"
 				]
 			},
-			"CIEE Paris Contemporary Music Creation and Critique Program, ManiFeste & l’Académie": {
+			{
+				"name": "CIEE Paris Contemporary Music Creation and Critique Program, ManiFeste & l’Académie",
 				"url": false,
 				"type": "summer course",
 				"institution": "IRCAM-Centre Pompidou",
@@ -69,535 +524,169 @@
 					"2016-07-02"
 				]
 			}
-		}
+		]
 	},
-	"recognitions": {
-		"academic": {
-			"Associate Instructorship in Music Composition": {
-				"date": [
-					2017,
-					2020
-				],
-				"institution": "Indiana University, Jacobs School of Music",
-				"country": "USA"
-			},
-			"Juan Orrego-Salas Scholarship Fund": {
-				"date": [
-					2017,
-					2020
-				],
-				"institution": "Indiana University, Jacobs School of Music",
-				"country": "USA"
-			},
-			"Artistic Excellence Award": {
-				"date": [
-					2015,
-					2015
-				],
-				"institution": "Indiana University, Jacobs School of Music",
-				"country": "USA"
-			},
-			"Graduate Tuition Award": {
-				"date": [
-					2015,
-					2015
-				],
-				"institution": "Indiana University, Jacobs School of Music",
-				"country": "USA"
-			},
-			"Becas para colombianos en proceso de formación artística y cultural en el exterior": {
-				"date": [
-					2015,
-					2015
-				],
-				"institution": "Ministerio de Cultura",
-				"country": "Colombia"
-			},
-			"Programa Crédito Beca": {
-				"date": [
-					2015,
-					2017
-				],
-				"institution": "COLFUTURO",
-				"country": "Colombia"
-			},
-			"Beca de Rectoría": {
-				"date": [
-					2011,
-					2015
-				],
-				"institution": "Universidad EAFIT",
-				"country": "Colombia"
-			},
-			"Beca de Honor": {
-				"date": [
-					2011
-				],
-				"institution": "Universidad EAFIT",
-				"country": "Colombia"
-			}
+	"languages": [
+		{
+			"language": "spanish",
+			"fluency": "native"
+		},
+		{
+			"language": "english",
+			"fluency": "professional"
+		},
+		{
+			"language": "french",
+			"fluency": "intermediate"
 		}
-	},
-	"experience": {
-		"teaching": {
-			"Postdoctoral Researcher in Music Composition": {
-				"date": [
-					[
-						2021,
-						2022
-					]
-				],
-				"institution": "Chicago Center for Contemporary Composition. University of Chicago",
-				"city": "Chicago, IL",
-				"country": "USA",
-				"courses": {
-					"MUSI 24000/34000: Composition lessons": {
-						"date": [
-							"Autumn 2021 - Spring 2022"
-						]
-					},
-					"MUSI 29900 Senior Research: Music": {
-						"date": [
-							"Winter 2022 - Spring 2022"
-						]
-					},
-					"MUSI 10300: Introduction to Music: Materials and Design": {
-						"date": [
-							"Spring 2022"
-						]
-					},
-					"MUSI 39900: Independent study (PhD)": {
-						"date": [
-							"Spring 2022"
-						]
-					}
-				}
-			},
-			"Lecturer in Composition and Music Theory": {
-				"date": [
-					[
-						2022,
-						true
-					],
-					[
-						2020,
-						2021
-					]
-				],
-				"institution": "Music Department. Universidad EAFIT",
-				"city": "Medellín, Antioquia",
-				"country": "Colombia",
-				"courses": {
-					"MU0890: Seminario Tutorial": {
-						"date": [
-							"Fall 2022"
-						]
-					},
-					"MU0456: Contrapunto 4": {
-						"date": [
-							"Fall 2022"
-						]
-					},
-					"MU0601-9: Composición": {
-						"date": [
-							"Fall 2020 – Spring 2021"
-						]
-					},
-					"MU0456: Contrapunto 3": {
-						"date": [
-							"Fall 2020 - Spring 2021",
-							"Fall 2022"
-						]
-					},
-					"MU0900: Proyecto Final (MM)": {
-						"date": [
-							"Spring 2021"
-						]
-					}
-				}
-			},
-			"Associate Instructor and Coordinator of Composition": {
-				"date": [
-					[
-						2017,
-						2020
-					]
-				],
-				"institution": "Composition Department. Indiana University",
-				"city": "Bloomington, IN",
-				"country": "USA",
-				"courses": {
-					"MUS-K100: Composition (non-majors)": {
-						"date": [
-							"Fall 2017 - Spring 2020"
-						]
-					},
-					"MUS-K214: Instrumentation I": {
-						"date": [
-							"Fall 2017"
-						]
-					},
-					"MUS-K215: Instrumentation II": {
-						"date": [
-							"Spring 2018"
-						]
-					},
-					"MUS-I301: Composition Seminar for non-majors": {
-						"date": [
-							"Fall 2018 - Spring 2019"
-						]
-					},
-					"MUS-K231: Free Counterpoint I": {
-						"date": [
-							"Fall 2019"
-						]
-					},
-					"MUS-K232: Free Counterpoint II": {
-						"date": [
-							"Spring 2020"
-						]
-					}
-				}
-			}
+	],
+	"skills": [
+		{
+			"name": "Python",
+			"level": 0,
+			"keywords": [
+				"librosa",
+				"django",
+				"numpy"
+			]
 		},
-		"lectures": {
-			"Simulating constraints: Approaches to computer-assisted algorithmic composition in my recent works": {
-				"2022-08-10": {
-					"language": "Spanish",
-					"event": "Coloquio de Composición",
-					"venue": "Universidad EAFIT",
-					"city": "Medellín, Antioquia",
-					"country": "Colombia"
-				},
-				"2022-07-27": {
-					"language": "English",
-					"event": "Mizzou International Composer Festival",
-					"venue": "University of Mizzou",
-					"city": "Columbia, MI",
-					"country": "USA"
-				}
-			},
-			"Frames of meaning: Revisiting the concept of instrumental technique": {
-				"2021-10-04": {
-					"language": "English",
-					"event": "Composition Seminar",
-					"venue": "University of Chicago",
-					"city": "Chicago, IL",
-					"country": "USA"
-				}
-			},
-			"The trap of the inner voice": {
-				"2020-08-24": {
-					"language": "Spanish",
-					"event": "Coloquio de Composición",
-					"venue": "Universidad EAFIT",
-					"city": "Medellín, Antioquia",
-					"country": "Colombia"
-				},
-				"2020-07-28": {
-					"language": "English",
-					"event": "Mizzou International Composer Festival",
-					"venue": "University of Mizzou",
-					"city": "Columbia, MI",
-					"country": "USA"
-				}
-			},
-			"Coding, samples, and many, many patch chords": {
-				"2019-09-20": {
-					"language": "English",
-					"event": "Computer Music Seminar",
-					"venue": "University of Texas at Austin Electronic Music Studios (UTEMS)",
-					"city": "Austin, TX",
-					"country": "USA"
-				}
-			},
-			"La Mirada del Ouroboros": {
-				"2017-12-05": {
-					"language": "Spanish",
-					"event": "Charla/Concierto: La Mirada del Ouroboros",
-					"venue": "Room 115, Universidad EAFIT",
-					"city": "Medellín, Antioquia",
-					"country": "Colombia"
-				}
-			}
+		{
+			"name": "Javascript",
+			"level": 1,
+			"keywords": [
+				"react",
+				"web audio API",
+				"canvas API"
+			]
 		},
-		"workshops": {
-			"OpenMusic intensive workshop": {
-				"2021-05-10": {
-					"language": "Spanish",
-					"sessions": {
-						"2021-05-10": 4,
-						"2021-05-24": 4,
-						"2021-05-31": 4,
-						"2021-06-21": 4
-					},
-					"institution": "Universidad de Antioquia [online]",
-					"city": "Medellín, Antioquia",
-					"country": "Colombia"
-				}
-			},
-			"Synthesis and digital signal processing with RTcmix": {
-				"2021-03-02": {
-					"language": "Spanish",
-					"sessions": {
-						"2021-03-02": 2,
-						"2021-03-09": 2,
-						"2021-03-16": 2
-					},
-					"institution": "Universidad EAFIT [online]",
-					"city": "Medellín, Antioquia",
-					"country": "Colombia"
-				},
-				"2020-11-30": {
-					"language": "Spanish",
-					"sessions": {
-						"2020-12-04": 2,
-						"2020-12-02": 2,
-						"2020-11-30": 2
-					},
-					"institution": "Transversal Sonora [online]",
-					"city": "Bogotá",
-					"country": "Colombia"
-				}
-			}
+		{
+			"name": "Common Lisp",
+			"level": 1,
+			"keywords": [
+				"om"
+			]
 		},
-		"residencies": {
-			"2022-07-22": {
-				"role": "Resident composer",
-				"event": "Mizzou International Composer Festival",
-				"end": "2022-07-30",
-				"activities": [
-					"guest lecture",
-					"rehearsals",
-					"feature concert"
-				]
-			},
-			"2021-11-18": {
-				"role": "Guest composer",
-				"event": "The UIndy Composers Forum, featuring Felipe Tovar-Henao",
-				"end": "2021-11-19",
-				"activities": [
-					"guest lecture",
-					"private lessons",
-					"rehearsals",
-					"feature concert"
-				]
-			}
+		{
+			"name": "HTML",
+			"level": 1,
+			"keywords": false
 		},
-		"publications": {
-			"light.void~: An Autographic Case Study on Approaches, Constraints, and Affordances with a Light-dependent Musical Interface.": {
-				"author": "Tovar Henao, F.",
-				"date": 2022,
-				"publisher": "Ricercare",
-				"edition": 15,
-				"pages": [
-					107,
-					102
-				],
-				"doi": "https://doi.org/10.17230/ricercare.2022.15.5"
-			},
-			"«Danzas Encefálicas» for sinfonietta and electronics.": {
-				"author": "Tovar Henao, F.",
-				"date": 2020,
-				"publisher": "Ricercare",
-				"edition": 13,
-				"pages": [
-					79,
-					127
-				],
-				"doi": "https://doi.org/10.17230/ricercare.2020.13.3p"
-			},
-			"«Elegía Litúrgica» para violín y piano": {
-				"author": "Tovar Henao, F.",
-				"date": 2015,
-				"publisher": "Ricercare",
-				"edition": 4,
-				"pages": [
-					65,
-					74
-				],
-				"doi": "https://doi.org/10.17230/ricercare.2015.4.7"
-			}
+		{
+			"name": "CSS",
+			"level": 1,
+			"keywords": [
+				"sass"
+			]
 		},
-		"software": {
-			"scattergrain": {
-				"url": "https://scattergrain.app/",
-				"date": 2022,
-				"active": true,
-				"description": "Full-stack web application for interactive, corpus-based granular audio synthesis, using ML and MIR techniques"
-			},
-			"GAMuT": {
-				"url": "https://pypi.org/project/gamut/",
-				"date": 2022,
-				"active": true,
-				"description": "High-level, user-friendly granular audio musaicing toolkit implemented in Python, using ML and MIR techniques"
-			},
-			"M4L exquisitecorpus": {
-				"url": "https://github.com/felipetovarhenao/exquisitecorpus",
-				"date": 2021,
-				"active": true,
-				"description": "Open-source, Max for Live device (audio plug-in) for corpus-based sampling transposition and analysis in Ableton Live."
-			},
-			"miniOMsynth": {
-				"url": "https://github.com/felipetovarhenao/miniOMsynth",
-				"date": 2021,
-				"active": true,
-				"description": "Cross-platform (MacOS, Windows), open-source audio synthesizer application for OpenMusic playback support, via OSC protocol."
-			},
-			"OM-Data": {
-				"url": "https://github.com/felipetovarhenao/OM-Data",
-				"date": 2021,
-				"active": true,
-				"description": "Open-source, CLOS library for computer-aided composition in OpenMusic. Mainly aimed at data modelling and analysis."
-			},
-			"light.void~": {
-				"url": "https://github.com/felipetovarhenao/light.void",
-				"date": 2019,
-				"active": true,
-				"description": "Open-source, light-dependent digital music interface based on Leafcutter John's light thing. Built with Arduino and MaxMSP"
-			}
+		{
+			"name": "GLSL",
+			"level": 1,
+			"keywords": false
+		},
+		{
+			"name": "CLI",
+			"level": 1,
+			"keywords": [
+				"bash",
+				"zsh"
+			]
+		},
+		{
+			"name": "SQL",
+			"level": 1,
+			"keywords": [
+				"postgres",
+				"sqlite"
+			]
+		},
+		{
+			"name": "Git",
+			"level": 1,
+			"keywords": false
+		},
+		{
+			"name": "Docker",
+			"level": 2,
+			"keywords": false
+		},
+		{
+			"name": "MaxMSP",
+			"level": 0,
+			"keywords": [
+				"bach",
+				"cage",
+				"dada",
+				"MuBu"
+			]
+		},
+		{
+			"name": "RTcmix",
+			"level": 0,
+			"keywords": false
+		},
+		{
+			"name": "OpenMusic",
+			"level": 0,
+			"keywords": [
+				"OM-Data",
+				"OM-Tristan"
+			]
+		},
+		{
+			"name": "Ableton Live",
+			"level": 1,
+			"keywords": false
+		},
+		{
+			"name": "GRM tools",
+			"level": 1,
+			"keywords": false
+		},
+		{
+			"name": "Finale",
+			"level": 0,
+			"keywords": [
+				"JW plugins"
+			]
+		},
+		{
+			"name": "MuseScore",
+			"level": 2,
+			"keywords": false
+		},
+		{
+			"name": "Touch Designer",
+			"level": 1,
+			"keywords": false
+		},
+		{
+			"name": "Processing",
+			"level": 1,
+			"keywords": false
+		},
+		{
+			"name": "Adobe Premiere",
+			"level": 2,
+			"keywords": [
+				"Video editing"
+			]
+		},
+		{
+			"name": "Arduino",
+			"level": 2,
+			"keywords": [
+				"Digital Musical Instruments"
+			]
+		},
+		{
+			"name": "audio hardware",
+			"level": 2,
+			"keywords": [
+				"microphones",
+				"interfaces",
+				"cables (XLR, TRS, etc.)",
+				"mixers"
+			]
 		}
-	},
-	"skills": {
-		"languages": {
-			"spanish": "native",
-			"english": "professional",
-			"french": "intermediate"
-		},
-		"technology": {
-			"languages": {
-				"Python": {
-					"level": 0,
-					"libraries": [
-						"librosa",
-						"django",
-						"numpy"
-					]
-				},
-				"Javascript": {
-					"level": 1,
-					"libraries": [
-						"react",
-						"web audio API",
-						"canvas API"
-					]
-				},
-				"Common Lisp": {
-					"level": 1,
-					"libraries": [
-						"om"
-					]
-				},
-				"HTML": {
-					"level": 1,
-					"libraries": false
-				},
-				"CSS": {
-					"level": 1,
-					"libraries": [
-						"sass"
-					]
-				},
-				"GLSL": {
-					"level": 1,
-					"libraries": false
-				},
-				"CLI": {
-					"level": 1,
-					"libraries": [
-						"bash",
-						"zsh"
-					]
-				},
-				"SQL": {
-					"level": 1,
-					"libraries": [
-						"postgres",
-						"sqlite"
-					]
-				},
-				"git": {
-					"level": 1,
-					"libraries": false
-				},
-				"docker": {
-					"level": 2,
-					"libraries": false
-				}
-			},
-			"software": {
-				"Audio+Music": {
-					"MaxMSP": {
-						"level": 0,
-						"libraries": [
-							"bach",
-							"cage",
-							"dada",
-							"MuBu"
-						]
-					},
-					"RTcmix": {
-						"level": 0,
-						"libraries": false
-					},
-					"OpenMusic": {
-						"level": 0,
-						"libraries": [
-							"OM-Data",
-							"OM-Tristan"
-						]
-					},
-					"Ableton Live": {
-						"level": 1,
-						"libraries": false
-					},
-					"GRM tools": {
-						"level": 1,
-						"libraries": false
-					},
-					"Finale": {
-						"level": 0,
-						"libraries": [
-							"JW plugins"
-						]
-					},
-					"MuseScore": {
-						"level": 2,
-						"libraries": false
-					}
-				},
-				"Video": {
-					"Touch Designer": {
-						"level": 1,
-						"libraries": false
-					},
-					"Processing": {
-						"level": 1,
-						"libraries": false
-					},
-					"Adobe Premiere": {
-						"level": 2,
-						"libraries": false
-					}
-				},
-				"Design": {
-					"Arduino": {
-						"level": 2,
-						"libraries": false
-					}
-				}
-			},
-			"hardware": {
-				"OS": [
-					"MacOS"
-				],
-				"audio": [
-					"microphones",
-					"interfaces",
-					"cables (XLR, TRS, etc.)",
-					"mixers"
-				]
-			}
-		}
-	}
+	]
 }
