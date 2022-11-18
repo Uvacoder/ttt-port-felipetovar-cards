@@ -103,7 +103,33 @@
 			}
 		]
 	},
-	"experience": {
+	"work": {
+		"industry": [
+			{
+				"name": "Archives of Traditional Music. Ethnomusicology Department. Indiana University",
+				"location": "Bloomington, IN",
+				"position": "Media Digitization and Preservation Staff",
+				"date": 2019
+			},
+			{
+				"name": "Composition Department. Indiana University",
+				"location": "Bloomington, IN",
+				"position": "Music copyist",
+				"date": [2016, 2017]
+			},
+			{
+				"name": "Indiana University",
+				"location": "Bloomington, IN",
+				"position": "\"Double Exposure\" Project Coordinator",
+				"date": [2016, 2017]
+			},
+			{
+				"name": "Latin American Music Center. Indiana University",
+				"location": "Bloomington, IN",
+				"position": "Music Arranger",
+				"date": [2015, 2016]
+			}
+		],
 		"teaching": [
 			{
 				"name": "Postdoctoral Researcher in Music Composition",
