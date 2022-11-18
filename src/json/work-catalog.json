@@ -29,10 +29,16 @@
 			{
 				"event": "Grossman Ensemble with Tim Weiss, conductor",
 				"date": "2022-03-04",
-				"performers": {
-					"Timothy Weiss": "conductor",
-					"Grossman Ensemble": "ensemble"
-				},
+				"performers": [
+					{
+						"name": "Timothy Weiss",
+						"role": "conductor"
+					},
+					{
+						"name": "Grossman Ensemble",
+						"role": "ensemble"
+					}
+				],
 				"venue": "Logan Center Performance Hall",
 				"city": "Chicago, IL",
 				"country": "USA",
@@ -70,10 +76,16 @@
 			{
 				"event": "Alarm Will Sound: Eight world premieres",
 				"date": "2022-07-30",
-				"performers": {
-					"Alan Pierson": "conductor",
-					"Alarm Will Sound": "ensemble"
-				},
+				"performers": [
+					{
+						"name": "Alan Pierson",
+						"role": "conductor"
+					},
+					{
+						"name": "Alarm Will Sound",
+						"role": "ensemble"
+					}
+				],
 				"venue": "Missouri Theater",
 				"city": "Columbia, MO",
 				"country": "USA",
@@ -118,10 +130,16 @@
 			{
 				"event": "David Dzubay, director; Kate Soper, guest composer/soprano; Felipe Tovar-Henao, composer",
 				"date": "2018-02-01",
-				"performers": {
-					"David Dzubay": "conductor",
-					"Indiana University New Music Ensemble": "ensemble"
-				},
+				"performers": [
+					{
+						"name": "David Dzubay",
+						"role": "conductor"
+					},
+					{
+						"name": "Indiana University New Music Ensemble",
+						"role": "ensemble"
+					}
+				],
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -131,10 +149,16 @@
 			{
 				"event": "IU Mexico Gateway: New Music Ensemble Concert",
 				"date": "2018-05-29",
-				"performers": {
-					"David Dzubay": "conductor",
-					"Indiana University New Music Ensemble": "ensemble"
-				},
+				"performers": [
+					{
+						"name": "David Dzubay",
+						"role": "conductor"
+					},
+					{
+						"name": "Indiana University New Music Ensemble",
+						"role": "ensemble"
+					}
+				],
 				"venue": "Sala Xochipilli, Universidad Nacional Autónoma de México",
 				"city": "Mexico city",
 				"country": "Mexico"
@@ -176,10 +200,16 @@
 			{
 				"event": "La Mirada del Ouroboros: Concierto para Arpa",
 				"date": "2017-12-05",
-				"performers": {
-					"Juan David Osorio": "conductor",
-					"Bibiana Ordóñez Velandia": "harp soloist"
-				},
+				"performers": [
+					{
+						"name": "Juan David Osorio",
+						"role": "conductor"
+					},
+					{
+						"name": "Bibiana Ordóñez Velandia",
+						"role": "harp soloist"
+					}
+				],
 				"venue": "Room 115, Universidad EAFIT",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
@@ -207,11 +237,20 @@
 			{
 				"event": "Ravinia Festival - NEXUS Chamber Music: Dancing with the Shadow",
 				"date": "2022-08-28",
-				"performers": {
-					"Brian Hong": "violin",
-					"Rosalind Ventris": "viola",
-					"Alexander Hersh": "cello"
-				},
+				"performers": [
+					{
+						"name": "Brian Hong",
+						"role": "violin"
+					},
+					{
+						"name": "Rosalind Ventris",
+						"role": "viola"
+					},
+					{
+						"name": "Alexander Hersh",
+						"role": "cello"
+					}
+				],
 				"venue": "Bennett Gordon Hall",
 				"city": "Chicago, IL",
 				"country": "USA",
@@ -238,9 +277,12 @@
 			{
 				"event": "2O22 Guild of Carilloneurs of North America (GCNA) Congress: Opening concert",
 				"date": "2022-06-15",
-				"performers": {
-					"Joseph Min": "carillon"
-				},
+				"performers": [
+					{
+						"name": "Joseph Min",
+						"role": "carillon"
+					}
+				],
 				"venue": "Rockefeller Chapel, University of Chicago",
 				"city": "Chicago, IL",
 				"country": "USA",
@@ -268,9 +310,12 @@
 			{
 				"event": "UChicago Presents: Quatuor Diotima",
 				"date": "2022-04-10",
-				"performers": {
-					"Quatuor Diotima": "string quartet"
-				},
+				"performers": [
+					{
+						"name": "Quatuor Diotima",
+						"role": "string quartet"
+					}
+				],
 				"venue": "Fulton Recital Hall, University of Chicago",
 				"city": "Chicago, IL",
 				"country": "USA",
@@ -298,9 +343,12 @@
 			{
 				"event": "Música Pandémica",
 				"date": "2021-03-13",
-				"performers": {
-					"Primavera Cuarteto": "string quartet"
-				},
+				"performers": [
+					{
+						"name": "Primavera Cuarteto",
+						"role": "string quartet"
+					}
+				],
 				"venue": "Sede Filarmed",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
@@ -326,9 +374,12 @@
 			{
 				"event": "DM Recital: Esteban Hernández Parra",
 				"date": "2021-04-13",
-				"performers": {
-					"Estéban Hernández Parra": "viola"
-				},
+				"performers": [
+					{
+						"name": "Estéban Hernández Parra",
+						"role": "viola"
+					}
+				],
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -338,9 +389,12 @@
 			{
 				"event": "DM Recital: Felipe Tovar-Henao",
 				"date": "2020-02-14",
-				"performers": {
-					"Estéban Hernández Parra": "viola"
-				},
+				"performers": [
+					{
+						"name": "Estéban Hernández Parra",
+						"role": "viola"
+					}
+				],
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -350,9 +404,12 @@
 			{
 				"event": "Electric Forests: The UIndy Composers Forum featuring Felipe Tovar-Henao",
 				"date": "2021-11-18",
-				"performers": {
-					"Estéban Hernández Parra": "viola"
-				},
+				"performers": [
+					{
+						"name": "Estéban Hernández Parra",
+						"role": "viola"
+					}
+				],
 				"venue": "Christel De Haan Fine Arts Center, University of Indianapolis",
 				"city": "Indianapolis, IN",
 				"country": "USA",
@@ -362,9 +419,12 @@
 			{
 				"event": "Nacido En Cuarentena",
 				"date": "2020-12-01",
-				"performers": {
-					"David Merchán": "viola"
-				},
+				"performers": [
+					{
+						"name": "David Merchán",
+						"role": "viola"
+					}
+				],
 				"venue": "Teatro Pablo Tobón Uribe",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
@@ -391,9 +451,12 @@
 			{
 				"event": "DM Recital: Felipe Tovar-Henao",
 				"date": "2020-02-14",
-				"performers": {
-					"Felipe Tovar-Henao": "light.void~"
-				},
+				"performers": [
+					{
+						"name": "Felipe Tovar-Henao",
+						"role": "light.void~"
+					}
+				],
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -403,9 +466,12 @@
 			{
 				"event": "Indiana University Center for Electronic and Computer Music: Fall concert",
 				"date": "2019-12-08",
-				"performers": {
-					"Felipe Tovar-Henao": "light.void~"
-				},
+				"performers": [
+					{
+						"name": "Felipe Tovar-Henao",
+						"role": "light.void~"
+					}
+				],
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -415,9 +481,12 @@
 			{
 				"event": "Latin American Music Center's Salón Latino Chamber Music Series: New Music from Colombia, Peru, and Mexico",
 				"date": "2020-02-04",
-				"performers": {
-					"Felipe Tovar-Henao": "light.void~"
-				},
+				"performers": [
+					{
+						"name": "Felipe Tovar-Henao",
+						"role": "light.void~"
+					}
+				],
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -444,9 +513,12 @@
 			{
 				"event": "Indiana University Center for Electronic and Computer Music: Spring concert",
 				"date": "2019-04-14",
-				"performers": {
-					"Jake Gunnar Walsh": "English horn"
-				},
+				"performers": [
+					{
+						"name": "Jake Gunnar Walsh",
+						"role": "English horn"
+					}
+				],
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -456,9 +528,12 @@
 			{
 				"event": "DM Recital: Felipe Tovar-Henao",
 				"date": "2020-02-14",
-				"performers": {
-					"Jake Gunnar Walsh": "English horn"
-				},
+				"performers": [
+					{
+						"name": "Jake Gunnar Walsh",
+						"role": "English horn"
+					}
+				],
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -489,10 +564,16 @@
 			{
 				"event": "The 2019 Society of Composers Inc. National Conference & John Donald Robb Composers' Symposium: Concert 9",
 				"date": "2019-03-30",
-				"performers": {
-					"Jeffrey Means": "conductor",
-					"Sound Icon": "ensemble"
-				},
+				"performers": [
+					{
+						"name": "Jeffrey Means",
+						"role": "conductor"
+					},
+					{
+						"name": "Sound Icon",
+						"role": "ensemble"
+					}
+				],
 				"venue": "Keller Hall, University of New Mexico",
 				"city": "Albuquerque, NM",
 				"country": "USA",
@@ -502,10 +583,16 @@
 			{
 				"event": "DM Recital: Felipe Tovar-Henao",
 				"date": "2020-02-14",
-				"performers": {
-					"Andrew Downs": "conductor",
-					"IU JSoM students": "ensemble"
-				},
+				"performers": [
+					{
+						"name": "Andrew Downs",
+						"role": "conductor"
+					},
+					{
+						"name": "IU JSoM students",
+						"role": "ensemble"
+					}
+				],
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -535,9 +622,12 @@
 			{
 				"event": "Indiana University Center for Electronic and Computer Music: Fall concert",
 				"date": "2018-12-02",
-				"performers": {
-					"Julianna Eidle": "flute"
-				},
+				"performers": [
+					{
+						"name": "Julianna Eidle",
+						"role": "flute"
+					}
+				],
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -547,9 +637,12 @@
 			{
 				"event": "Latin American Music Center's Salón Latino Chamber Music Series: New Music from Colombia, Peru, and Mexico",
 				"date": "2020-02-04",
-				"performers": {
-					"Tierney McClure": "flute"
-				},
+				"performers": [
+					{
+						"name": "Tierney McClure",
+						"role": "flute"
+					}
+				],
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -559,9 +652,12 @@
 			{
 				"event": "2019 Midwest Composer Symposium",
 				"date": "2019-11-09",
-				"performers": {
-					"Tierney McClure": "flute"
-				},
+				"performers": [
+					{
+						"name": "Tierney McClure",
+						"role": "flute"
+					}
+				],
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -571,9 +667,12 @@
 			{
 				"event": "DM Recital: Felipe Tovar-Henao",
 				"date": "2020-02-14",
-				"performers": {
-					"Tierney McClure": "flute"
-				},
+				"performers": [
+					{
+						"name": "Tierney McClure",
+						"role": "flute"
+					}
+				],
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -583,9 +682,12 @@
 			{
 				"event": "Hochschule der Künste Bern: 20 Years of Sound Arts Symposium",
 				"date": "2022-09-16",
-				"performers": {
-					"Melody Chua": "flute"
-				},
+				"performers": [
+					{
+						"name": "Melody Chua",
+						"role": "flute"
+					}
+				],
 				"venue": "Univesity of the Arts Bern",
 				"city": "Bern",
 				"country": "Switzerland",
@@ -595,9 +697,12 @@
 			{
 				"event": "CEMIcircles: Concert 3",
 				"date": "2019-10-19",
-				"performers": {
-					"Aleyna Brown": "flute"
-				},
+				"performers": [
+					{
+						"name": "Aleyna Brown",
+						"role": "flute"
+					}
+				],
 				"venue": "Merrill Ellis Intermedia Theater, University of North Texas",
 				"city": "Denton, TX",
 				"country": "USA",
@@ -607,9 +712,12 @@
 			{
 				"event": "2019 International Workshop of Computer Music and Audio Technology Conference Concert",
 				"date": "2019-12-14",
-				"performers": {
-					"Yi-Hui Lin": "flute"
-				},
+				"performers": [
+					{
+						"name": "Yi-Hui Lin",
+						"role": "flute"
+					}
+				],
 				"venue": "International Conference Hall",
 				"city": "Hsinchu City",
 				"country": "Taiwan",
@@ -619,9 +727,12 @@
 			{
 				"event": "Stack Overflow Concert Series: C3 Colombian Composer Collective",
 				"date": "2019-09-21",
-				"performers": {
-					"Marley Eder": "flute"
-				},
+				"performers": [
+					{
+						"name": "Marley Eder",
+						"role": "flute"
+					}
+				],
 				"venue": "First Street Studio",
 				"city": "Austin, TX",
 				"country": "USA",
@@ -631,9 +742,12 @@
 			{
 				"event": "2019 Electro-acoustic Barn Dance (EABD)",
 				"date": "2019-11-14",
-				"performers": {
-					"Sarah Jane Young": "flute"
-				},
+				"performers": [
+					{
+						"name": "Sarah Jane Young",
+						"role": "flute"
+					}
+				],
 				"venue": "Jacksonville University",
 				"city": "Jacksonville, FL",
 				"country": "USA",
@@ -663,10 +777,16 @@
 			{
 				"event": "Concierto: Ensamble Periscopio, Música Nueva",
 				"date": "2018-10-22",
-				"performers": {
-					"Juan David Osorio": "conductor",
-					"Ensamble Periscopio": "ensemble"
-				},
+				"performers": [
+					{
+						"name": "Juan David Osorio",
+						"role": "conductor"
+					},
+					{
+						"name": "Ensamble Periscopio",
+						"role": "ensemble"
+					}
+				],
 				"venue": "Auditorio Fundadores, Universidad EAFIT",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
@@ -676,10 +796,16 @@
 			{
 				"event": "DM Recital: Felipe Tovar-Henao",
 				"date": "2020-02-14",
-				"performers": {
-					"Andrew Downs": "conductor",
-					"IU JSoM students": "ensemble"
-				},
+				"performers": [
+					{
+						"name": "Andrew Downs",
+						"role": "conductor"
+					},
+					{
+						"name": "IU JSoM students",
+						"role": "ensemble"
+					}
+				],
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -743,9 +869,12 @@
 			{
 				"event": "Indiana University Center for Electronic and Computer Music: Spring concert",
 				"date": "2018-04-22",
-				"performers": {
-					"Brady Lanier": "viola da gamba"
-				},
+				"performers": [
+					{
+						"name": "Brady Lanier",
+						"role": "viola da gamba"
+					}
+				],
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -780,11 +909,20 @@
 			{
 				"event": "MM Recital: Felipe Tovar-Henao",
 				"date": "2016-11-01",
-				"performers": {
-					"Felipe Tovar-Henao": "conductor",
-					"Drew Pritchard": "trumpet",
-					"IU JSoM students": "ensemble"
-				},
+				"performers": [
+					{
+						"name": "Felipe Tovar-Henao",
+						"role": "conductor"
+					},
+					{
+						"name": "Drew Pritchard",
+						"role": "trumpet"
+					},
+					{
+						"name": "IU JSoM students",
+						"role": "ensemble"
+					}
+				],
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -812,9 +950,12 @@
 			{
 				"event": "Electric Forests: The UIndy Composers Forum featuring Felipe Tovar-Henao",
 				"date": "2021-11-18",
-				"performers": {
-					"Wai Ki Wun": "clarinet"
-				},
+				"performers": [
+					{
+						"name": "Wai Ki Wun",
+						"role": "clarinet"
+					}
+				],
 				"venue": "Christel De Haan Fine Arts Center, University of Indianapolis",
 				"city": "Indianapolis, IN",
 				"country": "USA",
@@ -824,9 +965,12 @@
 			{
 				"event": "MM Recital: Felipe Tovar-Henao",
 				"date": "2016-11-01",
-				"performers": {
-					"Wai Ki Wun": "clarinet"
-				},
+				"performers": [
+					{
+						"name": "Wai Ki Wun",
+						"role": "clarinet"
+					}
+				],
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -836,9 +980,12 @@
 			{
 				"event": "2016 Midwest Composer Symposium",
 				"date": "2016-11-05",
-				"performers": {
-					"Wai Ki Wun": "clarinet"
-				},
+				"performers": [
+					{
+						"name": "Wai Ki Wun",
+						"role": "clarinet"
+					}
+				],
 				"venue": "Voxman Music Building Concert Hall, University of Iowa",
 				"city": "Iowa City, IA",
 				"country": "USA",
@@ -848,9 +995,12 @@
 			{
 				"event": "Latin American Music Center Concert",
 				"date": "2018-02-22",
-				"performers": {
-					"Wai Ki Wun": "clarinet"
-				},
+				"performers": [
+					{
+						"name": "Wai Ki Wun",
+						"role": "clarinet"
+					}
+				],
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Iowa City, IA",
 				"country": "USA",
@@ -860,9 +1010,12 @@
 			{
 				"event": "2018 SEAMUS National Conference: Concert 4",
 				"date": "2018-03-29",
-				"performers": {
-					"Colleen White": "clarinet"
-				},
+				"performers": [
+					{
+						"name": "Colleen White",
+						"role": "clarinet"
+					}
+				],
 				"venue": "Room 190, University of Oregon",
 				"city": "Eugene, OR",
 				"country": "USA",
@@ -872,9 +1025,12 @@
 			{
 				"event": "2017 Seoul International Computer Music Festival",
 				"date": "2017-10-25",
-				"performers": {
-					"Yang-Ji Baek": "clarinet"
-				},
+				"performers": [
+					{
+						"name": "Yang-Ji Baek",
+						"role": "clarinet"
+					}
+				],
 				"venue": "Atelier 1, Asia Culture Center",
 				"city": "Gwangju",
 				"country": "South Korea",
@@ -884,9 +1040,12 @@
 			{
 				"event": "Denisty512: Stack Overflow",
 				"date": "2018-06-14",
-				"performers": {
-					"Ivan Javier Valbuena Paez": "clarinet"
-				},
+				"performers": [
+					{
+						"name": "Ivan Javier Valbuena Paez",
+						"role": "clarinet"
+					}
+				],
 				"venue": "Tap Brewing Co-op",
 				"city": "Austin, TX",
 				"country": "USA",
@@ -896,9 +1055,12 @@
 			{
 				"event": "2016 Electronic Music Midwest (EMM): Concert 6",
 				"date": "2016-10-15",
-				"performers": {
-					"Emily Mehigh": "clarinet"
-				},
+				"performers": [
+					{
+						"name": "Emily Mehigh",
+						"role": "clarinet"
+					}
+				],
 				"venue": "Philip Lynch Theatre, Lewis University",
 				"city": "Romeoville, IL",
 				"country": "USA",
@@ -908,9 +1070,12 @@
 			{
 				"event": "Ensamble Periscopio: Hexaphonos",
 				"date": "2019-20-29",
-				"performers": {
-					"Javier Asdrubal Vinasco": "clarinet"
-				},
+				"performers": [
+					{
+						"name": "Javier Asdrubal Vinasco",
+						"role": "clarinet"
+					}
+				],
 				"venue": "Teatro Julio Mario Santo Domingo",
 				"city": "Bogotá",
 				"country": "Colombia",
@@ -920,9 +1085,12 @@
 			{
 				"event": "Clarinete Mestizo (Virtual concert series)",
 				"date": "2021-05-14",
-				"performers": {
-					"Javier Asdrubal Vinasco": "clarinet"
-				},
+				"performers": [
+					{
+						"name": "Javier Asdrubal Vinasco",
+						"role": "clarinet"
+					}
+				],
 				"venue": "N/A",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
@@ -932,9 +1100,12 @@
 			{
 				"event": "AURA Ensemble's One on one: Episode 19 (Virtual concert series)",
 				"date": "2021-08-05",
-				"performers": {
-					"Jhoser Salazar": "clarinet"
-				},
+				"performers": [
+					{
+						"name": "Jhoser Salazar",
+						"role": "clarinet"
+					}
+				],
 				"venue": "N/A",
 				"city": "Houston, TX",
 				"country": "USA",
@@ -962,9 +1133,12 @@
 			{
 				"event": "2016 Hammer and Nail Concert",
 				"date": "2016-04-13",
-				"performers": {
-					"Brent Tevelde": "organ"
-				},
+				"performers": [
+					{
+						"name": "Brent Tevelde",
+						"role": "organ"
+					}
+				],
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -974,9 +1148,12 @@
 			{
 				"event": "MM Recital: Felipe Tovar-Henao",
 				"date": "2016-11-01",
-				"performers": {
-					"Chere Ko": "organ"
-				},
+				"performers": [
+					{
+						"name": "Chere Ko",
+						"role": "organ"
+					}
+				],
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -1005,10 +1182,16 @@
 			{
 				"event": "JSoM Student Composition Recital",
 				"date": "2016-03-01",
-				"performers": {
-					"Gabrielle Gaudreault": "conductor",
-					"IU JSoM students": "chorus"
-				},
+				"performers": [
+					{
+						"name": "Gabrielle Gaudreault",
+						"role": "conductor"
+					},
+					{
+						"name": "IU JSoM students",
+						"role": "chorus"
+					}
+				],
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -1018,10 +1201,16 @@
 			{
 				"event": "MM Recital: Felipe Tovar-Henao",
 				"date": "2016-11-01",
-				"performers": {
-					"Gabrielle Gaudreault": "conductor",
-					"IU JSoM students": "chorus"
-				},
+				"performers": [
+					{
+						"name": "Gabrielle Gaudreault",
+						"role": "conductor"
+					},
+					{
+						"name": "IU JSoM students",
+						"role": "chorus"
+					}
+				],
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -1048,10 +1237,16 @@
 			{
 				"event": "BM Recital: Felipe Tovar-Henao",
 				"date": "2015-06-09",
-				"performers": {
-					"Wilfer Vanegas": "violin",
-					"Felipe Tovar-Henao": "piano"
-				},
+				"performers": [
+					{
+						"name": "Wilfer Vanegas",
+						"role": "violin"
+					},
+					{
+						"name": "Felipe Tovar-Henao",
+						"role": "piano"
+					}
+				],
 				"venue": "Auditorio 103, Bloque 38, Universidad EAFIT",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
@@ -1081,10 +1276,16 @@
 			{
 				"event": "Mahler's Sixth Symphony",
 				"date": "2014-12-05",
-				"performers": {
-					"Andrés Orozco Estrada": "conductor",
-					"Orquesta Sinfónica EAFIT and Orquesta Sinfónica Juvenil Red de Escuelas de Medellín": "ensemble"
-				},
+				"performers": [
+					{
+						"name": "Andrés Orozco Estrada",
+						"role": "conductor"
+					},
+					{
+						"name": "Orquesta Sinfónica EAFIT and Orquesta Sinfónica Juvenil Red de Escuelas de Medellín",
+						"role": "ensemble"
+					}
+				],
 				"venue": "Teatro Metropolitano José Gutiérrez Gómez",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
@@ -1094,10 +1295,16 @@
 			{
 				"event": "Concierto Música de Cámara",
 				"date": "2016-03-03",
-				"performers": {
-					"Cecilia Espinoza Arango": "conductor",
-					"Orquesta Sinfónica EAFIT": "ensemble"
-				},
+				"performers": [
+					{
+						"name": "Cecilia Espinoza Arango",
+						"role": "conductor"
+					},
+					{
+						"name": "Orquesta Sinfónica EAFIT",
+						"role": "ensemble"
+					}
+				],
 				"venue": "Auditorio Fundadores, Universidad EAFIT",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
@@ -1124,10 +1331,16 @@
 			{
 				"event": "BM Recital: Felipe Tovar-Henao",
 				"date": "2015-06-09",
-				"performers": {
-					"Andrea Vásquez": "mezzo-soprano",
-					"David Sánchez": "piano"
-				},
+				"performers": [
+					{
+						"name": "Andrea Vásquez",
+						"role": "mezzo-soprano"
+					},
+					{
+						"name": "David Sánchez",
+						"role": "piano"
+					}
+				],
 				"venue": "Auditorio 103, Bloque 38, Universidad EAFIT",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
@@ -1153,10 +1366,16 @@
 			{
 				"event": "Cinco Cantos Embera Chamí",
 				"date": "2013-11-27",
-				"performers": {
-					"Juan David Osorio": "conductor",
-					"Ensamble Vocal Macondo": "chorus"
-				},
+				"performers": [
+					{
+						"name": "Juan David Osorio",
+						"role": "conductor"
+					},
+					{
+						"name": "Ensamble Vocal Macondo",
+						"role": "chorus"
+					}
+				],
 				"venue": "Auditorio 103, Bloque 38, Universidad EAFIT",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
@@ -1183,10 +1402,16 @@
 			{
 				"event": "Recital de Estudiantes 2013-2",
 				"date": "2013-10-21",
-				"performers": {
-					"Carlos Montoya": "cello",
-					"Juan Camilo Yepes": "piano"
-				},
+				"performers": [
+					{
+						"name": "Carlos Montoya",
+						"role": "cello"
+					},
+					{
+						"name": "Juan Camilo Yepes",
+						"role": "piano"
+					}
+				],
 				"venue": "Auditorio Fundadores, Universidad EAFIT",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
@@ -1216,11 +1441,20 @@
 			{
 				"event": "Invocación y Danzas",
 				"date": "2013-07-17",
-				"performers": {
-					"Bibiana Ordóñez Velandia": "harp",
-					"José Gomez": "clarinet",
-					"Ana Isabel Zorro": "cello"
-				},
+				"performers": [
+					{
+						"name": "Bibiana Ordóñez Velandia",
+						"role": "harp"
+					},
+					{
+						"name": "José Gomez",
+						"role": "clarinet"
+					},
+					{
+						"name": "Ana Isabel Zorro",
+						"role": "cello"
+					}
+				],
 				"venue": "Teatro R-101",
 				"city": "Bogotá",
 				"country": "Colombia",
@@ -1230,11 +1464,20 @@
 			{
 				"event": "XVII Encuentro de Música EAFIT",
 				"date": "2016-09-14",
-				"performers": {
-					"Bibiana Ordóñez Velandia": "harp",
-					"Jhoser Salazar": "clarinet",
-					"Daniel Estéban Arango": "cello"
-				},
+				"performers": [
+					{
+						"name": "Bibiana Ordóñez Velandia",
+						"role": "harp"
+					},
+					{
+						"name": "Jhoser Salazar",
+						"role": "clarinet"
+					},
+					{
+						"name": "Daniel Estéban Arango",
+						"role": "cello"
+					}
+				],
 				"venue": "Auditorio Fundadores, Universidad EAFIT",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
@@ -1244,11 +1487,20 @@
 			{
 				"event": "Salón Latino Chamber Music Series: New Music by Latin American Composers",
 				"date": "2017-02-22",
-				"performers": {
-					"Emmanuel Padilla Holguin": "harp",
-					"Cameron Winrow": "clarinet",
-					"Gabriel Jimbo Viteri": "cello"
-				},
+				"performers": [
+					{
+						"name": "Emmanuel Padilla Holguin",
+						"role": "harp"
+					},
+					{
+						"name": "Cameron Winrow",
+						"role": "clarinet"
+					},
+					{
+						"name": "Gabriel Jimbo Viteri",
+						"role": "cello"
+					}
+				],
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -1278,9 +1530,12 @@
 			{
 				"event": "Concierto: Ensamble Periscopio, Música Nueva",
 				"date": "2013-05-24",
-				"performers": {
-					"Cuarteto Tayrona": "string quartet"
-				},
+				"performers": [
+					{
+						"name": "Cuarteto Tayrona",
+						"role": "string quartet"
+					}
+				],
 				"venue": "Auditorio Fundadores, Universidad EAFIT",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
@@ -1308,11 +1563,20 @@
 			{
 				"event": "Concierto: Ensamble Periscopio, Música Nueva",
 				"date": "2012-05-22",
-				"performers": {
-					"Wilfer Vanegas": "violin",
-					"Matías Uribe": "cello",
-					"Juan Gonzalo Jimenez": "piano"
-				},
+				"performers": [
+					{
+						"name": "Wilfer Vanegas",
+						"role": "violin"
+					},
+					{
+						"name": "Matías Uribe",
+						"role": "cello"
+					},
+					{
+						"name": "Juan Gonzalo Jimenez",
+						"role": "piano"
+					}
+				],
 				"venue": "Auditorio Fundadores, Universidad EAFIT",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
@@ -1339,10 +1603,16 @@
 			{
 				"event": "Música Contemporánea o de Vanguardia, en Camino a la Apropiación",
 				"date": "2012-04-30",
-				"performers": {
-					"Jhoser Salazar": "clarinet",
-					"Alejandra Montoya": "piano"
-				},
+				"performers": [
+					{
+						"name": "Jhoser Salazar",
+						"role": "clarinet"
+					},
+					{
+						"name": "Alejandra Montoya",
+						"role": "piano"
+					}
+				],
 				"venue": "Auditorio Cámara de Comercio",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",

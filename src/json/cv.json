@@ -115,19 +115,28 @@
 				"name": "Composition Department. Indiana University",
 				"location": "Bloomington, IN",
 				"position": "Music copyist",
-				"date": [2016, 2017]
+				"date": [
+					2016,
+					2017
+				]
 			},
 			{
 				"name": "Indiana University",
 				"location": "Bloomington, IN",
 				"position": "\"Double Exposure\" Project Coordinator",
-				"date": [2016, 2017]
+				"date": [
+					2016,
+					2017
+				]
 			},
 			{
 				"name": "Latin American Music Center. Indiana University",
 				"location": "Bloomington, IN",
 				"position": "Music Arranger",
-				"date": [2015, 2016]
+				"date": [
+					2015,
+					2016
+				]
 			}
 		],
 		"teaching": [
@@ -519,7 +528,7 @@
 		"other": [
 			{
 				"name": "CS50: Web Programming with Python and JavaScript",
-				"url": false,
+				"url": "https://cs50.harvard.edu/certificates/3103c24f-ed06-40c7-a599-aab9b2af9507",
 				"type": "professional certificate",
 				"institution": "HarvardX",
 				"location": "Online",
