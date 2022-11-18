@@ -1,27 +1,6 @@
-{
-	"work-title": {
-		"year": false,
-		"subtitle": false,
-		"duration": false,
-		"instrumentation": false,
-		"commission": false,
-		"categories": false,
-		"awards": false,
-		"performances": {
-			"[yyyy-mm-dd]": {
-				"event": false,
-				"performers": {
-					"name": "role"
-				},
-				"venue": false,
-				"city": false,
-				"country": false,
-				"audio": false,
-				"video": false
-			}
-		}
-	},
-	"«Simulacra»": {
+[
+	{
+		"name": "«Simulacra»",
 		"year": 2022,
 		"subtitle": "[re]presentations for large chamber ensemble and electronics",
 		"duration": 11,
@@ -46,9 +25,10 @@
 			"electronic"
 		],
 		"awards": false,
-		"performances": {
-			"2022-03-04": {
+		"performances": [
+			{
 				"event": "Grossman Ensemble with Tim Weiss, conductor",
+				"date": "2022-03-04",
 				"performers": {
 					"Timothy Weiss": "conductor",
 					"Grossman Ensemble": "ensemble"
@@ -59,9 +39,10 @@
 				"audio": "https://soundcloud.com/felipetovarhenao/simulacra",
 				"video": "-XWTn1smBIU"
 			}
-		}
+		]
 	},
-	"«Enjambres»": {
+	{
+		"name": "«Enjambres»",
 		"year": "2022",
 		"subtitle": "for large chamber ensemble",
 		"duration": 8,
@@ -85,9 +66,10 @@
 			"large ensemble"
 		],
 		"awards": false,
-		"performances": {
-			"2022-07-30": {
+		"performances": [
+			{
 				"event": "Alarm Will Sound: Eight world premieres",
+				"date": "2022-07-30",
 				"performers": {
 					"Alan Pierson": "conductor",
 					"Alarm Will Sound": "ensemble"
@@ -98,9 +80,10 @@
 				"audio": false,
 				"video": "t75QG8oSDVY?t=553"
 			}
-		}
+		]
 	},
-	"«Danzas encefálicas»": {
+	{
+		"name": "«Danzas encefálicas»",
 		"year": "2017",
 		"subtitle": "Dream cycles for sinfonietta and electronics",
 		"duration": 10,
@@ -131,10 +114,10 @@
 		"awards": [
 			"Finalist, 2019 ASCAP/SEAMUS student award"
 		],
-		"performances": {
-			
-			"2018-02-01": {
+		"performances": [
+			{
 				"event": "David Dzubay, director; Kate Soper, guest composer/soprano; Felipe Tovar-Henao, composer",
+				"date": "2018-02-01",
 				"performers": {
 					"David Dzubay": "conductor",
 					"Indiana University New Music Ensemble": "ensemble"
@@ -145,8 +128,9 @@
 				"audio": "https://soundcloud.com/felipetovarhenao/danzas-encefalicas-studio",
 				"video": "M0wPJW5fMkI"
 			},
-			"2018-05-29": {
+			{
 				"event": "IU Mexico Gateway: New Music Ensemble Concert",
+				"date": "2018-05-29",
 				"performers": {
 					"David Dzubay": "conductor",
 					"Indiana University New Music Ensemble": "ensemble"
@@ -155,9 +139,10 @@
 				"city": "Mexico city",
 				"country": "Mexico"
 			}
-		}
+		]
 	},
-	"«La mirada del ouroboros»": {
+	{
+		"name": "«La mirada del ouroboros»",
 		"year": 2017,
 		"subtitle": "concerto for harp and sinfonietta",
 		"duration": 20,
@@ -187,9 +172,10 @@
 			"2018 ASCAP Morton Gould Young Composer Awards",
 			"2017 Beca para la Creación de Música Contemporánea. Ministerio de Cultura"
 		],
-		"performances": {
-			"2017-12-05": {
+		"performances": [
+			{
 				"event": "La Mirada del Ouroboros: Concierto para Arpa",
+				"date": "2017-12-05",
 				"performers": {
 					"Juan David Osorio": "conductor",
 					"Bibiana Ordóñez Velandia": "harp soloist"
@@ -200,9 +186,10 @@
 				"audio": "https://soundcloud.com/felipetovarhenao/mirada-del-ouroboros-mvt-1",
 				"video": "lqP_WjWQlx0"
 			}
-		}
+		]
 	},
-	"«Di.ver.ti.men.to»": {
+	{
+		"name": "«Di.ver.ti.men.to»",
 		"year": 2022,
 		"subtitle": "allegro-remix for string trio",
 		"duration": 6,
@@ -216,9 +203,10 @@
 			"chamber"
 		],
 		"awards": false,
-		"performances": {
-			"2022-08-28": {
+		"performances": [
+			{
 				"event": "Ravinia Festival - NEXUS Chamber Music: Dancing with the Shadow",
+				"date": "2022-08-28",
 				"performers": {
 					"Brian Hong": "violin",
 					"Rosalind Ventris": "viola",
@@ -230,9 +218,10 @@
 				"audio": false,
 				"video": false
 			}
-		}
+		]
 	},
-	"«Canticum»": {
+	{
+		"name": "«Canticum»",
 		"year": 2022,
 		"subtitle": "for carillon and electronics",
 		"duration": 5,
@@ -245,9 +234,10 @@
 			"electronic"
 		],
 		"awards": false,
-		"performances": {
-			"2022-06-15": {
+		"performances": [
+			{
 				"event": "2O22 Guild of Carilloneurs of North America (GCNA) Congress: Opening concert",
+				"date": "2022-06-15",
 				"performers": {
 					"Joseph Min": "carillon"
 				},
@@ -257,9 +247,10 @@
 				"audio": false,
 				"video": false
 			}
-		}
+		]
 	},
-	"«...como la pólvora...»": {
+	{
+		"name": "«...como la pólvora...»",
 		"year": 2022,
 		"subtitle": "attractors for amplified string quartet",
 		"duration": 5,
@@ -273,9 +264,10 @@
 			"chamber"
 		],
 		"awards": false,
-		"performances": {
-			"2022-04-10": {
+		"performances": [
+			{
 				"event": "UChicago Presents: Quatuor Diotima",
+				"date": "2022-04-10",
 				"performers": {
 					"Quatuor Diotima": "string quartet"
 				},
@@ -285,9 +277,10 @@
 				"audio": "https://soundcloud.com/felipetovarhenao/como-la-polvora-2022-attractors-for-amplified-string-quartet",
 				"video": false
 			}
-		}
+		]
 	},
-	"«Introducción a la esquizofrenia»": {
+	{
+		"name": "«Introducción a la esquizofrenia»",
 		"year": 2020,
 		"subtitle": "praeludium for string quartet",
 		"duration": 8,
@@ -301,9 +294,10 @@
 			"chamber"
 		],
 		"awards": false,
-		"performances": {
-			"2021-03-13": {
+		"performances": [
+			{
 				"event": "Música Pandémica",
+				"date": "2021-03-13",
 				"performers": {
 					"Primavera Cuarteto": "string quartet"
 				},
@@ -313,9 +307,10 @@
 				"audio": "https://soundcloud.com/felipetovarhenao/introduccion-a-la-esquizofrenia-2020-praeludium-for-string-quartet",
 				"video": "-4JpLB9JA1U"
 			}
-		}
+		]
 	},
-	"«Ruido, ceniza»": {
+	{
+		"name": "«Ruido, ceniza»",
 		"year": 2020,
 		"subtitle": "morphisms for one or more amplified string instruments",
 		"duration": 8,
@@ -323,11 +318,14 @@
 			"va"
 		],
 		"commission": "Commissioned by Estéban Hernández Parra",
-		"categories": ["solo"],
+		"categories": [
+			"solo"
+		],
 		"awards": false,
-		"performances": {
-			"2021-04-13": {
+		"performances": [
+			{
 				"event": "DM Recital: Esteban Hernández Parra",
+				"date": "2021-04-13",
 				"performers": {
 					"Estéban Hernández Parra": "viola"
 				},
@@ -337,8 +335,9 @@
 				"audio": "",
 				"video": false
 			},
-			"2020-02-14": {
+			{
 				"event": "DM Recital: Felipe Tovar-Henao",
+				"date": "2020-02-14",
 				"performers": {
 					"Estéban Hernández Parra": "viola"
 				},
@@ -348,8 +347,9 @@
 				"audio": "https://soundcloud.com/felipetovarhenao/ruido-ceniza",
 				"video": false
 			},
-			"2021-11-18": {
+			{
 				"event": "Electric Forests: The UIndy Composers Forum featuring Felipe Tovar-Henao",
+				"date": "2021-11-18",
 				"performers": {
 					"Estéban Hernández Parra": "viola"
 				},
@@ -359,8 +359,9 @@
 				"audio": false,
 				"video": "20Nkils_nCI"
 			},
-			"2020-12-01": {
+			{
 				"event": "Nacido En Cuarentena",
+				"date": "2020-12-01",
 				"performers": {
 					"David Merchán": "viola"
 				},
@@ -370,9 +371,10 @@
 				"audio": false,
 				"video": false
 			}
-		}
+		]
 	},
-	"«Umbra»": {
+	{
+		"name": "«Umbra»",
 		"year": 2019,
 		"subtitle": "semi-improvisation for light.void~, handmade digital photo-controller",
 		"duration": 7,
@@ -385,9 +387,10 @@
 			"electronic"
 		],
 		"awards": false,
-		"performances": {
-			"2020-02-14": {
+		"performances": [
+			{
 				"event": "DM Recital: Felipe Tovar-Henao",
+				"date": "2020-02-14",
 				"performers": {
 					"Felipe Tovar-Henao": "light.void~"
 				},
@@ -397,8 +400,9 @@
 				"audio": false,
 				"video": false
 			},
-			"2019-12-08": {
+			{
 				"event": "Indiana University Center for Electronic and Computer Music: Fall concert",
+				"date": "2019-12-08",
 				"performers": {
 					"Felipe Tovar-Henao": "light.void~"
 				},
@@ -408,8 +412,9 @@
 				"audio": false,
 				"video": "llalU1W5x4k"
 			},
-			"2020-02-04": {
+			{
 				"event": "Latin American Music Center's Salón Latino Chamber Music Series: New Music from Colombia, Peru, and Mexico",
+				"date": "2020-02-04",
 				"performers": {
 					"Felipe Tovar-Henao": "light.void~"
 				},
@@ -419,9 +424,10 @@
 				"audio": false,
 				"video": false
 			}
-		}
+		]
 	},
-	"«Ataxia»": {
+	{
+		"name": "«Ataxia»",
 		"year": 2019,
 		"subtitle": "for English horn and live electronics",
 		"duration": 6,
@@ -434,9 +440,10 @@
 			"electronic"
 		],
 		"awards": false,
-		"performances": {
-			"2019-04-14": {
+		"performances": [
+			{
 				"event": "Indiana University Center for Electronic and Computer Music: Spring concert",
+				"date": "2019-04-14",
 				"performers": {
 					"Jake Gunnar Walsh": "English horn"
 				},
@@ -446,8 +453,9 @@
 				"audio": "https://soundcloud.com/felipetovarhenao/ataxia",
 				"video": false
 			},
-			"2020-02-14": {
+			{
 				"event": "DM Recital: Felipe Tovar-Henao",
+				"date": "2020-02-14",
 				"performers": {
 					"Jake Gunnar Walsh": "English horn"
 				},
@@ -457,9 +465,10 @@
 				"audio": false,
 				"video": false
 			}
-		}
+		]
 	},
-	"«Paroxismos»": {
+	{
+		"name": "«Paroxismos»",
 		"year": 2019,
 		"subtitle": "mosaic on violence for chamber ensemble",
 		"duration": 6,
@@ -476,9 +485,10 @@
 			"chamber"
 		],
 		"awards": false,
-		"performances": {
-			"2019-03-30": {
+		"performances": [
+			{
 				"event": "The 2019 Society of Composers Inc. National Conference & John Donald Robb Composers' Symposium: Concert 9",
+				"date": "2019-03-30",
 				"performers": {
 					"Jeffrey Means": "conductor",
 					"Sound Icon": "ensemble"
@@ -489,8 +499,9 @@
 				"audio": "https://soundcloud.com/felipetovarhenao/paroxismos",
 				"video": false
 			},
-			"2020-02-14": {
+			{
 				"event": "DM Recital: Felipe Tovar-Henao",
+				"date": "2020-02-14",
 				"performers": {
 					"Andrew Downs": "conductor",
 					"IU JSoM students": "ensemble"
@@ -501,9 +512,10 @@
 				"audio": false,
 				"video": "gJi4ZLcrA_A?list=PLY28U8LUrteY9uDtCdhKOBR_Davv42IhL"
 			}
-		}
+		]
 	},
-	"«Arborescencia»": {
+	{
+		"name": "«Arborescencia»",
 		"year": 2018,
 		"subtitle": "birdsong for flute and live electronics",
 		"duration": 9,
@@ -519,9 +531,10 @@
 		"awards": [
 			"2018-19 Morris and Sheila Hass Award in Computer Music"
 		],
-		"performances": {
-			"2018-12-02": {
+		"performances": [
+			{
 				"event": "Indiana University Center for Electronic and Computer Music: Fall concert",
+				"date": "2018-12-02",
 				"performers": {
 					"Julianna Eidle": "flute"
 				},
@@ -531,8 +544,9 @@
 				"audio": "https://soundcloud.com/felipetovarhenao/arborescencia",
 				"video": false
 			},
-			"2020-02-04": {
+			{
 				"event": "Latin American Music Center's Salón Latino Chamber Music Series: New Music from Colombia, Peru, and Mexico",
+				"date": "2020-02-04",
 				"performers": {
 					"Tierney McClure": "flute"
 				},
@@ -542,8 +556,9 @@
 				"audio": false,
 				"video": false
 			},
-			"2019-11-09": {
+			{
 				"event": "2019 Midwest Composer Symposium",
+				"date": "2019-11-09",
 				"performers": {
 					"Tierney McClure": "flute"
 				},
@@ -553,8 +568,9 @@
 				"audio": false,
 				"video": false
 			},
-			"2020-02-14": {
+			{
 				"event": "DM Recital: Felipe Tovar-Henao",
+				"date": "2020-02-14",
 				"performers": {
 					"Tierney McClure": "flute"
 				},
@@ -564,8 +580,9 @@
 				"audio": false,
 				"video": false
 			},
-			"2022-09-16": {
+			{
 				"event": "Hochschule der Künste Bern: 20 Years of Sound Arts Symposium",
+				"date": "2022-09-16",
 				"performers": {
 					"Melody Chua": "flute"
 				},
@@ -575,8 +592,9 @@
 				"audio": false,
 				"video": false
 			},
-			"2019-10-19": {
+			{
 				"event": "CEMIcircles: Concert 3",
+				"date": "2019-10-19",
 				"performers": {
 					"Aleyna Brown": "flute"
 				},
@@ -586,8 +604,9 @@
 				"audio": false,
 				"video": false
 			},
-			"2019-12-14": {
+			{
 				"event": "2019 International Workshop of Computer Music and Audio Technology Conference Concert",
+				"date": "2019-12-14",
 				"performers": {
 					"Yi-Hui Lin": "flute"
 				},
@@ -597,8 +616,9 @@
 				"audio": false,
 				"video": false
 			},
-			"2019-09-21": {
+			{
 				"event": "Stack Overflow Concert Series: C3 Colombian Composer Collective",
+				"date": "2019-09-21",
 				"performers": {
 					"Marley Eder": "flute"
 				},
@@ -608,8 +628,9 @@
 				"audio": false,
 				"video": "J9rcUzRgWl4"
 			},
-			"2019-11-14": {
+			{
 				"event": "2019 Electro-acoustic Barn Dance (EABD)",
+				"date": "2019-11-14",
 				"performers": {
 					"Sarah Jane Young": "flute"
 				},
@@ -619,9 +640,10 @@
 				"audio": false,
 				"video": false
 			}
-		}
+		]
 	},
-	"«...de lo voluble...»": {
+	{
+		"name": "«...de lo voluble...»",
 		"year": 2018,
 		"subtitle": "roulette for chamber ensemble",
 		"duration": 7,
@@ -637,9 +659,10 @@
 			"chamber"
 		],
 		"awards": false,
-		"performances": {
-			"2018-10-22": {
+		"performances": [
+			{
 				"event": "Concierto: Ensamble Periscopio, Música Nueva",
+				"date": "2018-10-22",
 				"performers": {
 					"Juan David Osorio": "conductor",
 					"Ensamble Periscopio": "ensemble"
@@ -650,8 +673,9 @@
 				"audio": "https://soundcloud.com/felipetovarhenao/de-lo-voluble",
 				"video": false
 			},
-			"2020-02-14": {
+			{
 				"event": "DM Recital: Felipe Tovar-Henao",
+				"date": "2020-02-14",
 				"performers": {
 					"Andrew Downs": "conductor",
 					"IU JSoM students": "ensemble"
@@ -662,9 +686,10 @@
 				"audio": false,
 				"video": false
 			}
-		}
+		]
 	},
-	"Fire song": {
+	{
+		"name": "Fire song",
 		"year": 2018,
 		"subtitle": "immersive, 8-screen/8-channel surround installation (in collaboration with Susanne Schwibs)",
 		"duration": 4,
@@ -677,9 +702,10 @@
 			"electronic"
 		],
 		"awards": false,
-		"performances": {
-			"2018-09-12": {
+		"performances": [
+			{
 				"event": "Lotus World Music and Arts Festival: Big Tent",
+				"date": "2018-09-12",
 				"performers": false,
 				"venue": "4th & Washington street",
 				"city": "Bloomington, IN",
@@ -687,8 +713,9 @@
 				"audio": false,
 				"video": false
 			},
-			"2019-04-01": {
+			{
 				"event": "Big Tent",
+				"date": "2019-04-01",
 				"performers": false,
 				"venue": "Ballroom 450, IUPUI Campus Center",
 				"city": "Bloomington, IN",
@@ -696,9 +723,10 @@
 				"audio": false,
 				"video": false
 			}
-		}
+		]
 	},
-	"«El impulso sumergido»": {
+	{
+		"name": "«El impulso sumergido»",
 		"year": 2018,
 		"subtitle": "rêverie for viola da gamba and live electronics",
 		"duration": 7,
@@ -711,9 +739,10 @@
 			"electronic"
 		],
 		"awards": false,
-		"performances": {
-			"2018-04-22": {
+		"performances": [
+			{
 				"event": "Indiana University Center for Electronic and Computer Music: Spring concert",
+				"date": "2018-04-22",
 				"performers": {
 					"Brady Lanier": "viola da gamba"
 				},
@@ -723,9 +752,10 @@
 				"audio": false,
 				"video": false
 			}
-		}
+		]
 	},
-	"«Los trópicos ocultos»": {
+	{
+		"name": "«Los trópicos ocultos»",
 		"year": 2016,
 		"subtitle": "proloquor for solo trumpet and chamber ensemble",
 		"duration": 14,
@@ -739,14 +769,17 @@
 			"pnf"
 		],
 		"commission": false,
-		"categories": ["chamber"],
+		"categories": [
+			"chamber"
+		],
 		"awards": [
 			"2016 Jacobs School of Music Dean's Prize Award",
 			"Honorable mention, 2016 ASCAP Morton Gould Young Composer Awards"
 		],
-		"performances": {
-			"2016-11-01": {
+		"performances": [
+			{
 				"event": "MM Recital: Felipe Tovar-Henao",
+				"date": "2016-11-01",
 				"performers": {
 					"Felipe Tovar-Henao": "conductor",
 					"Drew Pritchard": "trumpet",
@@ -758,9 +791,10 @@
 				"audio": "https://soundcloud.com/felipetovarhenao/los-tropicos-ocultos",
 				"video": "BH18PnkmBFA"
 			}
-		}
+		]
 	},
-	"«¡Carnaval del Diablo!»": {
+	{
+		"name": "«¡Carnaval del Diablo!»",
 		"year": 2016,
 		"subtitle": "matachinesque ritual for clarinet and electronics",
 		"duration": 6,
@@ -774,9 +808,10 @@
 			"electronic"
 		],
 		"awards": false,
-		"performances": {
-			"2021-11-18": {
+		"performances": [
+			{
 				"event": "Electric Forests: The UIndy Composers Forum featuring Felipe Tovar-Henao",
+				"date": "2021-11-18",
 				"performers": {
 					"Wai Ki Wun": "clarinet"
 				},
@@ -786,8 +821,9 @@
 				"audio": false,
 				"video": "IHZssZ1yWow"
 			},
-			"2016-11-01": {
+			{
 				"event": "MM Recital: Felipe Tovar-Henao",
+				"date": "2016-11-01",
 				"performers": {
 					"Wai Ki Wun": "clarinet"
 				},
@@ -797,8 +833,9 @@
 				"audio": "https://soundcloud.com/felipetovarhenao/carnaval-del-diablo",
 				"video": false
 			},
-			"2016-11-05": {
+			{
 				"event": "2016 Midwest Composer Symposium",
+				"date": "2016-11-05",
 				"performers": {
 					"Wai Ki Wun": "clarinet"
 				},
@@ -808,8 +845,9 @@
 				"audio": false,
 				"video": false
 			},
-			"2018-02-22": {
+			{
 				"event": "Latin American Music Center Concert",
+				"date": "2018-02-22",
 				"performers": {
 					"Wai Ki Wun": "clarinet"
 				},
@@ -819,8 +857,9 @@
 				"audio": false,
 				"video": false
 			},
-			"2018-03-29": {
+			{
 				"event": "2018 SEAMUS National Conference: Concert 4",
+				"date": "2018-03-29",
 				"performers": {
 					"Colleen White": "clarinet"
 				},
@@ -830,8 +869,9 @@
 				"audio": false,
 				"video": false
 			},
-			"2017-10-25": {
+			{
 				"event": "2017 Seoul International Computer Music Festival",
+				"date": "2017-10-25",
 				"performers": {
 					"Yang-Ji Baek": "clarinet"
 				},
@@ -841,8 +881,9 @@
 				"audio": false,
 				"video": "sNnlz72PXQc"
 			},
-			"2018-06-14": {
+			{
 				"event": "Denisty512: Stack Overflow",
+				"date": "2018-06-14",
 				"performers": {
 					"Ivan Javier Valbuena Paez": "clarinet"
 				},
@@ -852,8 +893,9 @@
 				"audio": false,
 				"video": false
 			},
-			"2016-10-15": {
+			{
 				"event": "2016 Electronic Music Midwest (EMM): Concert 6",
+				"date": "2016-10-15",
 				"performers": {
 					"Emily Mehigh": "clarinet"
 				},
@@ -863,8 +905,9 @@
 				"audio": false,
 				"video": false
 			},
-			"2019-20-29": {
+			{
 				"event": "Ensamble Periscopio: Hexaphonos",
+				"date": "2019-20-29",
 				"performers": {
 					"Javier Asdrubal Vinasco": "clarinet"
 				},
@@ -874,8 +917,9 @@
 				"audio": "https://music.youtube.com/watch?v=B5B7tfI_9wo&feature=share",
 				"video": false
 			},
-			"2021-05-14": {
+			{
 				"event": "Clarinete Mestizo (Virtual concert series)",
+				"date": "2021-05-14",
 				"performers": {
 					"Javier Asdrubal Vinasco": "clarinet"
 				},
@@ -885,8 +929,9 @@
 				"audio": false,
 				"video": "XJTP7Oi3Y58"
 			},
-			"2021-08-05": {
+			{
 				"event": "AURA Ensemble's One on one: Episode 19 (Virtual concert series)",
+				"date": "2021-08-05",
 				"performers": {
 					"Jhoser Salazar": "clarinet"
 				},
@@ -896,9 +941,10 @@
 				"audio": false,
 				"video": "hmEq72XyD4Y"
 			}
-		}
+		]
 	},
-	"«O llanto místico»": {
+	{
+		"name": "«O llanto místico»",
 		"year": 2016,
 		"subtitle": "threnody for solo organ",
 		"duration": 11,
@@ -912,9 +958,10 @@
 		"awards": [
 			"Finalist, 2016 BMI Student composition award"
 		],
-		"performances": {
-			"2016-04-13": {
+		"performances": [
+			{
 				"event": "2016 Hammer and Nail Concert",
+				"date": "2016-04-13",
 				"performers": {
 					"Brent Tevelde": "organ"
 				},
@@ -924,8 +971,9 @@
 				"audio": "https://soundcloud.com/felipetovarhenao/o-llanto-mistico",
 				"video": "Z5P3I4RS_Zg"
 			},
-			"2016-11-01": {
+			{
 				"event": "MM Recital: Felipe Tovar-Henao",
+				"date": "2016-11-01",
 				"performers": {
 					"Chere Ko": "organ"
 				},
@@ -935,9 +983,10 @@
 				"audio": false,
 				"video": "x-2L34KDv5s"
 			}
-		}
+		]
 	},
-	"«Oh, misteriosa alma mía»": {
+	{
+		"name": "«Oh, misteriosa alma mía»",
 		"year": 2015,
 		"subtitle": "a nadaist poem for mixed choir a cappella",
 		"duration": 10,
@@ -952,9 +1001,10 @@
 		"awards": [
 			"Honorable mention, 2016 NOTUS composition contest"
 		],
-		"performances": {
-			"2016-03-01": {
+		"performances": [
+			{
 				"event": "JSoM Student Composition Recital",
+				"date": "2016-03-01",
 				"performers": {
 					"Gabrielle Gaudreault": "conductor",
 					"IU JSoM students": "chorus"
@@ -965,8 +1015,9 @@
 				"audio": "https://soundcloud.com/felipetovarhenao/oh-misteriosa-alma-mia",
 				"video": "HVa_hcyHudM"
 			},
-			"2016-11-01": {
+			{
 				"event": "MM Recital: Felipe Tovar-Henao",
+				"date": "2016-11-01",
 				"performers": {
 					"Gabrielle Gaudreault": "conductor",
 					"IU JSoM students": "chorus"
@@ -977,9 +1028,10 @@
 				"audio": false,
 				"video": false
 			}
-		}
+		]
 	},
-	"«Elegía litúrgica»": {
+	{
+		"name": "«Elegía litúrgica»",
 		"year": 2015,
 		"subtitle": "for scordatura violin and piano",
 		"duration": 9,
@@ -992,9 +1044,10 @@
 			"chamber"
 		],
 		"awards": false,
-		"performances": {
-			"2015-06-09": {
+		"performances": [
+			{
 				"event": "BM Recital: Felipe Tovar-Henao",
+				"date": "2015-06-09",
 				"performers": {
 					"Wilfer Vanegas": "violin",
 					"Felipe Tovar-Henao": "piano"
@@ -1005,9 +1058,10 @@
 				"audio": false,
 				"video": false
 			}
-		}
+		]
 	},
-	"«Tubiphona exequialis»": {
+	{
+		"name": "«Tubiphona exequialis»",
 		"year": 2014,
 		"subtitle": "images for large brass ensemble, percussion, and celesta",
 		"duration": 7,
@@ -1023,9 +1077,10 @@
 			"large ensemble"
 		],
 		"awards": false,
-		"performances": {
-			"2014-12-05": {
+		"performances": [
+			{
 				"event": "Mahler's Sixth Symphony",
+				"date": "2014-12-05",
 				"performers": {
 					"Andrés Orozco Estrada": "conductor",
 					"Orquesta Sinfónica EAFIT and Orquesta Sinfónica Juvenil Red de Escuelas de Medellín": "ensemble"
@@ -1036,8 +1091,9 @@
 				"audio": false,
 				"video": false
 			},
-			"2016-03-03": {
+			{
 				"event": "Concierto Música de Cámara",
+				"date": "2016-03-03",
 				"performers": {
 					"Cecilia Espinoza Arango": "conductor",
 					"Orquesta Sinfónica EAFIT": "ensemble"
@@ -1048,9 +1104,10 @@
 				"audio": "https://open.spotify.com/track/7G4VheD7Kcoe9cbX9qnAk7?si=59a4586fb6714a8c",
 				"video": false
 			}
-		}
+		]
 	},
-	"«Astronomía»": {
+	{
+		"name": "«Astronomía»",
 		"year": 2013,
 		"subtitle": "for mezzo-soprano and piano",
 		"duration": 4,
@@ -1063,9 +1120,10 @@
 			"chamber"
 		],
 		"awards": false,
-		"performances": {
-			"2015-06-09": {
+		"performances": [
+			{
 				"event": "BM Recital: Felipe Tovar-Henao",
+				"date": "2015-06-09",
 				"performers": {
 					"Andrea Vásquez": "mezzo-soprano",
 					"David Sánchez": "piano"
@@ -1076,9 +1134,10 @@
 				"audio": false,
 				"video": false
 			}
-		}
+		]
 	},
-	"«Cinco cantos Embera-Chamí»": {
+	{
+		"name": "«Cinco cantos Embera-Chamí»",
 		"year": 2013,
 		"subtitle": "song cycle for mixed choir a cappella",
 		"duration": 20,
@@ -1090,9 +1149,10 @@
 			"choir"
 		],
 		"awards": false,
-		"performances": {
-			"2013-11-27": {
+		"performances": [
+			{
 				"event": "Cinco Cantos Embera Chamí",
+				"date": "2013-11-27",
 				"performers": {
 					"Juan David Osorio": "conductor",
 					"Ensamble Vocal Macondo": "chorus"
@@ -1103,9 +1163,10 @@
 				"audio": "https://soundcloud.com/felipetovarhenao/sets/cinco-cantos-embera-chami",
 				"video": "G47cRiLftPQ"
 			}
-		}
+		]
 	},
-	"«Un arracacho en La Heroica»": {
+	{
+		"name": "«Un arracacho en La Heroica»",
 		"year": 2013,
 		"subtitle": "for cello and piano",
 		"duration": 5,
@@ -1118,9 +1179,10 @@
 			"chamber"
 		],
 		"awards": false,
-		"performances": {
-			"2013-10-21": {
+		"performances": [
+			{
 				"event": "Recital de Estudiantes 2013-2",
+				"date": "2013-10-21",
 				"performers": {
 					"Carlos Montoya": "cello",
 					"Juan Camilo Yepes": "piano"
@@ -1131,9 +1193,10 @@
 				"audio": false,
 				"video": false
 			}
-		}
+		]
 	},
-	"«Hýpnos»": {
+	{
+		"name": "«Hýpnos»",
 		"year": 2012,
 		"subtitle": "for harp, clarinet, and cello",
 		"duration": 6,
@@ -1149,9 +1212,10 @@
 		"awards": [
 			"Premios para el fomento de la creación artística 2012 - Banco Virtual de Partituras - Categoría 1. Ministerio de Cultura"
 		],
-		"performances": {
-			"2013-07-17": {
+		"performances": [
+			{
 				"event": "Invocación y Danzas",
+				"date": "2013-07-17",
 				"performers": {
 					"Bibiana Ordóñez Velandia": "harp",
 					"José Gomez": "clarinet",
@@ -1163,8 +1227,9 @@
 				"audio": false,
 				"video": false
 			},
-			"2016-09-14": {
+			{
 				"event": "XVII Encuentro de Música EAFIT",
+				"date": "2016-09-14",
 				"performers": {
 					"Bibiana Ordóñez Velandia": "harp",
 					"Jhoser Salazar": "clarinet",
@@ -1176,8 +1241,9 @@
 				"audio": "https://soundcloud.com/felipetovarhenao/hypnos",
 				"video": "EWwFIDeQLjY"
 			},
-			"2017-02-22": {
+			{
 				"event": "Salón Latino Chamber Music Series: New Music by Latin American Composers",
+				"date": "2017-02-22",
 				"performers": {
 					"Emmanuel Padilla Holguin": "harp",
 					"Cameron Winrow": "clarinet",
@@ -1189,9 +1255,10 @@
 				"audio": false,
 				"video": false
 			}
-		}
+		]
 	},
-	"«Camazotz»": {
+	{
+		"name": "«Camazotz»",
 		"year": 2012,
 		"subtitle": "for string quartet",
 		"duration": 8,
@@ -1207,9 +1274,10 @@
 		"awards": [
 			"Periscopio Ensemble Composition Contest 2012-2"
 		],
-		"performances": {
-			"2013-05-24": {
+		"performances": [
+			{
 				"event": "Concierto: Ensamble Periscopio, Música Nueva",
+				"date": "2013-05-24",
 				"performers": {
 					"Cuarteto Tayrona": "string quartet"
 				},
@@ -1219,9 +1287,10 @@
 				"audio": false,
 				"video": false
 			}
-		}
+		]
 	},
-	"«Afanes y costumbres»": {
+	{
+		"name": "«Afanes y costumbres»",
 		"year": 2012,
 		"subtitle": "for piano trio",
 		"duration": 6,
@@ -1231,11 +1300,14 @@
 			"pnf"
 		],
 		"commission": false,
-		"categories": ["chamber"],
+		"categories": [
+			"chamber"
+		],
 		"awards": false,
-		"performances": {
-			"2012-05-22": {
+		"performances": [
+			{
 				"event": "Concierto: Ensamble Periscopio, Música Nueva",
+				"date": "2012-05-22",
 				"performers": {
 					"Wilfer Vanegas": "violin",
 					"Matías Uribe": "cello",
@@ -1247,9 +1319,10 @@
 				"audio": false,
 				"video": false
 			}
-		}
+		]
 	},
-	"«Percepciones sobre una imagen diáfana»": {
+	{
+		"name": "«Percepciones sobre una imagen diáfana»",
 		"year": 2011,
 		"subtitle": "for clarinet and piano",
 		"duration": 6,
@@ -1262,9 +1335,10 @@
 			"chamber"
 		],
 		"awards": false,
-		"performances": {
-			"2012-04-30": {
+		"performances": [
+			{
 				"event": "Música Contemporánea o de Vanguardia, en Camino a la Apropiación",
+				"date": "2012-04-30",
 				"performers": {
 					"Jhoser Salazar": "clarinet",
 					"Alejandra Montoya": "piano"
@@ -1275,6 +1349,6 @@
 				"audio": false,
 				"video": false
 			}
-		}
+		]
 	}
-}
+]
