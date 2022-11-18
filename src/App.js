@@ -1,25 +1,26 @@
 /* react */
 
 /* components */
-import NavBar from "./js/components/NavBar/NavBar";
-import MainView from "./js/components/MainView/MainView";
 import { ThemeContext } from "./js/contexts/ThemeContext";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 /* sass */
 import "./index.scss";
 import classNames from "classnames";
 import { useState } from "react";
+import HomeView from "./js/views/HomeView/HomeView";
 
 export default function App() {
   const [darkTheme, setDarkTheme] = useState(true);
   const appClass = classNames("app", { dark: darkTheme });
 
   return (
-    <ThemeContext.Provider value={{ darkTheme, setDarkTheme }}>
-      <div className={appClass}>
-        <NavBar />
-        <MainView />
-      </div>
-    </ThemeContext.Provider>
+    <div className={appClass}>
+      <ThemeContext.Provider value={{ darkTheme, setDarkTheme }}>
+        <ParallaxProvider>
+          <HomeView />
+        </ParallaxProvider>
+      </ThemeContext.Provider>
+    </div>
   );
 }

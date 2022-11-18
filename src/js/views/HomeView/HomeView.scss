@@ -1,0 +1,66 @@
+@import "../../../sass/mixins.scss";
+@import "../../../sass/variables.scss";
+
+.home-view {
+  @include h-stack-c;
+  @include center;
+  min-height: 70vh;
+  & * {
+    @include wrap;
+  }
+  .header {
+    @include v-stack-c;
+    @include center;
+    @include v-pad($gap-xl);
+    .headshot {
+      @include stack;
+      @include center;
+      @include border;
+      filter: grayscale(99%);
+      // max-width: 200px;
+      border-radius: 100%;
+    }
+    .text {
+      @include h-stack-c;
+      @include v-pad($gap-xl);
+      .name {
+        @include stack;
+        @include h-center;
+        @include r-pad;
+        color: var(--primary);
+        text-transform: lowercase;
+      }
+      .labels {
+        @include h-stack-c;
+        @include h-center;
+        .label {
+          @include h-stack-c;
+          @include h-center;
+          width: max-content;
+          font-style: italic;
+          color: var(--secondary);
+        }
+      }
+      .name,
+      .label,
+      .decorator {
+        @include stack;
+        @include h-pad;
+        font-size: $txt-xl;
+        text-align: center;
+      }
+    }
+    .profiles {
+      @include h-stack-c;
+      @include h-center;
+    }
+  }
+  // .bio {
+  //   .p {
+  //     @include v-mar($gap-md);
+  //     @include h-center;
+  //     text-align: center;
+  //     // width: 60%;
+  //   }
+  // }
+}

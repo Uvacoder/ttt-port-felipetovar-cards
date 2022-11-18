@@ -64,6 +64,9 @@
   @include stack;
   margin-top: auto;
 }
+@mixin wrap {
+  flex-wrap: wrap;
+}
 
 @mixin l-pad($gap: $gap-md) {
   padding-left: $gap;

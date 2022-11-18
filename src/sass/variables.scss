@@ -19,14 +19,14 @@
 }
 
 .dark {
-  --bg1: #292929;
+  --bg1: #1d1d1d;
   --bg2: #222222;
   --bg3: #161616;
   --bg4: #101010;
   --bord: #414141;
-  --txt: #fcfcfcff;
-  --primary: #6fade3;
-  --secondary: #9dddff;
+  --txt: #d9d9d9;
+  --primary: #94acb9;
+  --secondary: #73bbd3;
   --danger: #d86e58ff;
   --bg-hl: #313131;
   --bg-sel: #3b3a39;
@@ -58,6 +58,7 @@ $txt-md: 15px;
 $txt-lg: 18px;
 $txt-ml: 24px;
 $txt-xl: 30px;
+$txt-xxl: 40px;
 
 $border-sm: 1px;
 $border-md: 1.5px;

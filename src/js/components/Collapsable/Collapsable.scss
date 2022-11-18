@@ -1,7 +1,0 @@
-@import "../../../sass/mixins.scss";
-
-.handle {
-  @include link;
-  @include to-left;
-  @include h-stack-c;
-}

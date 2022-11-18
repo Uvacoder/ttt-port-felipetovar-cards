@@ -1,0 +1,27 @@
+@import "../../../sass/mixins.scss";
+@import "../../../sass/variables.scss";
+
+.profile-icon {
+  @include v-stack-c;
+  @include h-mar($gap-lg);
+  text-align: center;
+  @include grow;
+  .icon {
+    @include h-center;
+    font-size: $txt-xxl;
+  }
+  .name {
+    opacity: 0;
+    font-size: $txt-sm;
+    translate: -10px -0px;
+  }
+  &:hover {
+    &, & * {
+      color: var(--danger);
+    }
+    .name {
+      opacity: 50%;
+      translate: 0px 0px;
+    }
+  }
+}
