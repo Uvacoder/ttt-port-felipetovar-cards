@@ -3,7 +3,6 @@ import cv from "../../../json/cv.json";
 import ProfileIcon from "../../components/ProfileIcon/ProfileIcon";
 import { useState } from "react";
 import TextWidget from "../../components/TextWidget/TextWidget";
-
 export default function HomeView() {
   const [showBio, setShowBio] = useState(false);
   const iconMap = {
@@ -46,6 +45,7 @@ export default function HomeView() {
             <ProfileIcon key={i} url={p.url} id={iconMap[p.network.toLowerCase()]} network={p.network} />
           ))}
         </div>
+        
         <TextWidget show={showBio} label="bio">
           <div className="bio">
             {basics.summary.map((p, i) => (

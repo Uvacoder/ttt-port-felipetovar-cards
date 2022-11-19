@@ -5,6 +5,7 @@ import { ThemeContext } from "./js/contexts/ThemeContext";
 import { ParallaxProvider } from "react-scroll-parallax";
 import HomeView from "./js/views/HomeView/HomeView";
 import NavBar from "./js/components/NavBar/NavBar";
+import WorksView from "./js/views/WorksView/WorksView";
 
 /* sass */
 import "./index.scss";
@@ -21,6 +22,7 @@ export default function App() {
         <ParallaxProvider>
           <NavBar />
           <HomeView />
+          <WorksView />
         </ParallaxProvider>
       </ThemeContext.Provider>
     </div>

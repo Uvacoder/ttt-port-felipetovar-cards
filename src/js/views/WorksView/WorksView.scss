@@ -1,0 +1,31 @@
+@import "../../../sass/mixins.scss";
+@import "../../../sass/variables.scss";
+
+.works-view {
+  @include v-stack-c;
+	@include h-pad($gap-xl);
+  width: 100%;
+  background-color: var(--bg1);
+  .category-chooser {
+		@include h-stack-c;
+		@include v-pad;
+		position: sticky;
+		justify-content: space-evenly;
+    background-color: var(--bg2);
+		.category {
+			@include pad;
+			background-color: var(--bg3);
+		}
+  }
+  .work-cards {
+		@include h-stack-c;
+		width: 100%;
+		overflow-y: auto;
+    .work-card {
+      @include round-border;
+      height: 100%;
+      min-width: 400px;
+      min-height: 200px;
+    }
+  }
+}
