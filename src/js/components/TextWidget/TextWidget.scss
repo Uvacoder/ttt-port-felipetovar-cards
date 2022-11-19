@@ -1,0 +1,33 @@
+@import "../../../sass/mixins.scss";
+@import "../../../sass/variables.scss";
+
+.text-widget {
+  @include v-stack-c;
+  .text-widget-btn {
+		@include h-stack-c;
+		@include h-center;
+		@include link;
+		.text {
+			@include v-pad();
+			text-align: center;
+			text-transform: uppercase;
+		}
+    .icon {
+      @include stack;
+      font-size: $txt-ml;
+    }
+  }
+  .text-widget-inner {
+    overflow: auto;
+    transition: all 0.5s ease;
+		width: 70vw;
+    @include round-border($size: $border-lg);
+    &:not(.show) {
+      border-color: #00000000;
+    }
+    height: 0px;
+    &.show {
+			height: 40vh;
+    }
+  }
+}

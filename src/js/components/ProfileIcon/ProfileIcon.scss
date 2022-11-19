@@ -13,13 +13,14 @@
   .name {
     opacity: 0;
     font-size: $txt-sm;
-    translate: -10px -0px;
+    translate: -10px 0px;
   }
   &:hover {
     &, & * {
       color: var(--secondary);
     }
     .name {
+      @include trans(0.25s);
       opacity: 50%;
       translate: 0px 0px;
     }

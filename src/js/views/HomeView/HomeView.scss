@@ -1,10 +1,15 @@
 @import "../../../sass/mixins.scss";
 @import "../../../sass/variables.scss";
+@import "../../../sass/breakpoints.scss";
 
 .home-view {
-  @include h-stack-c;
+  @include v-stack-c;
+  @include mobile-down {
+    @include v-stack-c;
+  }
   @include center;
-  min-height: 70vh;
+  @include pad($gap-lg);
+  min-height: 50vh;
   & * {
     @include wrap;
   }
@@ -12,23 +17,45 @@
     @include v-stack-c;
     @include center;
     @include v-pad($gap-xl);
+    min-width: 50%;
     .headshot {
+      $max-size: 200px;
       @include stack;
       @include center;
-      @include border;
-      filter: grayscale(99%);
-      // max-width: 200px;
+      @include border($size: $border-lg);
+      @include trans(0.25s);
+      overflow: hidden;
+      width: $max-size;
+      height: $max-size;
       border-radius: 100%;
+      .img {
+        @include center;
+        @include trans(0.75s);
+        filter: grayscale(70%);
+        display: block;
+        width: $max-size;
+        height: auto;
+        translate: 0px -50px;
+        scale: 1;
+      }
     }
     .text {
       @include h-stack-c;
       @include v-pad($gap-xl);
+      @include h-center;
       .name {
         @include stack;
         @include h-center;
         @include r-pad;
         color: var(--primary);
         text-transform: lowercase;
+      }
+      .name,
+      .label-text,
+      .decorator {
+        @include stack;
+        @include h-pad;
+        font-size: $txt-xl;
       }
       .labels {
         @include h-stack-c;
@@ -37,17 +64,12 @@
           @include h-stack-c;
           @include h-center;
           width: max-content;
-          font-style: italic;
-          color: var(--secondary);
+          justify-content: space-around;
+          .label-text {
+            color: var(--secondary);
+            font-style: italic;
+          }
         }
-      }
-      .name,
-      .label,
-      .decorator {
-        @include stack;
-        @include h-pad;
-        font-size: $txt-xl;
-        text-align: center;
       }
     }
     .profiles {
@@ -55,12 +77,24 @@
       @include h-center;
     }
   }
-  // .bio {
-  //   .p {
-  //     @include v-mar($gap-md);
-  //     @include h-center;
-  //     text-align: center;
-  //     // width: 60%;
-  //   }
-  // }
+  .bio {
+    @include vh-pad($gap-lg, $gap-xl);
+    background-color: var(--bg2);
+    max-height: 200px;
+    min-width: 100px;
+    .bio-header {
+      @include b-mar;
+      color: var(--primary);
+      font-size: $txt-lg;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .bio-p {
+      @include v-pad;
+      color: var(--txt);
+      font-size: $txt-ml;
+      font-family: $font2;
+      text-align: center;
+    }
+  }
 }
