@@ -2,7 +2,100 @@
 @import "../../../sass/variables.scss";
 
 .work-modal {
+  @include v-stack;
+  @include pad($gap-lg);
+  @include h-pad($gap-xxl);
+  @include round-border($size: $border-lg);
+  background-color: var(--bg3);
   width: fit-content;
   height: fit-content;
-  background-color: var(--bg3);
+  max-height: 90vh;
+  overflow: auto;
+  .header {
+    @include h-stack;
+    @include h-center;
+    & * {
+      @include r-pad;
+      font-size: $txt-ml;
+    }
+    .work-name {
+      font-weight: bold;
+    }
+    .work-duration {
+      color: var(--inactive);
+    }
+  }
+  .subheader {
+    @include v-stack-c;
+    .work-subtitle,
+    .work-commission {
+      @include b-mar($gap-lg);
+      font-style: italic;
+      text-align: center;
+    }
+    .work-subtitle {
+      color: var(--secondary);
+    }
+  }
+  .table {
+    border-spacing: $gap-lg $gap-lg;
+    .table-body {
+      .table-row {
+        .row-key {
+          font-style: italic;
+          vertical-align: top;
+          width: 1%;
+        }
+        .row-value {
+          .row-value-item {
+            &.instrumentation,
+            &.categories {
+              @include pad($gap-sm);
+              @include r-mar;
+              @include round-border;
+              font-family: $font2;
+            }
+          }
+          &.awards {
+            @include h-stack;
+          }
+          .performance {
+            @include b-pad($gap-lg);
+            span,
+            a {
+              @include r-pad;
+            }
+            .event {
+              @include h-stack;
+              font-weight: bold;
+            }
+            .media {
+              & * {
+                font-size: $txt-ml;
+                vertical-align: middle;
+              }
+              &.video * {
+                color: #d15d5d;
+              }
+              &.audio * {
+                color: #78d2c8;
+              }
+            }
+            .performers {
+              @include l-pad($gap-xl);
+              .performer-role {
+                font-style: italic;
+              } 
+            }
+            .separator {
+              @include t-mar($gap-lg);
+              @include l-mar($gap-md);
+              height: $gap-sm;
+              width: 10%;
+            }
+          }
+        }
+      }
+    }
+  }
 }

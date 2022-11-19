@@ -5,7 +5,7 @@
 @import "./sass/classes-components.scss";
 
 .app {
-  background-color: var(--bg1);
+  background: linear-gradient(180deg, var(--bg1) 10%, var(--bg3));
   height: 100vh;
   overflow: auto;
 }

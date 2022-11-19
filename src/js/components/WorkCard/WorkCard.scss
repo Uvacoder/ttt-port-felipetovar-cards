@@ -6,7 +6,7 @@
 	@include center;
 	@include clickable;
 	@include round-border;
-	@include mar($gap-sm);
+	@include mar($gap-md);
 	@include pad($gap-lg);
 	width: 300px;
 	height: 200px;

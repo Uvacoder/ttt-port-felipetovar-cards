@@ -4,8 +4,13 @@
 .works-view {
   @include v-stack-c;
   @include h-pad($gap-xl);
-  width: 100%;
+  @include v-pad;
+  $border-size: $border-ml;
+  $border-col: var(--bord);
+  border-top: $border-size solid $border-col;
+  border-bottom: $border-size solid $border-col;
   background-color: var(--bg4);
+  width: 100%;
   .work-cards {
     @include row-grid(1fr 1fr);
     grid-auto-flow: column;

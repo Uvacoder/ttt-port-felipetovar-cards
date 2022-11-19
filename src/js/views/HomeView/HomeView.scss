@@ -22,7 +22,7 @@
       $max-size: 200px;
       @include stack;
       @include center;
-      @include border($size: $border-lg);
+      @include border($size: $border-ml);
       @include trans(0.25s);
       overflow: hidden;
       width: $max-size;

@@ -98,11 +98,19 @@
   padding: $gap;
 }
 
+@mixin h-pad($gap: $gap-md) {
+  @include l-pad($gap);
+  @include r-pad($gap);
+}
+
+@mixin v-pad($gap: $gap-md) {
+  @include t-pad($gap);
+  @include b-pad($gap);
+}
+
 @mixin vh-pad($v-gap: $gap-md, $h-gap: $gap-md) {
-  @include l-pad($h-gap);
-  @include r-pad($h-gap);
-  @include t-pad($v-gap);
-  @include b-pad($v-gap);
+  @include v-pad($v-gap);
+  @include h-pad($h-gap);
 }
 
 @mixin l-mar($gap: $gap-md) {
