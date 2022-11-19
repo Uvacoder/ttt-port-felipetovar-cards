@@ -1,0 +1,8 @@
+@import "../../../sass/mixins.scss";
+@import "../../../sass/variables.scss";
+
+.work-modal {
+  width: fit-content;
+  height: fit-content;
+  background-color: var(--bg3);
+}

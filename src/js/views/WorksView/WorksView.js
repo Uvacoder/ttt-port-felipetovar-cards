@@ -1,7 +1,7 @@
 import "./WorksView.scss";
 import works from "../../../json/work-catalog.json";
-import Modal from "../../components/Modal/Modal";
 import WorkCard from "../../components/WorkCard/WorkCard";
+import WorkModal from "../../components/WorkModal/WorkModal";
 import { useState } from "react";
 
 export default function WorksView() {
@@ -27,9 +27,7 @@ export default function WorksView() {
           />
         ))}
       </div>
-      <Modal className={"work-modal"} open={isModalOpen} setOpen={setIsModalOpen}>
-        {selectedWork.name}
-      </Modal>
+      <WorkModal work={selectedWork} open={isModalOpen} setOpen={setIsModalOpen} />
     </div>
   );
 }

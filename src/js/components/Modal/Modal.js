@@ -1,7 +1,6 @@
 import "./Modal.scss";
 import ModalBase from "../ModalBase/ModalBase";
 import { Icon } from "@iconify/react";
-import { useState } from "react";
 
 export default function Modal({ children, className, open, setOpen }) {
   return (
