@@ -7,9 +7,10 @@
   @include h-pad($gap-xxl);
   @include round-border($size: $border-lg);
   background-color: var(--bg3);
-  width: fit-content;
+  width: max-content;
   height: fit-content;
   max-height: 90vh;
+  max-width: 90vw;
   overflow: auto;
   .header {
     @include h-stack;
@@ -47,10 +48,13 @@
           width: 1%;
         }
         .row-value {
+          @include stack;
+          @include wrap;
           .row-value-item {
             &.instrumentation,
             &.categories {
               @include pad($gap-sm);
+              @include b-mar($gap-sm);
               @include r-mar;
               @include round-border;
               font-family: $font2;
@@ -58,6 +62,9 @@
           }
           &.awards {
             @include h-stack;
+          }
+          &:has(> .performance) {
+            @include v-stack;
           }
           .performance {
             @include b-pad($gap-lg);
@@ -84,6 +91,7 @@
             .performers {
               @include l-pad($gap-xl);
               .performer-role {
+                color: var(--inactive);
                 font-style: italic;
               } 
             }

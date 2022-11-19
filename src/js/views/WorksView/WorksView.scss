@@ -3,7 +3,6 @@
 
 .works-view {
   @include v-stack-c;
-  @include h-pad($gap-xl);
   @include v-pad;
   $border-size: $border-ml;
   $border-col: var(--bord);
