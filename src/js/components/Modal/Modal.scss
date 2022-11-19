@@ -1,0 +1,16 @@
+@import "../../../sass/mixins.scss";
+@import "../../../sass/variables.scss";
+
+.modal {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  .modal-close-btn {
+    @include link;
+    border-radius: 100%;
+    font-size: $txt-lg;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+}

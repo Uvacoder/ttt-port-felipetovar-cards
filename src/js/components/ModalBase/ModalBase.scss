@@ -1,0 +1,21 @@
+.modal-base {
+  transition: all 0.5s;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00000099;
+  z-index: 1000;
+  &:not(.open) {
+    opacity: 0;
+    z-index: -1;
+  }
+  .modal-base-inner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: 1000;
+  }
+}
