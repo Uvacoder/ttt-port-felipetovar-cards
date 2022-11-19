@@ -1,0 +1,34 @@
+@import "../../../sass/mixins.scss";
+@import "../../../sass/variables.scss";
+
+.work-card {
+	@include v-stack-c;
+	@include center;
+	@include clickable;
+	@include round-border;
+	@include mar($gap-sm);
+	@include pad($gap-lg);
+	width: 300px;
+	height: 200px;
+	background-color: var(--bg3);
+	&:hover {
+		background-color: var(--bg2);
+		scale: 1.01;
+	}
+	.work-name {
+		@include v-stack-c;
+		font-size: $txt-ml;
+		font-weight: bold;
+		width: 100%;
+		text-align: center;
+	}
+	.work-year {
+		@include v-stack-c;
+	}
+	.work-subtitle {
+		@include v-stack-c;
+		color: var(--secondary);
+		text-align: center;
+		font-style: italic;
+	}
+}
