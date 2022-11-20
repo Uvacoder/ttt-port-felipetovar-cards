@@ -1,48 +1,57 @@
 @import "../../../sass/mixins.scss";
 @import "../../../sass/variables.scss";
+@import "../../../sass/breakpoints.scss";
 
 .software-view {
-	@include col-grid(1fr 1fr);
-	.software {
-		@include round-border;
-		@include pad($gap-lg);
-		@include mar;
-		.name {
-			@include v-stack-c;
-			font-weight: bold;
-			font-size: $txt-ml;
-			color: var(--txt);
-			text-align: center;
-		}
-		.table {
-			border-spacing: $gap-lg $gap-md;
-			.tbody {
-				.key {
-					vertical-align: top;
-				}
-				.value {
-					@include stack;
+  @include mobile-down {
+    @include col-grid(1fr);
+  }
+  @include mobile-up {
+    @include col-grid(1fr 1fr);
+  }
+  @include desktop-up {
+    @include col-grid(1fr 1fr 1fr);
+  }
+  .software {
+    @include round-border;
+    @include pad($gap-lg);
+    @include mar;
+    .name {
+      @include v-stack-c;
+      font-weight: bold;
+      font-size: $txt-ml;
+      color: var(--txt);
+      text-align: center;
+    }
+    .table {
+      border-spacing: $gap-lg $gap-md;
+      .tbody {
+        .key {
+          vertical-align: top;
+        }
+        .value {
+          @include stack;
           @include wrap;
-					&.description {
-						color: var(--secondary);
-					}
-					.icon {
-						&.active * {
-							color: #5bb06d;
-						}
-						&.not-active * {
-							color: #c55757;
-						}
-					}
-					.value-item {
-						@include pad($gap-sm);
-						@include b-mar($gap-sm);
-						@include r-mar;
-						@include round-border;
-						font-family: $font2;
-					}
-				}
-			}
-		}
-	}
+          &.description {
+            color: var(--secondary);
+          }
+          .icon {
+            &.active * {
+              color: #5bb06d;
+            }
+            &.not-active * {
+              color: #c55757;
+            }
+          }
+          .value-item {
+            @include pad($gap-sm);
+            @include b-mar($gap-sm);
+            @include r-mar;
+            @include round-border;
+            font-family: $font2;
+          }
+        }
+      }
+    }
+  }
 }
