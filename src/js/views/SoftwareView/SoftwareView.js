@@ -3,7 +3,7 @@ import ViewHeader from "../../components/ViewHeader/ViewHeader";
 import { Icon } from "@iconify/react";
 
 export default function SoftwareView({ cv }) {
-  const tableRows = ["date", "active", "description"];
+  const tableRows = ["year", "active", "description"];
   const stateMap = {
     true: "material-symbols:check-circle",
     false: "gridicons:cross-circle",
@@ -13,7 +13,7 @@ export default function SoftwareView({ cv }) {
       <ViewHeader title="software" icon="material-symbols:code" />
       <div className="software-view">
         {cv.work.software
-          .sort((a, b) => b.date - a.date)
+          .sort((a, b) => b.year - a.year)
           .map((software, i) => (
             <div key={i} className="software" onClick={software.url}>
               <span className="name">{software.name}</span>

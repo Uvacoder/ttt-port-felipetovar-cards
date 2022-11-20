@@ -457,43 +457,49 @@
 			{
 				"name": "scattergrain",
 				"url": "https://scattergrain.app/",
-				"date": 2022,
+				"year": 2022,
 				"active": true,
+				"keywords": ["ReactJS", "Django", "DSP", "Granulation", "Web Audio API", "Canvas API", "MIR", "ML"],
 				"description": "Full-stack web application for interactive, corpus-based granular audio synthesis, using ML and MIR techniques"
 			},
 			{
 				"name": "GAMuT",
 				"url": "https://pypi.org/project/gamut/",
-				"date": 2022,
+				"year": 2022,
 				"active": true,
+				"keywords": ["Python", "DSP", "Granulation", "MIR", "ML"],
 				"description": "High-level, user-friendly granular audio musaicing toolkit implemented in Python, using ML and MIR techniques"
 			},
 			{
 				"name": "M4L exquisitecorpus",
 				"url": "https://github.com/felipetovarhenao/exquisitecorpus",
-				"date": 2021,
+				"year": 2021,
 				"active": true,
+				"keywords": ["MaxMSP", "Ableton Live", "Max4Live", "DSP", "Sampling", "MIR", "bach"],
 				"description": "Open-source, Max for Live device (audio plug-in) for corpus-based sampling transposition and analysis in Ableton Live"
 			},
 			{
 				"name": "miniOMsynth",
 				"url": "https://github.com/felipetovarhenao/miniOMsynth",
-				"date": 2021,
+				"year": 2021,
 				"active": true,
+				"keywords": ["MaxMSP", "Gen", "OpenMusic", "DSP", "Synth", "OSC"],
 				"description": "Cross-platform (MacOS, Windows), open-source audio synthesizer application for OpenMusic playback support, via OSC protocol"
 			},
 			{
 				"name": "OM-Data",
 				"url": "https://github.com/felipetovarhenao/OM-Data",
-				"date": 2021,
+				"year": 2021,
 				"active": true,
+				"keywords": ["Lisp", "OpenMusic", "Data", "ML", "CAC"],
 				"description": "Open-source, CLOS library for computer-aided composition in OpenMusic. Mainly aimed at data modelling and analysis"
 			},
 			{
 				"name": "light.void~",
 				"url": "https://github.com/felipetovarhenao/light.void",
-				"date": 2019,
+				"year": 2019,
 				"active": true,
+				"keywords": ["Arduino", "DMI", "Sensors", "Leafcutter John", "DSP", "MaxMSP"],
 				"description": "Open-source, light-dependent digital music interface based on Leafcutter John's light thing. Built with Arduino and MaxMSP"
 			}
 		]
