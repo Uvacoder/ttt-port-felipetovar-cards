@@ -1,9 +1,10 @@
 import "./SoftwareView.scss";
 import ViewHeader from "../../components/ViewHeader/ViewHeader";
 import { Icon } from "@iconify/react";
+import Card from "../../components/Card/Card";
 
 export default function SoftwareView({ cv }) {
-  const tableRows = ["year", "active", "description"];
+  const tableRows = ["year", "active", "keywords", "description"];
   const stateMap = {
     true: "material-symbols:check-circle",
     false: "gridicons:cross-circle",
@@ -15,25 +16,33 @@ export default function SoftwareView({ cv }) {
         {cv.work.software
           .sort((a, b) => b.year - a.year)
           .map((software, i) => (
-            <div key={i} className="software" onClick={software.url}>
-              <span className="name">{software.name}</span>
-              <table className="table">
-                <tbody className="tbody">
-                  {tableRows.map((row, j) => (
-                    <tr key={j} className={`row ${row}`}>
-                      <td className="key">{row}</td>
-                      <td className="value">
-                        {row === "active" ? (
-                          <Icon className={`icon ${software[row] ? "active" : "inactive"}`} icon={stateMap[software[row]]} />
-                        ) : (
-                          software[row]
-                        )}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+            <Card key={i} className="software" img={software.artwork}>
+              <a href={software.url} target="_blank" rel="noreferrer">
+                <span className="name">{software.name}</span>
+                <table className="table">
+                  <tbody className="tbody">
+                    {tableRows.map((row, j) => (
+                      <tr key={j} className={`row ${row}`}>
+                        <td className={`${row} key`}>{row}</td>
+                        <td className={`${row} value`}>
+                          {row === "active" ? (
+                            <Icon className={`icon ${software[row] ? "active" : "not-active"}`} icon={stateMap[software[row]]} />
+                          ) : row === "keywords" ? (
+                            software[row].map((item, k) => (
+                              <span className={`value-item ${row}`} key={k}>
+                                {item}
+                              </span>
+                            ))
+                          ) : (
+                            software[row]
+                          )}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </a>
+            </Card>
           ))}
       </div>
     </>

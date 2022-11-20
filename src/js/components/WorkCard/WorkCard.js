@@ -13,9 +13,11 @@ export default function WorkCard({ work, onClick }) {
     //   </div>
     // </div>
     <Card onClick={onClick} img={work.artwork} className="work-card">
-      <span className="work-name">{work.name}</span>
-      <span className="work-year">({work.year})</span>
-      <span className="work-subtitle">{work.subtitle}</span>
+      <div className="work-info">
+        <span className="work-name">{work.name}</span>
+        <span className="work-year">({work.year})</span>
+        <span className="work-subtitle">{work.subtitle}</span>
+      </div>
     </Card>
   );
 }

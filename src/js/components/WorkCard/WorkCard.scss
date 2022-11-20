@@ -9,21 +9,27 @@
   @include pad($gap-lg);
   width: 300px;
   height: 200px;
-  .work-name {
-    @include v-stack-c;
-    font-size: $txt-ml;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
-  }
-  .work-year {
-    @include v-stack-c;
-    text-align: center;
-  }
-  .work-subtitle {
-    @include v-stack-c;
-    color: var(--secondary);
-    text-align: center;
-    font-style: italic;
+  .work-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    .work-name {
+      @include v-stack-c;
+      font-size: $txt-ml;
+      font-weight: bold;
+      width: 100%;
+      text-align: center;
+    }
+    .work-year {
+      @include v-stack-c;
+      text-align: center;
+    }
+    .work-subtitle {
+      @include v-stack-c;
+      color: var(--secondary);
+      text-align: center;
+      font-style: italic;
+    }
   }
 }

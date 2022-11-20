@@ -21,12 +21,6 @@
       opacity: 0%;
     }
   }
-  .card-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    translate: -50% -50%;
-  }
   .card-bg {
     position: absolute;
     width: 100%;
@@ -34,7 +28,7 @@
     top: 50%;
     left: 50%;
     translate: -50% -50%;
-    z-index: -1;
+    z-index: -2;
   }
   .card-bg-mask {
     position: absolute;
@@ -45,5 +39,8 @@
     background: linear-gradient(0deg, var(--bg2), var(--bg1));
     opacity: 90%;
     z-index: -1;
+  }
+  .card-content {
+    z-index: 0;
   }
 }
