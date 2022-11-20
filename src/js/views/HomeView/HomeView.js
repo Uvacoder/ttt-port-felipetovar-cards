@@ -26,9 +26,7 @@ export default function HomeView() {
               <span className="decorator">{"{"}</span>
               {basics.labels.map((l, i) => (
                 <span className="label" key={`label-${i}`}>
-                  <span className="label-text">
-                  {l}
-                  </span>
+                  <span className="label-text">{l}</span>
                   {i < basics.labels.length - 1 && (
                     <span className="decorator" key={`decorator-${i}`}>
                       +
@@ -45,7 +43,7 @@ export default function HomeView() {
             <ProfileIcon key={i} url={p.url} id={iconMap[p.network.toLowerCase()]} network={p.network} />
           ))}
         </div>
-        
+
         <TextWidget show={showBio} label="bio">
           <div className="bio">
             {basics.summary.map((p, i) => (

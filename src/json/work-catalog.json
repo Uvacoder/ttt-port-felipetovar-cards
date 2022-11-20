@@ -4,6 +4,7 @@
 		"year": 2022,
 		"subtitle": "[re]presentations for large chamber ensemble and electronics",
 		"duration": 11,
+		"artwork": "https://i1.sndcdn.com/artworks-1QydimV8qvQZU5Xe-uNhMHw-t500x500.jpg",
 		"instrumentation": [
 			"fl/afl",
 			"ob",
@@ -52,6 +53,7 @@
 		"year": 2022,
 		"subtitle": "for large chamber ensemble",
 		"duration": 8,
+		"artwork": "https://3.bp.blogspot.com/-GZ7X1bBYoWE/U_4GobzODnI/AAAAAAAAABo/Ms8GZYb2ats/s1600/pc%2BWojciech%2BWandzel%2B1.jpg",
 		"instrumentation": [
 			"fl",
 			"ob",
@@ -99,6 +101,7 @@
 		"year": 2017,
 		"subtitle": "Dream cycles for sinfonietta and electronics",
 		"duration": 10,
+		"artwork": "https://i1.sndcdn.com/artworks-zpMNycbBHtWS1DiW-cFEhwA-t500x500.jpg",
 		"instrumentation": [
 			"fl",
 			"ob",
@@ -166,10 +169,11 @@
 		]
 	},
 	{
-		"name": "«La mirada del ouroboros»",
+		"name": "«La mirada del Ouroboros»",
 		"year": 2017,
 		"subtitle": "concerto for harp and sinfonietta",
 		"duration": 20,
+		"artwork": "https://i1.sndcdn.com/artworks-0gjwwjcJYFfJW2Be-4Q6fMg-t500x500.jpg",
 		"instrumentation": [
 			"hp",
 			"fl/bfl",
@@ -223,6 +227,7 @@
 		"year": 2022,
 		"subtitle": "allegro-remix for string trio",
 		"duration": 6,
+		"artwork": "https://i1.sndcdn.com/artworks-LUw8ldlCW7VufOgU-N6CwMQ-t500x500.jpg",
 		"instrumentation": [
 			"vn",
 			"va",
@@ -264,6 +269,7 @@
 		"year": 2022,
 		"subtitle": "for carillon and electronics",
 		"duration": 5,
+		"artwork": "https://pbs.twimg.com/media/FSlhZcbWIAESdik.jpg",
 		"instrumentation": [
 			"carillon"
 		],
@@ -296,6 +302,7 @@
 		"year": 2022,
 		"subtitle": "attractors for amplified string quartet",
 		"duration": 5,
+		"artwork": "https://i1.sndcdn.com/artworks-t8BCL5dGyusNzdok-jIskHQ-t500x500.jpg",
 		"instrumentation": [
 			"2vn",
 			"va",
@@ -329,6 +336,7 @@
 		"year": 2020,
 		"subtitle": "praeludium for string quartet",
 		"duration": 8,
+		"artwork": "https://i1.sndcdn.com/artworks-NzioiSIVgQd3KuRK-rOpP4A-t500x500.jpg",
 		"instrumentation": [
 			"2vn",
 			"va",
@@ -362,6 +370,7 @@
 		"year": 2020,
 		"subtitle": "morphisms for one or more amplified string instruments",
 		"duration": 8,
+		"artwork": "https://i1.sndcdn.com/artworks-Z5NyE3Y1kC6VtE8y-TYB36w-t500x500.jpg",
 		"instrumentation": [
 			"va"
 		],
@@ -441,6 +450,7 @@
 		"instrumentation": [
 			"elec"
 		],
+		"artwork": "https://cecm.indiana.edu/images/felipe-umbra.png",
 		"commission": false,
 		"categories": [
 			"solo",
@@ -500,6 +510,7 @@
 		"year": 2019,
 		"subtitle": "for English horn and live electronics",
 		"duration": 6,
+		"artwork": "https://i1.sndcdn.com/artworks-4QsRng99yURQNefG-PDH5Iw-t500x500.jpg",
 		"instrumentation": [
 			"eh"
 		],
@@ -547,6 +558,7 @@
 		"year": 2019,
 		"subtitle": "mosaic on violence for chamber ensemble",
 		"duration": 6,
+		"artwork": "https://i1.sndcdn.com/artworks-lHkbwj3zCKPGa7bt-FQP5cw-t500x500.jpg",
 		"instrumentation": [
 			"vn",
 			"sax",
@@ -606,6 +618,7 @@
 		"year": 2018,
 		"subtitle": "birdsong for flute and live electronics",
 		"duration": 9,
+		"artwork": "https://i1.sndcdn.com/artworks-000643478908-qr15hu-t500x500.jpg",
 		"instrumentation": [
 			"fl",
 			"elec"
@@ -761,6 +774,7 @@
 		"year": 2018,
 		"subtitle": "roulette for chamber ensemble",
 		"duration": 7,
+		"artwork": "https://i1.sndcdn.com/artworks-6bgj84mA5BYC2XDq-DxSvag-t500x500.jpg",
 		"instrumentation": [
 			"fl",
 			"cl",
@@ -819,6 +833,7 @@
 		"year": 2018,
 		"subtitle": "immersive, 8-screen/8-channel surround installation (in collaboration with Susanne Schwibs)",
 		"duration": 4,
+		"artwork": "https://data.mediaschool.indiana.edu/news-events/wp-content/uploads/sites/2/2018/12/Big-tent-WEB.jpg",
 		"instrumentation": [
 			"elec"
 		],
@@ -844,7 +859,7 @@
 				"date": "2019-04-01",
 				"performers": false,
 				"venue": "Ballroom 450, IUPUI Campus Center",
-				"city": "Bloomington, IN",
+				"city": "Indianapolis, IN",
 				"country": "USA",
 				"audio": false,
 				"video": false
@@ -856,6 +871,7 @@
 		"year": 2018,
 		"subtitle": "rêverie for viola da gamba and live electronics",
 		"duration": 7,
+		"artwork": "https://i.ytimg.com/vi/04uR4t0qbpg/maxresdefault.jpg",
 		"instrumentation": [
 			"viol"
 		],
@@ -888,6 +904,7 @@
 		"year": 2016,
 		"subtitle": "proloquor for solo trumpet and chamber ensemble",
 		"duration": 14,
+		"artwork": "https://i1.sndcdn.com/artworks-eNBdIQQYHtQi6Mib-I9e6lQ-t500x500.jpg",
 		"instrumentation": [
 			"tpt",
 			"2vn",
@@ -936,6 +953,7 @@
 		"year": 2016,
 		"subtitle": "matachinesque ritual for clarinet and electronics",
 		"duration": 6,
+		"artwork": "https://i1.sndcdn.com/artworks-000455144544-ukaaaz-t500x500.jpg",
 		"instrumentation": [
 			"cl",
 			"elec"
@@ -1119,6 +1137,7 @@
 		"year": 2016,
 		"subtitle": "threnody for solo organ",
 		"duration": 11,
+		"artwork": "https://i1.sndcdn.com/artworks-HlyAnyflBMBt7y1z-AcYraA-t500x500.jpg",
 		"instrumentation": [
 			"org"
 		],
@@ -1167,6 +1186,7 @@
 		"year": 2015,
 		"subtitle": "a nadaist poem for mixed choir a cappella",
 		"duration": 10,
+		"artwork": "https://i1.sndcdn.com/artworks-6TK60APDyzJiVcTl-zSeMeQ-t500x500.jpg",
 		"instrumentation": [
 			"ch[SSAATTBB]"
 		],
@@ -1224,6 +1244,7 @@
 		"year": 2015,
 		"subtitle": "for scordatura violin and piano",
 		"duration": 9,
+		"artwork": "https://onepeterfive.com/wp-content/uploads/2020/05/violin-artsy-paganini.jpg",
 		"instrumentation": [
 			"vn",
 			"pnf"
@@ -1260,6 +1281,7 @@
 		"year": 2014,
 		"subtitle": "images for large brass ensemble, percussion, and celesta",
 		"duration": 7,
+		"artwork": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2014_37/661061/140911-andres-orozco-estrada-01.jpg",
 		"instrumentation": [
 			"3tpt",
 			"4hn",
@@ -1318,6 +1340,7 @@
 		"year": 2013,
 		"subtitle": "for mezzo-soprano and piano",
 		"duration": 4,
+		"artwork": "https://media.wired.com/photos/595461288e8cc150fa8ebb79/master/pass/hs-2006-14-f-hires_jpg.jpg",
 		"instrumentation": [
 			"mez",
 			"pnf"
@@ -1354,6 +1377,7 @@
 		"year": 2013,
 		"subtitle": "song cycle for mixed choir a cappella",
 		"duration": 20,
+		"artwork": "https://i1.sndcdn.com/artworks-HCmcNcDUI8DX11sr-zPlqyQ-t500x500.jpg",
 		"instrumentation": [
 			"ch[SSAATTBB]"
 		],
@@ -1389,6 +1413,7 @@
 		"year": 2013,
 		"subtitle": "for cello and piano",
 		"duration": 5,
+		"artwork": "http://hablemosdeculturas.com/wp-content/uploads/2017/10/Costumbres-de-Colombia-55.jpg",
 		"instrumentation": [
 			"vc",
 			"pnf"
@@ -1425,6 +1450,7 @@
 		"year": 2012,
 		"subtitle": "for harp, clarinet, and cello",
 		"duration": 6,
+		"artwork": "https://i1.sndcdn.com/artworks-ru9Z295vQHYk788j-xeBpNQ-t500x500.jpg",
 		"instrumentation": [
 			"cl",
 			"hp",
@@ -1514,6 +1540,7 @@
 		"year": 2012,
 		"subtitle": "for string quartet",
 		"duration": 8,
+		"artwork": "https://live.staticflickr.com/3747/8792786735_ae6cf5c6b4_b.jpg",
 		"instrumentation": [
 			"2vn",
 			"va",
@@ -1549,6 +1576,7 @@
 		"year": 2012,
 		"subtitle": "for piano trio",
 		"duration": 6,
+		"artwork": "https://radionacional-v3.s3.amazonaws.com/s3fs-public/styles/portadas_relaciona_4_3/public/senalradio/articulo-noticia/galeriaimagen/unnamed_2_0.jpg",
 		"instrumentation": [
 			"vn",
 			"vc",
@@ -1590,6 +1618,7 @@
 		"year": 2011,
 		"subtitle": "for clarinet and piano",
 		"duration": 6,
+		"artwork": "https://assets.bluethumb.com.au/media/image/thumbnail/450/1350/eyJpZCI6InVwbG9hZHMvbGlzdGluZy8xOTUxNjcvZW1pbHktbGF1cm8tY2xhcml0eS1ibHVldGh1bWItYjNjZC5qcGciLCJzdG9yYWdlIjoic3RvcmUiLCJtZXRhZGF0YSI6eyJmaWxlbmFtZSI6ImVtaWx5LWxhdXJvLWNsYXJpdHktYmx1ZXRodW1iLWIzY2QuanBnIiwibWltZV90eXBlIjpudWxsfX0?signature=381a1780fe9124a258e55159e8f2c071a7158fadf55330cc260cabd1537d6ca6",
 		"instrumentation": [
 			"cl",
 			"pnf"

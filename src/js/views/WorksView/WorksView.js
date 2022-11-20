@@ -17,17 +17,19 @@ export default function WorksView() {
       <ViewHeader title={"works"} icon="mdi:music" />
       <div className="works-view">
         <div className="work-cards">
-          {works.map((work, i) => (
-            <WorkCard
-              key={i}
-              className="work-card"
-              work={work}
-              onClick={() => {
-                setIsModalOpen(true);
-                setSelectedWork(work);
-              }}
-            />
-          ))}
+          {works
+            .sort((a, b) => b.year - a.year)
+            .map((work, i) => (
+              <WorkCard
+                key={i}
+                className="work-card"
+                work={work}
+                onClick={() => {
+                  setIsModalOpen(true);
+                  setSelectedWork(work);
+                }}
+              />
+            ))}
         </div>
         <WorkModal work={selectedWork} open={isModalOpen} setOpen={setIsModalOpen} />
       </div>
