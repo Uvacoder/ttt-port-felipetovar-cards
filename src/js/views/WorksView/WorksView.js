@@ -1,11 +1,10 @@
 import "./WorksView.scss";
-import works from "../../../json/work-catalog.json";
 import WorkCard from "../../components/WorkCard/WorkCard";
 import WorkModal from "../../components/WorkModal/WorkModal";
 import ViewHeader from "../../components/ViewHeader/ViewHeader";
 import { useState } from "react";
 
-export default function WorksView() {
+export default function WorksView({ works }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedWork, setSelectedWork] = useState(false);
 

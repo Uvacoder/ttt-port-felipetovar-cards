@@ -1,9 +1,9 @@
 import "./HomeView.scss";
-import cv from "../../../json/cv.json";
 import ProfileIcon from "../../components/ProfileIcon/ProfileIcon";
 import { useState } from "react";
 import TextWidget from "../../components/TextWidget/TextWidget";
-export default function HomeView() {
+
+export default function HomeView({ cv }) {
   const [showBio, setShowBio] = useState(false);
   const iconMap = {
     github: "mdi:github",

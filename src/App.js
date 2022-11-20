@@ -6,6 +6,9 @@ import { ParallaxProvider } from "react-scroll-parallax";
 import HomeView from "./js/views/HomeView/HomeView";
 import NavBar from "./js/components/NavBar/NavBar";
 import WorksView from "./js/views/WorksView/WorksView";
+import SoftwareView from "./js/views/SoftwareView/SoftwareView";
+import cv from "./json/cv.json";
+import works from "./json/work-catalog.json";
 
 /* sass */
 import "./index.scss";
@@ -21,8 +24,9 @@ export default function App() {
       <ThemeContext.Provider value={{ darkTheme, setDarkTheme }}>
         <ParallaxProvider>
           <NavBar />
-          <HomeView />
-          <WorksView />
+          <HomeView cv={cv} />
+          <WorksView works={works} />
+          <SoftwareView cv={cv} />
         </ParallaxProvider>
       </ThemeContext.Provider>
     </div>

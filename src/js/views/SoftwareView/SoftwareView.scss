@@ -1,0 +1,33 @@
+@import "../../../sass/mixins.scss";
+@import "../../../sass/variables.scss";
+
+.software-view {
+	@include col-grid(1fr 1fr);
+	.software {
+		@include round-border;
+		@include pad($gap-lg);
+		@include mar;
+		@include clickable;
+		.name {
+			@include v-stack-c;
+			font-weight: bold;
+			font-size: $txt-ml;
+			text-align: center;
+		}
+		.table {
+			border-spacing: $gap-lg $gap-md;
+			.tbody {
+				.key {
+					vertical-align: top;
+				}
+				.value {
+					.icon {
+						&.active * {
+							color: #5bb06d;
+						}
+					}
+				}
+			}
+		}
+	}
+}
