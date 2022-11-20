@@ -1,0 +1,14 @@
+@import "../../../sass/mixins.scss";
+@import "../../../sass/variables.scss";
+@import "../../../sass/breakpoints.scss";
+
+.expandable-slide-show {
+	@include h-stack-c;
+	@include mobile-down {
+		@include v-stack-c;
+	}
+	@include mobile-up {
+		height: 300px;
+	}
+	width: 100%;
+}

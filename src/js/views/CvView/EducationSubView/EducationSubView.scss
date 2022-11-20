@@ -1,0 +1,15 @@
+@import "../../../../sass/mixins.scss";
+@import "../../../../sass/variables.scss";
+.education-subview {
+	.degrees {
+		.degree {
+			@include h-stack-c;
+			@include pad;
+			.logo {
+				$logo-size: 25px;
+				height: $logo-size;
+				width: auto;
+			}
+	}
+	}
+}

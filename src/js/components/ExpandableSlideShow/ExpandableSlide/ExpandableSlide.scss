@@ -1,0 +1,54 @@
+@import "../../../../sass/mixins.scss";
+@import "../../../../sass/variables.scss";
+@import "../../../../sass/breakpoints.scss";
+
+.expandable-slide {
+  @include v-stack;
+  @include round-border;
+  @include center;
+  @include pad;
+  @include mar;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  &.open {
+    @include mobile-up {
+      width: 100%;
+    }
+    @include mobile-down {
+      max-height: 300px;
+    }
+    .slide-title {
+      display: none;
+    }
+  }
+  &.closed {
+    @include mobile-up {
+      width: 5vw;
+      .slide-title {
+        writing-mode: tb-rl;
+        transform: rotate(-180deg);
+      }
+    }
+  }
+  &.closed,
+  &:not(.open) {
+    @include clickable;
+    .slide-content {
+      display: none;
+    }
+  }
+  .slide-title,
+  .slide-content > .slide-title {
+    @include v-stack-c;
+    @include v-center;
+    @include v-pad;
+    @include h-mar(auto);
+    font-size: $txt-ml;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .slide-content {
+    width: 100%;
+  }
+}

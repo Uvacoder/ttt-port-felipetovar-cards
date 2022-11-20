@@ -2,6 +2,7 @@ import "./SoftwareView.scss";
 import ViewHeader from "../../components/ViewHeader/ViewHeader";
 import { Icon } from "@iconify/react";
 import Card from "../../components/Card/Card";
+import { useEffect } from "react";
 
 export default function SoftwareView({ cv }) {
   const tableRows = ["year", "active", "keywords", "description"];

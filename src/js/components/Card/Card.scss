@@ -23,8 +23,9 @@
   }
   .card-bg {
     position: absolute;
+    object-fit: cover;
     width: 100%;
-    height: auto;
+    height: 100%;
     top: 50%;
     left: 50%;
     translate: -50% -50%;

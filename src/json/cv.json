@@ -467,10 +467,11 @@
 					"Web Audio API",
 					"Canvas API",
 					"MIR",
-					"ML"
+					"ML",
+					"Audio"
 				],
 				"artwork": "https://d2cqospqxtt8fw.cloudfront.net/static/card.png",
-				"description": "Full-stack web application for interactive, corpus-based granular audio synthesis, using ML and MIR techniques"
+				"description": "Full-stack web application for interactive, corpus-based granular audio synthesis, using ML and MIR techniques."
 			},
 			{
 				"name": "GAMuT",
@@ -482,10 +483,11 @@
 					"DSP",
 					"Granulation",
 					"MIR",
-					"ML"
+					"ML",
+					"Audio"
 				],
 				"artwork": "https://warehouse-camo.ingress.cmh1.psfhosted.org/4f00e68d336fde659e9353046093bdc68b9cffed/68747470733a2f2f7374617469632e7769787374617469632e636f6d2f6d656469612f3938613165625f34646263333431666661623034393936613339363137626634653631313762667e6d76322e706e672f76312f66696c6c2f775f3835362c685f3533342c616c5f632c715f39302c75736d5f302e36365f312e30305f302e30312f6c6f676f2e77656270",
-				"description": "High-level, user-friendly granular audio musaicing toolkit implemented in Python, using ML and MIR techniques"
+				"description": "High-level, user-friendly granular audio musaicing toolkit implemented in Python, using ML and MIR techniques."
 			},
 			{
 				"name": "[stringnode]",
@@ -500,10 +502,11 @@
 					"Transcription",
 					"Sequencer",
 					"Ableton Live",
-					"Max4Live"
+					"Max4Live",
+					"Audio"
 				],
-				"artwork": "https://github.com/felipetovarhenao/stringnode/raw/main/images/icon.png",
-				"description": "Computer-assisted composition tool for string node pattern sequencing and playback"
+				"artwork": "https://github.com/felipetovarhenao/stringnode/raw/main/images/script.png",
+				"description": "Computer-assisted composition tool for string node pattern sequencing and playback."
 			},
 			{
 				"name": "M4L exquisitecorpus",
@@ -517,10 +520,11 @@
 					"DSP",
 					"Sampling",
 					"MIR",
-					"bach"
+					"bach",
+					"Audio"
 				],
 				"artwork": "https://github.com/felipetovarhenao/exquisitecorpus/raw/main/reference_screenshots/EC-analyzer_full.png",
-				"description": "Open-source, Max for Live device (audio plug-in) for corpus-based sampling transposition and analysis in Ableton Live"
+				"description": "Open-source, Max for Live device (audio plug-in) for corpus-based sampling transposition and analysis in Ableton Live."
 			},
 			{
 				"name": "miniOMsynth",
@@ -533,10 +537,11 @@
 					"OpenMusic",
 					"DSP",
 					"Synth",
-					"OSC"
+					"OSC",
+					"Audio"
 				],
 				"artwork": "https://github.com/felipetovarhenao/miniOMsynth/raw/main/miniOMsynth_prev_images/miniOMsynth_editor.png",
-				"description": "Cross-platform (MacOS, Windows), open-source audio synthesizer application for OpenMusic playback support, via OSC protocol"
+				"description": "Cross-platform (MacOS, Windows), open-source audio synthesizer application for OpenMusic playback support, via OSC protocol."
 			},
 			{
 				"name": "OM-Data",
@@ -551,7 +556,7 @@
 					"CAC"
 				],
 				"artwork": "https://github.com/felipetovarhenao/OM-Data/raw/main/resources/icons/000.png",
-				"description": "Open-source, CLOS library for computer-aided composition in OpenMusic. Mainly aimed at data modelling and analysis"
+				"description": "Open-source, CLOS library for computer-aided composition in OpenMusic. Mainly aimed at data modelling and analysis."
 			},
 			{
 				"name": "light.void~",
@@ -564,10 +569,24 @@
 					"Sensors",
 					"Leafcutter John",
 					"DSP",
-					"MaxMSP"
+					"MaxMSP",
+					"Audio"
 				],
 				"artwork": "https://cecm.indiana.edu/images/felipe-umbra.png",
-				"description": "Open-source, light-dependent digital music interface based on Leafcutter John's light thing. Built with Arduino and MaxMSP"
+				"description": "Open-source, light-dependent digital music interface based on Leafcutter John's light thing. Built with Arduino and MaxMSP."
+			},
+			{
+				"name": "rtcmixlib",
+				"url": "https://github.com/felipetovarhenao/rtcmixlib",
+				"year": 2018,
+				"active": true,
+				"keywords": [
+					"RTcmix",
+					"DSP",
+					"Audio"
+				],
+				"artwork": "https://i.ytimg.com/vi/RQpJuNt3dYk/hqdefault.jpg?s…AFwAcABBg==&rs=AOn4CLBCPaoSvMAt-fucyyeA8-0gR9Qhxw",
+				"description": "Mixed collection of user-defined RTcmix functions, mainly for easy handling of nested data structures."
 			}
 		]
 	},
@@ -575,7 +594,8 @@
 		"degrees": [
 			{
 				"institution": "Indiana University, Jacobs School of Music",
-				"degree": "DM",
+				"logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Indiana_Hoosiers_logo.svg/540px-Indiana_Hoosiers_logo.svg.png?20160928022158",
+				"name": "DM",
 				"city": "Bloomington, IN",
 				"country": "USA",
 				"date": [
@@ -590,7 +610,8 @@
 			},
 			{
 				"institution": "Indiana University, Jacobs School of Music",
-				"degree": "MM",
+				"logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Indiana_Hoosiers_logo.svg/540px-Indiana_Hoosiers_logo.svg.png?20160928022158",
+				"name": "MM",
 				"city": "Bloomington, IN",
 				"country": "USA",
 				"date": [
@@ -602,7 +623,8 @@
 			},
 			{
 				"institution": "Universidad EAFIT",
-				"degree": "BM",
+				"logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_EAFIT.svg/1024px-Logo_EAFIT.svg.png",
+				"name": "BM",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
 				"date": [
