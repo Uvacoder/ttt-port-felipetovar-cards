@@ -1,16 +1,20 @@
 import "./ExperienceSubView.scss";
 
 export default function ExperienceSubView({ work }) {
-  const categories = ["teaching", "industry"];
+  const categories = ["academic", "other positions"];
+  const maxValue = 10000;
+
   return (
     <div className="experience-subview">
       {categories.map((key, k) => (
-        <div className={`${key}`} key={k}>
+        <div className={`${key.replace(" ", "-")}`} key={k}>
           <div className="header">{key}</div>
           {work[key]
-            .sort((a, b) => Math.max(...b.date) - Math.max(...a.date))
+            .sort((a, b) => {
+              a.date[1] = a.date[1] === true ? maxValue : a.date[1];
+              return Math.max(...b.date) - Math.max(...a.date);
+            })
             .map((position, i) => {
-              position.date[1] = position.date[1] === true ? 3000 : position.date[1];
               return (
                 <div className="position" key={i}>
                   <span className="name">{position.name} </span>
@@ -20,7 +24,7 @@ export default function ExperienceSubView({ work }) {
                   </span>
                   <span className="date">
                     {position.date[1]
-                      ? `${position.date[0]}–${position.date[1] === 3000 ? "pr." : JSON.stringify(position.date[1]).slice(2, 4)}`
+                      ? `${position.date[0]}–${position.date[1] === maxValue ? "pr." : JSON.stringify(position.date[1]).slice(2, 4)}`
                       : position.date[0]}
                   </span>
                   {position.courses && (

@@ -8,7 +8,7 @@
     text-transform: uppercase;
     text-align: center;
   }
-  .teaching, .industry {
+  .academic, .other-positions {
     @include v-mar;
     .position {
       @include v-pad;

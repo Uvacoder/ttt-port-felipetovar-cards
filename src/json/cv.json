@@ -99,14 +99,25 @@
 		]
 	},
 	"work": {
-		"industry": [
+		"other positions": [
+			{
+				"name": "Freelance Music Copyist",
+				"workplace": "The U.S. Army Band \"Pershing's Own\"",
+				"city": "Arlington County, VA",
+				"country": "USA",
+				"date": [
+					2022,
+					false
+				]
+			},
 			{
 				"name": "Media Digitization and Preservation Staff",
 				"workplace": "Archives of Traditional Music. Ethnomusicology Department. Indiana University",
 				"city": "Bloomington, IN",
 				"country": "USA",
 				"date": [
-					2019
+					2019,
+					false
 				]
 			},
 			{
@@ -130,6 +141,16 @@
 				]
 			},
 			{
+				"name": "Freelance SEO content writer",
+				"workplace": "Skoove",
+				"city": "Berlin",
+				"country": "Germany (remote)",
+				"date": [
+					2022,
+					true
+				]
+			},
+			{
 				"name": "Music Arranger",
 				"workplace": "Latin American Music Center. Indiana University",
 				"city": "Bloomington, IN",
@@ -140,7 +161,7 @@
 				]
 			}
 		],
-		"teaching": [
+		"academic": [
 			{
 				"name": "Postdoctoral Researcher in Music Composition",
 				"date": [
@@ -270,7 +291,7 @@
 						"language": "English",
 						"event": "Mizzou International Composer Festival",
 						"date": "2022-07-27",
-						"venue": "University of Mizzou",
+						"venue": "University of Missouri",
 						"city": "Columbia, MI",
 						"country": "USA"
 					}
@@ -381,6 +402,7 @@
 				"role": "Resident composer",
 				"date": "2022-07-22",
 				"event": "Mizzou International Composer Festival",
+				"institution": "University of Missouri",
 				"end": "2022-07-30",
 				"activities": [
 					"guest lecture",
@@ -392,6 +414,7 @@
 				"role": "Guest composer",
 				"date": "2021-11-18",
 				"event": "The UIndy Composers Forum, featuring Felipe Tovar-Henao",
+				"institution": "University of Indianapolis",
 				"end": "2021-11-19",
 				"activities": [
 					"guest lecture",

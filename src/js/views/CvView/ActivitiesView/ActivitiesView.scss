@@ -1,0 +1,46 @@
+@import "../../../../sass/mixins.scss";
+@import "../../../../sass/variables.scss";
+@import "../../../../sass/breakpoints.scss";
+
+.activities-view {
+  @include mobile-down {
+    @include v-stack-c;
+  }
+  @include mobile-up {
+    @include col-grid(1fr 1fr 1fr);
+  }
+  .residencies,
+  .lectures,
+  .workshops {
+    @include v-stack;
+    @include v-pad;
+    @include to-top;
+  }
+  .header {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .residence,
+  .workshop,
+  .lecture {
+    @include vh-pad($gap-ml, $gap-xl);
+    @include mar;
+    @include round-border;
+    background-color: var(--bg1);
+  }
+  .lecture > .name,
+  .residence > .role,
+  .workshop > .name {
+    @include v-stack;
+    @include h-center;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: var(--primary);
+  }
+  .lecture .venue,
+  .residence .institution,
+  .workshop .institution {
+    font-weight: bold;
+  }
+}

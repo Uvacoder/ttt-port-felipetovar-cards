@@ -1,6 +1,23 @@
 @import "../../../sass/mixins.scss";
 @import "../../../sass/variables.scss";
+@import "../../../sass/breakpoints.scss";
 
 .cv-view {
 	@include b-mar($gap-xl);
+	.closed .icon {
+		writing-mode: horizontal-tb;
+		@include mobile-up {
+			transform: rotate(180deg);
+		}
+	}
+	.icon {
+		font-size: $txt-lg;
+	}
+	.cv-section-title {
+		vertical-align: middle;
+	}
+	.open .icon {
+		vertical-align: middle;
+		text-align: middle;
+	}
 }
