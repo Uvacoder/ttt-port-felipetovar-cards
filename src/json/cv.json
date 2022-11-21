@@ -101,33 +101,39 @@
 	"work": {
 		"industry": [
 			{
-				"name": "Archives of Traditional Music. Ethnomusicology Department. Indiana University",
-				"location": "Bloomington, IN",
-				"position": "Media Digitization and Preservation Staff",
-				"date": 2019
+				"name": "Media Digitization and Preservation Staff",
+				"workplace": "Archives of Traditional Music. Ethnomusicology Department. Indiana University",
+				"city": "Bloomington, IN",
+				"country": "USA",
+				"date": [
+					2019
+				]
 			},
 			{
-				"name": "Composition Department. Indiana University",
-				"location": "Bloomington, IN",
-				"position": "Music copyist",
+				"name": "Music copyist",
+				"workplace": "Composition Department. Indiana University",
+				"city": "Bloomington, IN",
+				"country": "USA",
 				"date": [
 					2016,
 					2017
 				]
 			},
 			{
-				"name": "Indiana University",
-				"location": "Bloomington, IN",
-				"position": "\"Double Exposure\" Project Coordinator",
+				"name": "\"Double Exposure\" Project Coordinator",
+				"workplace": "Indiana University",
+				"city": "Bloomington, IN",
+				"country": "USA",
 				"date": [
 					2016,
 					2017
 				]
 			},
 			{
-				"name": "Latin American Music Center. Indiana University",
-				"location": "Bloomington, IN",
-				"position": "Music Arranger",
+				"name": "Music Arranger",
+				"workplace": "Latin American Music Center. Indiana University",
+				"city": "Bloomington, IN",
+				"country": "USA",
 				"date": [
 					2015,
 					2016
@@ -141,7 +147,7 @@
 					2021,
 					2022
 				],
-				"institution": "Chicago Center for Contemporary Composition. University of Chicago",
+				"workplace": "Chicago Center for Contemporary Composition. University of Chicago",
 				"city": "Chicago, IL",
 				"country": "USA",
 				"courses": [
@@ -169,7 +175,7 @@
 					2022,
 					true
 				],
-				"institution": "Music Department. Universidad EAFIT",
+				"workplace": "Music Department. Universidad EAFIT",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
 				"courses": [
@@ -193,7 +199,7 @@
 					2020,
 					2021
 				],
-				"institution": "Music Department. Universidad EAFIT",
+				"workplace": "Music Department. Universidad EAFIT",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
 				"courses": [
@@ -217,7 +223,7 @@
 					2017,
 					2020
 				],
-				"institution": "Composition Department. Indiana University",
+				"workplace": "Composition Department. Indiana University",
 				"city": "Bloomington, IN",
 				"country": "USA",
 				"courses": [

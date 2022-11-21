@@ -2,13 +2,14 @@
 @import "../../../../sass/variables.scss";
 
 .experience-subview {
-  .teaching {
+  @include b-pad($gap-lg);
+  .header {
+    @include v-pad;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .teaching, .industry {
     @include v-mar;
-    .header {
-      @include v-pad;
-      text-transform: uppercase;
-      text-align: center;
-    }
     .position {
       @include v-pad;
       text-align: center;
@@ -19,26 +20,27 @@
         color: var(--secondary);
       }
       .date {
-				@include v-stack;
+        @include v-stack;
       }
-      .institution {
+      .workplace {
         font-weight: bold;
       }
-			.courses {
-				@include v-stack-c;
-				@include v-pad;
-				@include h-center;
-				width: fit-content;
-				text-align: left;
+      .courses {
+        @include v-stack-c;
+        @include v-pad;
+        @include h-center;
+        width: fit-content;
+        text-align: left;
         border-spacing: $gap-lg $gap-sm;
-				.course {
-					.name, .terms {
-						color: var(--txt);
-						// display: inline;
-						font-size: $txt-md;
-					}
-				}
-			}
+        .course {
+          .name,
+          .terms {
+            color: var(--txt);
+            // display: inline;
+            font-size: $txt-md;
+          }
+        }
+      }
     }
   }
 }
