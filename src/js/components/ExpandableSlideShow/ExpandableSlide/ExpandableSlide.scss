@@ -11,21 +11,18 @@
   height: 100%;
   overflow: auto;
   &.open {
+    background-color: var(--bg2);
     @include mobile-up {
       width: 100%;
     }
     @include mobile-down {
-      max-height: 325px;
+      max-height: 400px;
     }
     .slide-title {
       display: none;
     }
   }
   &.closed {
-    @include grow;
-    &:hover {
-      background-color: var(--bg-hl);
-    }
     @include mobile-up {
       width: 5vw;
       .slide-title {
@@ -37,6 +34,11 @@
   &.closed,
   &:not(.open) {
     @include clickable;
+    @include grow;
+    background-color: var(--bg3);
+    &:hover {
+      background-color: var(--bg-hl);
+    }
     .slide-content {
       display: none;
     }
@@ -61,5 +63,6 @@
   }
   .slide-content {
     width: 100%;
+    height: calc(100% - 32px);
   }
 }

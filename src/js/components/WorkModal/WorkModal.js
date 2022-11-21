@@ -56,7 +56,15 @@ export default function WorkModal({ work, open, setOpen }) {
                           </div>
                         ) : (
                           <span key={j} className={`row-value-item ${row}`}>
-                            {d}
+                            {row === "awards" ? (
+                              <>
+                                • <span className="award-name">{d.name} </span>
+                                <span className="award-institution">({d.date}). {d.institution}. </span>
+                                <span className="award-country">{d.country}.</span>
+                              </>
+                            ) : (
+                              d
+                            )}
                           </span>
                         )
                       )}

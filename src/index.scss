@@ -8,4 +8,8 @@
   background: linear-gradient(180deg, var(--bg1) 10%, var(--bg3));
   height: 100vh;
   overflow: auto;
+  .footer {
+    @include b-mar($gap-lg);
+    text-align: center;
+  }
 }

@@ -1,0 +1,36 @@
+@import "../../../../sass/mixins.scss";
+@import "../../../../sass/variables.scss";
+
+.awards-subview {
+	@include h-pad;
+	.header {
+		@include v-pad($gap-lg);
+		font-size: $txt-md;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	.awards {
+		@include col-grid(1fr 1fr);
+		.award {
+			@include v-stack-c;
+			@include round-border;
+			@include vh-pad($gap-ml, $gap-lg);
+			@include mar;
+			background-color: var(--bg1);
+			text-align: center;
+			.name, .date {
+				font-size: $txt-ml;
+			}
+			.name {
+				font-weight: bold;
+				color: var(--secondary);
+			}
+			.date {
+				@include b-pad;
+			}
+			.institution {
+				font-weight: bold;
+			}
+		}
+	}
+}

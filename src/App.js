@@ -29,6 +29,7 @@ export default function App() {
           <WorksView works={works} />
           <SoftwareView cv={cv} />
           <CvView cv={cv} works={works}/>
+          <div className="footer">{new Date(Date.now()).getFullYear()} © Felipe Tovar-Henao</div>
         </ParallaxProvider>
       </ThemeContext.Provider>
     </div>

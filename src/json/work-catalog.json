@@ -127,7 +127,12 @@
 			"electronic"
 		],
 		"awards": [
-			"Finalist, 2019 ASCAP/SEAMUS student award"
+			{
+				"name": "Finalist, ASCAP/SEAMUS student award",
+				"date": 2019,
+				"institution": "ASCAP/SEAMUS",
+				"country": "USA"
+			}
 		],
 		"performances": [
 			{
@@ -197,8 +202,18 @@
 			"concerto"
 		],
 		"awards": [
-			"2018 ASCAP Morton Gould Young Composer Awards",
-			"2017 Beca para la Creación de Música Contemporánea. Ministerio de Cultura"
+			{
+				"name": "ASCAP Morton Gould Young Composer Awards",
+				"date": 2018,
+				"institution": "American Society of Composers, Authors, and Publishers (ASCAP)",
+				"country": "USA"
+			},
+			{
+				"name": "Beca para la Creación de Música Contemporánea",
+				"date": 2017,
+				"institution": "Ministerio de Cultura",
+				"country": "Colombia"
+			}
 		],
 		"performances": [
 			{
@@ -629,7 +644,12 @@
 			"electronic"
 		],
 		"awards": [
-			"2018-19 Morris and Sheila Hass Award in Computer Music"
+			{
+				"name": "Morris and Sheila Hass Award in Computer Music",
+				"date": 2018,
+				"institution": "Indiana University",
+				"country": "USA"
+			}
 		],
 		"performances": [
 			{
@@ -919,8 +939,18 @@
 			"chamber"
 		],
 		"awards": [
-			"2016 Jacobs School of Music Dean's Prize Award",
-			"Honorable mention, 2016 ASCAP Morton Gould Young Composer Awards"
+			{
+				"name": "Jacobs School of Music Dean's Prize Award",
+				"date": 2016,
+				"institution": "Indiana University",
+				"country": "USA"
+			},
+			{
+				"name": "Honorable mention, ASCAP Morton Gould Young Composer Awards",
+				"date": 2016,
+				"institution": "American Society of Composers, Authors, and Publishers (ASCAP)",
+				"country": "USA"
+			}
 		],
 		"performances": [
 			{
@@ -1146,7 +1176,12 @@
 			"solo"
 		],
 		"awards": [
-			"Finalist, 2016 BMI Student composition award"
+			{
+				"name": "Finalist, BMI Student composition award",
+				"date": 2016,
+				"institution": "Broadcast Music, Inc. (BMI)",
+				"country": "USA"
+			}
 		],
 		"performances": [
 			{
@@ -1196,7 +1231,12 @@
 			"chamber"
 		],
 		"awards": [
-			"Honorable mention, 2016 NOTUS composition contest"
+			{
+				"name": "Honorable mention, 2016 NOTUS composition contest",
+				"date": 2016,
+				"institution": "Indiana University",
+				"country": "USA"
+			}
 		],
 		"performances": [
 			{
@@ -1461,7 +1501,12 @@
 			"chamber"
 		],
 		"awards": [
-			"Premios para el fomento de la creación artística 2012 - Banco Virtual de Partituras - Categoría 1. Ministerio de Cultura"
+			{
+				"name": "Premios para el fomento de la creación artística 2012 - Banco Virtual de Partituras - Categoría 1",
+				"date": 2012,
+				"institution": "Ministerio de Cultura",
+				"country": "Colombia"
+			}
 		],
 		"performances": [
 			{
@@ -1551,7 +1596,12 @@
 			"chamber"
 		],
 		"awards": [
-			"Periscopio Ensemble Composition Contest 2012-2"
+			{
+				"name": "Periscopio Ensemble Composition Contest (Fall)",
+				"date": 2012,
+				"institution": "Ministerio de Cultura",
+				"country": "Colombia"
+			}
 		],
 		"performances": [
 			{

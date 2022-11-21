@@ -61,7 +61,10 @@
             }
           }
           &.awards {
-            @include h-stack;
+            @include v-stack;
+            .award-name {
+              font-weight: bold;
+            }
           }
           &:has(> .performance) {
             @include v-stack;

@@ -1,3 +1,6 @@
+@import "../../../sass/mixins.scss";
+@import "../../../sass/variables.scss";
+
 .cv-view {
-	background-color: blue;
+	@include b-mar($gap-xl);
 }

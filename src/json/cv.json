@@ -56,63 +56,43 @@
 		"academic": [
 			{
 				"name": "Juan Orrego-Salas Scholarship Fund",
-				"date": [
-					2017,
-					2020
-				],
+				"date": 2017,
 				"institution": "Indiana University, Jacobs School of Music",
 				"country": "USA"
 			},
 			{
 				"name": "Artistic Excellence Award",
-				"date": [
-					2015,
-					2015
-				],
+				"date": 2015,
 				"institution": "Indiana University, Jacobs School of Music",
 				"country": "USA"
 			},
 			{
 				"name": "Graduate Tuition Award",
-				"date": [
-					2015,
-					2015
-				],
+				"date": 2015,
 				"institution": "Indiana University, Jacobs School of Music",
 				"country": "USA"
 			},
 			{
 				"name": "Becas para colombianos en proceso de formación artística y cultural en el exterior",
-				"date": [
-					2015,
-					2015
-				],
+				"date": 2015,
 				"institution": "Ministerio de Cultura",
 				"country": "Colombia"
 			},
 			{
 				"name": "Programa Crédito Beca",
-				"date": [
-					2015,
-					2017
-				],
+				"date": 2015,
 				"institution": "COLFUTURO",
 				"country": "Colombia"
 			},
 			{
 				"name": "Beca de Rectoría",
-				"date": [
-					2011,
-					2015
-				],
+				"date": 2011,
 				"institution": "Universidad EAFIT",
 				"country": "Colombia"
 			},
 			{
 				"name": "Beca de Honor",
-				"date": [
-					2011
-				],
+				"date": 2011,
 				"institution": "Universidad EAFIT",
 				"country": "Colombia"
 			}
