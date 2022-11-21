@@ -1,0 +1,44 @@
+@import "../../../../sass/mixins.scss";
+@import "../../../../sass/variables.scss";
+
+.experience-subview {
+  .teaching {
+    @include v-mar;
+    .header {
+      @include v-pad;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .position {
+      @include v-pad;
+      text-align: center;
+      .name {
+        @include v-stack;
+        font-size: $txt-ml;
+        font-style: italic;
+        color: var(--secondary);
+      }
+      .date {
+				@include v-stack;
+      }
+      .institution {
+        font-weight: bold;
+      }
+			.courses {
+				@include v-stack-c;
+				@include v-pad;
+				@include h-center;
+				width: fit-content;
+				text-align: left;
+        border-spacing: $gap-lg $gap-sm;
+				.course {
+					.name, .terms {
+						color: var(--txt);
+						// display: inline;
+						font-size: $txt-md;
+					}
+				}
+			}
+    }
+  }
+}
