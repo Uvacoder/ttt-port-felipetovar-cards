@@ -6,7 +6,6 @@
   @include v-stack;
   @include round-border;
   @include center;
-  @include pad;
   @include mar;
   width: 100%;
   height: 100%;
@@ -16,13 +15,17 @@
       width: 100%;
     }
     @include mobile-down {
-      max-height: 300px;
+      max-height: 325px;
     }
     .slide-title {
       display: none;
     }
   }
   &.closed {
+    @include grow;
+    &:hover {
+      background-color: var(--bg-hl);
+    }
     @include mobile-up {
       width: 5vw;
       .slide-title {
@@ -47,6 +50,14 @@
     font-size: $txt-ml;
     text-transform: uppercase;
     text-align: center;
+  }
+  .slide-content > .slide-title {
+    margin-top: 0;
+    width: 100%;
+    position: sticky;
+    background-color: var(--bg3);
+    color: var(--primary);
+    top: 0;
   }
   .slide-content {
     width: 100%;

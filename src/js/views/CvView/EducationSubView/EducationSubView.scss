@@ -1,15 +1,55 @@
 @import "../../../../sass/mixins.scss";
 @import "../../../../sass/variables.scss";
+@import "../../../../sass/breakpoints.scss";
+
 .education-subview {
-	.degrees {
-		.degree {
-			@include h-stack-c;
-			@include pad;
-			.logo {
-				$logo-size: 25px;
-				height: $logo-size;
-				width: auto;
-			}
+	height: 100%;
+	width: 100%; 
+	@include v-center;
+	@include mobile-up {
+		@include v-center;
+		@include col-grid(1fr 1fr);
 	}
+	@include mobile-down {
+		@include v-stack-c;
+	}
+	.header {
+		text-transform: capitalize;
+		text-align: center;
+		font-size: $txt-ml;
+	}
+	.institution {
+		font-weight: bold;
+	}
+	.name {
+		font-weight: bold;
+	}
+  .degrees, .others {
+		@include v-stack-c;
+		@include to-bottom;
+		@include b-pad($gap-lg);
+		@include h-pad;
+		height: 100%;
+    .degree, .other {
+			@include h-center;
+      @include v-stack-c;
+      @include vh-pad($gap-ml, $gap-md);
+			text-align: center;
+			width: 100%;
+			.major {
+				color: var(--primary);
+				font-style: italic;
+			}
+			.minors {
+				.minor {
+					color: var(--secondary);
+				}
+			}
+    }
+  }
+	.degrees {
+		* {
+			font-size: $txt-ml;
+		}
 	}
 }

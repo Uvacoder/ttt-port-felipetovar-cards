@@ -594,7 +594,7 @@
 		"degrees": [
 			{
 				"institution": "Indiana University, Jacobs School of Music",
-				"logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Indiana_Hoosiers_logo.svg/540px-Indiana_Hoosiers_logo.svg.png?20160928022158",
+				"url": "https://bulletins.iu.edu/iub/music/2022-2023/graduate/curricula/composition-dm.shtml?_ga=2.112581316.1134966880.1668987856-202120687.1665950308",
 				"name": "DM",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -602,15 +602,15 @@
 					2017,
 					2020
 				],
-				"major": "Music composition",
+				"major": "Music Composition",
 				"minors": [
-					"Music theory",
+					"Music Theory",
 					"Computer Music"
 				]
 			},
 			{
 				"institution": "Indiana University, Jacobs School of Music",
-				"logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Indiana_Hoosiers_logo.svg/540px-Indiana_Hoosiers_logo.svg.png?20160928022158",
+				"url": "https://bulletins.iu.edu/iub/music/2022-2023/graduate/curricula/composition-mm.shtml?_ga=2.112581316.1134966880.1668987856-202120687.1665950308",
 				"name": "MM",
 				"city": "Bloomington, IN",
 				"country": "USA",
@@ -618,12 +618,12 @@
 					2015,
 					2017
 				],
-				"major": "Music composition",
+				"major": "Music Composition",
 				"minors": false
 			},
 			{
 				"institution": "Universidad EAFIT",
-				"logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_EAFIT.svg/1024px-Logo_EAFIT.svg.png",
+				"url": "https://www.eafit.edu.co/programas-academicos/pregrados/musica/plan-estudios/Paginas/inicio.aspx",
 				"name": "BM",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
@@ -631,16 +631,16 @@
 					2011,
 					2015
 				],
-				"major": "Music composition",
+				"major": "Music Composition",
 				"minors": false
 			}
 		],
 		"other": [
 			{
-				"name": "CS50: Web Programming with Python and JavaScript",
+				"name": "Web Programming with Python and JavaScript",
 				"url": "https://cs50.harvard.edu/certificates/3103c24f-ed06-40c7-a599-aab9b2af9507",
-				"type": "professional certificate",
-				"institution": "HarvardX",
+				"type": "Professional certificate",
+				"institution": "CS50 @ Harvard University",
 				"location": "Online",
 				"date": [
 					"2022-07-20",
@@ -648,10 +648,10 @@
 				]
 			},
 			{
-				"name": "CS50: Introduction to Artificial Intelligence with Python",
+				"name": "Introduction to Artificial Intelligence with Python",
 				"url": "https://cs50.harvard.edu/certificates/efc25672-2098-4b61-9e0e-6843eb896b12",
-				"type": "professional certificate",
-				"institution": "HarvardX",
+				"type": "Professional certificate",
+				"institution": "CS50 @ Harvard University",
 				"location": "Online",
 				"date": [
 					"2022-08-20",
@@ -660,8 +660,8 @@
 			},
 			{
 				"name": "CIEE Paris Contemporary Music Creation and Critique Program, ManiFeste & l’Académie",
-				"url": false,
-				"type": "summer course",
+				"url": "https://www.ciee.org/go-abroad/college-study-abroad/programs/france/paris/summer-contemporary-music-creation-critique",
+				"type": "Summer course",
 				"institution": "IRCAM-Centre Pompidou",
 				"location": "Paris, France",
 				"date": [

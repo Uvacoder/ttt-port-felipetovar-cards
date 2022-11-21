@@ -48,6 +48,7 @@
             @include b-mar($gap-sm);
             @include r-mar;
             @include round-border;
+            background-color: var(--bg1);
             font-family: $font2;
           }
         }
