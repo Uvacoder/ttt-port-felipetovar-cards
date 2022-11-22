@@ -4,6 +4,7 @@
 
 .cv-view {
 	@include b-mar($gap-xl);
+	@include pad;
 	.closed .icon {
 		-webkit-writing-mode: horizontal-tb;
 		    -ms-writing-mode: lr-tb;

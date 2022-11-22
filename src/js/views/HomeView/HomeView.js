@@ -1,7 +1,8 @@
 import "./HomeView.scss";
 import ProfileIcon from "../../components/ProfileIcon/ProfileIcon";
-import { useState } from "react";
 import TextWidget from "../../components/TextWidget/TextWidget";
+import Avatar from "../../components/Avatar/Avatar";
+import { useState } from "react";
 
 export default function HomeView({ cv }) {
   const [showBio, setShowBio] = useState(false);
@@ -16,9 +17,7 @@ export default function HomeView({ cv }) {
   return (
     <div className="home-view">
       <div className="header">
-        <div className="headshot">
-          <img src={basics.image} alt="headshot" className="img" onClick={() => setShowBio((x) => !x)} />
-        </div>
+        <Avatar url={basics.image} />
         <div className="text">
           <h1 className="name">{basics.name}</h1>
           <h2 className="labels">

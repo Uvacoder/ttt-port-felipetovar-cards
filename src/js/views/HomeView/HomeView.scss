@@ -18,29 +18,6 @@
     @include center;
     @include v-pad($gap-xl);
     min-width: 50%;
-    .headshot {
-      $max-size: 200px;
-      @include stack;
-      @include center;
-      @include border($size: $border-ml);
-      @include trans(0.25s);
-      overflow: hidden;
-      width: $max-size;
-      height: $max-size;
-      border-radius: 100%;
-      @include onload-animation(fade-in, $dur: 1.5s);
-      .img {
-        @include center;
-        @include trans(0.75s);
-        -webkit-filter: grayscale(70%);
-                filter: grayscale(70%);
-        display: block;
-        width: $max-size;
-        height: auto;
-        translate: 0px -50px;
-        scale: 1;
-      }
-    }
     .text {
       @include h-stack-c;
       @include v-pad($gap-xl);
@@ -60,12 +37,14 @@
         @include h-pad;
         font-size: $txt-xl;
         @include mobile-down {
-          &, & > * {
+          &,
+          & > * {
             font-size: $txt-lg;
           }
         }
         @include mobile-small-down {
-          &, & > * {
+          &,
+          & > * {
             font-size: $txt-ml;
           }
         }

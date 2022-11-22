@@ -1,0 +1,51 @@
+@import "../../../sass/mixins.scss";
+@import "../../../sass/variables.scss";
+
+.avatar {
+  @include b-mar($gap-xl);
+  width: 100%;
+  position: relative;
+  .avatar-inner {
+    $max-size: 200px;
+    @include stack;
+    @include center;
+    @include border($size: $border-ml);
+    @include trans(0.25s);
+    overflow: hidden;
+    width: $max-size;
+    height: $max-size;
+    border-radius: 100%;
+    .img {
+      @include onload-animation(fade-in, $dur: 1.5s);
+      @include center;
+      @include trans(0.75s);
+      -webkit-filter: grayscale(70%);
+      filter: grayscale(70%);
+      display: block;
+      width: $max-size;
+      height: auto;
+      translate: 0px -50px;
+      scale: 1;
+      z-index: 10;
+    }
+  }
+  .blocks {
+    @include v-stack-c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    .block {
+      @include onload-animation(h-grow);
+      @include stack;
+      @include v-mar($gap-lg);
+      @include h-center;
+      border-radius: $border-ml;
+      rotate: -45deg;
+      height: 6px;
+      background-color: var(--bord);
+      z-index: 9;
+    }
+  }
+}

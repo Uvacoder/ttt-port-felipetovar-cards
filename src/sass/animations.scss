@@ -72,3 +72,12 @@ $slide-delta: 30px;
     rotate: 0deg;
   }
 }
+
+@keyframes h-grow {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 250px;
+  }
+}
