@@ -63,3 +63,12 @@ $slide-delta: 30px;
     height: 100%;
   }
 }
+
+@keyframes rotate-in {
+  from {
+    rotate: -15deg;
+  }
+  to {
+    rotate: 0deg;
+  }
+}

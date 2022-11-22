@@ -2,20 +2,20 @@
 @import "../../../sass/variables.scss";
 
 .view-header {
-	@include v-pad;
-	text-align: center;
-	.title {
-		font-size: $txt-xl;
-		text-transform: uppercase;
-	}
-	.icon {
-		& * {
-			color: var(--secondary);
-		}
-		font-size: $txt-xl;
-		vertical-align: middle;
-		top:50%;
-		left:50%;
-		translate: -25% -25%;
-	}
+  @include v-pad;
+  text-align: center;
+  .title {
+    font-size: $txt-xl;
+    text-transform: uppercase;
+  }
+  .icon {
+    & * {
+      color: var(--secondary);
+    }
+    font-size: $txt-xl;
+    vertical-align: middle;
+    top: 50%;
+    left: 50%;
+    translate: -25% -25%;
+  }
 }

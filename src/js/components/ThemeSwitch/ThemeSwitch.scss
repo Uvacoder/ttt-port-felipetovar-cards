@@ -3,24 +3,24 @@
 
 .theme-switch {
   @include h-stack-c;
-	@include mar;
-	@include pad;
-	@include clickable;
+  @include mar;
+  @include pad;
+  @include clickable;
   $switch-height: 15px;
   height: $switch-height;
   .pin-outer {
     @include round-border;
-		@include h-stack-c;
+    @include h-stack-c;
     @include h-mar;
-		background-color: var(--bg3);
+    background-color: var(--bg3);
     width: 30px;
     height: 100%;
     .pin-inner {
-			@include border;
-			display: block;
-			transition: all 0.2s linear;
-			background-color: var(--bg2);
-			border-radius: 100%;
+      @include border;
+      display: block;
+      transition: all 0.2s linear;
+      background-color: var(--bg2);
+      border-radius: 100%;
       height: $switch-height;
       width: $switch-height;
     }

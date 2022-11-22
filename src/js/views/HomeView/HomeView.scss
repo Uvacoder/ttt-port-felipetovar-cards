@@ -28,6 +28,7 @@
       width: $max-size;
       height: $max-size;
       border-radius: 100%;
+      @include onload-animation(fade-in, $dur: 1.5s);
       .img {
         @include center;
         @include trans(0.75s);
@@ -54,6 +55,7 @@
       .name,
       .label-text,
       .decorator {
+        @include onload-animation(fade-in, $dur: 2s);
         @include stack;
         @include h-pad;
         font-size: $txt-xl;

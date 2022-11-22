@@ -2,6 +2,7 @@
 @import "../../../sass/variables.scss";
 
 .profile-icon {
+  @include onload-animation(slide-down);
   @include v-stack-c;
   @include h-mar($gap-lg);
   text-align: center;
@@ -16,7 +17,8 @@
     translate: -10px 0px;
   }
   &:hover {
-    &, & * {
+    &,
+    & * {
       color: var(--secondary);
     }
     .name {

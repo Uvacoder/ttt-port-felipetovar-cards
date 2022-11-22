@@ -12,6 +12,11 @@
   overflow: auto;
   &.open {
     background-color: var(--bg2);
+    .slide-content {
+      * {
+        @include onload-animation(fade-in, $dur: 0.5s);
+      }
+    }
     @include mobile-up {
       width: 100%;
     }
@@ -28,8 +33,8 @@
       min-width: 5vw;
       .slide-title {
         -webkit-writing-mode: tb-rl;
-            -ms-writing-mode: tb-rl;
-                writing-mode: tb-rl;
+        -ms-writing-mode: tb-rl;
+        writing-mode: tb-rl;
         transform: rotate(-180deg);
       }
     }

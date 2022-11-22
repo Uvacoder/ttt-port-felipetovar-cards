@@ -13,7 +13,9 @@ export default function TextWidget({ children, label }) {
     <div className="text-widget">
       <div className="text-widget-btn" onClick={() => setShow((x) => !x)}>
         <Icon icon={iconMap[!show ? "open" : "closed"]} className="icon" />
-        <span className="text">{show ? "hide" : "show"} {label}</span>
+        <span className="text">
+          {show ? "hide" : "show"} {label}
+        </span>
       </div>
       <div className={classNames("text-widget-inner", { show: show })}>{children}</div>
     </div>

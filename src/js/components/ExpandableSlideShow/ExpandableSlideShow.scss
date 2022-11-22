@@ -3,12 +3,12 @@
 @import "../../../sass/breakpoints.scss";
 
 .expandable-slide-show {
-	@include h-stack-c;
-	@include mobile-down {
-		@include v-stack-c;
-	}
-	@include mobile-up {
-		height: 400px;
-	}
-	width: 100%;
+  @include h-stack-c;
+  @include mobile-down {
+    @include v-stack-c;
+  }
+  @include mobile-up {
+    height: 400px;
+  }
+  width: 100%;
 }
