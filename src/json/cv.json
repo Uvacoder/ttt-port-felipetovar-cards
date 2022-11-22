@@ -681,200 +681,220 @@
 			}
 		]
 	},
-	"languages": [
-		{
-			"language": "spanish",
-			"fluency": "native"
-		},
-		{
-			"language": "english",
-			"fluency": "professional"
-		},
-		{
-			"language": "french",
-			"fluency": "intermediate"
-		}
-	],
-	"skills": [
-		{
-			"name": "Python",
-			"level": 0,
-			"keywords": [
-				"django",
-				"numpy",
-				"scikit-learn",
-				"pandas",
-				"librosa"
-			]
-		},
-		{
-			"name": "Javascript",
-			"level": 1,
-			"keywords": [
-				"react",
-				"web audio API",
-				"canvas API"
-			]
-		},
-		{
-			"name": "Common Lisp",
-			"level": 1,
-			"keywords": [
-				"om"
-			]
-		},
-		{
-			"name": "HTML",
-			"level": 1,
-			"keywords": [
-				"JSX"
-			]
-		},
-		{
-			"name": "CSS",
-			"level": 1,
-			"keywords": [
-				"sass",
-				"JSX"
-			]
-		},
-		{
-			"name": "GLSL",
-			"level": 1,
-			"keywords": [
-				"procedural art"
-			]
-		},
-		{
-			"name": "CLI",
-			"level": 1,
-			"keywords": [
-				"bash",
-				"zsh"
-			]
-		},
-		{
-			"name": "SQL",
-			"level": 1,
-			"keywords": [
-				"postgres",
-				"sqlite"
-			]
-		},
-		{
-			"name": "Git",
-			"level": 1,
-			"keywords": [
-				"Github",
-				"version control"
-			]
-		},
-		{
-			"name": "Docker",
-			"level": 2,
-			"keywords": [
-				"containers",
-				"deployment",
-				"ci/cd"
-			]
-		},
-		{
-			"name": "MaxMSP",
-			"level": 0,
-			"keywords": [
-				"bach",
-				"cage",
-				"dada",
-				"MuBu"
-			]
-		},
-		{
-			"name": "RTcmix",
-			"level": 0,
-			"keywords": [
-				"DSP",
-				"rtcmixlib"
-			]
-		},
-		{
-			"name": "OpenMusic",
-			"level": 0,
-			"keywords": [
-				"OM-Data",
-				"OM-Tristan"
-			]
-		},
-		{
-			"name": "Ableton Live",
-			"level": 1,
-			"keywords": [
-				"Max4Live",
-				"Audio",
-				"Production"
-			]
-		},
-		{
-			"name": "GRM tools",
-			"level": 1,
-			"keywords": [
-				"DSP",
-				"Audio plugins"
-			]
-		},
-		{
-			"name": "Finale",
-			"level": 0,
-			"keywords": [
-				"JW plugins",
-				"notation"
-			]
-		},
-		{
-			"name": "MuseScore",
-			"level": 2,
-			"keywords": [
-				"engraving"
-			]
-		},
-		{
-			"name": "Touch Designer",
-			"level": 1,
-			"keywords": [
-				"Python",
-				"GLSL",
-				"Procedural art"
-			]
-		},
-		{
-			"name": "Processing",
-			"level": 1,
-			"keywords": [
-				"Procedural art"
-			]
-		},
-		{
-			"name": "Adobe Premiere",
-			"level": 2,
-			"keywords": [
-				"Video editing"
-			]
-		},
-		{
-			"name": "Arduino",
-			"level": 2,
-			"keywords": [
-				"Digital Musical Instruments"
-			]
-		},
-		{
-			"name": "Audio Hardware",
-			"level": 1,
-			"keywords": [
-				"microphones",
-				"interfaces",
-				"cables",
-				"mixers"
-			]
-		}
-	]
+	"skills": {
+		"languages": [
+			{
+				"name": "spanish",
+				"fluency": "native",
+				"level": 0,
+				"keywords": [
+					"native"
+				]
+			},
+			{
+				"name": "english",
+				"fluency": "bilingual",
+				"level": 0,
+				"keywords": [
+					"bilingual"
+				]
+			},
+			{
+				"name": "french",
+				"fluency": "intermediate",
+				"level": 2,
+				"keywords": [
+					"intermediate"
+				]
+			}
+		],
+		"technology": [
+			{
+				"name": "Python",
+				"level": 0,
+				"keywords": [
+					"django",
+					"numpy",
+					"scikit-learn",
+					"pandas",
+					"librosa"
+				]
+			},
+			{
+				"name": "Javascript",
+				"level": 1,
+				"keywords": [
+					"react",
+					"web audio API",
+					"canvas API"
+				]
+			},
+			{
+				"name": "Common Lisp (CLOS)",
+				"level": 1,
+				"keywords": [
+					"om"
+				]
+			},
+			{
+				"name": "HTML",
+				"level": 1,
+				"keywords": [
+					"JSX"
+				]
+			},
+			{
+				"name": "CSS",
+				"level": 1,
+				"keywords": [
+					"sass",
+					"JSX"
+				]
+			},
+			{
+				"name": "GLSL",
+				"level": 1,
+				"keywords": [
+					"procedural art"
+				]
+			},
+			{
+				"name": "CLI",
+				"level": 1,
+				"keywords": [
+					"bash",
+					"zsh"
+				]
+			},
+			{
+				"name": "SQL",
+				"level": 1,
+				"keywords": [
+					"postgres",
+					"sqlite"
+				]
+			},
+			{
+				"name": "Git",
+				"level": 1,
+				"keywords": [
+					"Github",
+					"version control"
+				]
+			},
+			{
+				"name": "Docker",
+				"level": 2,
+				"keywords": [
+					"containers",
+					"deployment",
+					"ci/cd"
+				]
+			},
+			{
+				"name": "MaxMSP",
+				"level": 0,
+				"keywords": [
+					"DSP",
+					"CAC",
+					"bach",
+					"cage",
+					"dada",
+					"MuBu",
+					"RNBO",
+					"js"
+				]
+			},
+			{
+				"name": "RTcmix",
+				"level": 0,
+				"keywords": [
+					"DSP",
+					"synthesis",
+					"rtcmixlib"
+				]
+			},
+			{
+				"name": "OpenMusic",
+				"level": 0,
+				"keywords": [
+					"OM-Data",
+					"OM-Tristan",
+					"CAC"
+				]
+			},
+			{
+				"name": "Ableton Live",
+				"level": 1,
+				"keywords": [
+					"Max4Live",
+					"Audio",
+					"Production"
+				]
+			},
+			{
+				"name": "GRM tools",
+				"level": 1,
+				"keywords": [
+					"DSP",
+					"Audio plugins"
+				]
+			},
+			{
+				"name": "Finale",
+				"level": 0,
+				"keywords": [
+					"JW plugins",
+					"notation"
+				]
+			},
+			{
+				"name": "MuseScore",
+				"level": 2,
+				"keywords": [
+					"engraving"
+				]
+			},
+			{
+				"name": "Touch Designer",
+				"level": 1,
+				"keywords": [
+					"Python",
+					"GLSL",
+					"Procedural art"
+				]
+			},
+			{
+				"name": "Processing",
+				"level": 1,
+				"keywords": [
+					"Procedural art"
+				]
+			},
+			{
+				"name": "Adobe Premiere",
+				"level": 2,
+				"keywords": [
+					"Video editing"
+				]
+			},
+			{
+				"name": "Arduino",
+				"level": 2,
+				"keywords": [
+					"Digital Musical Instruments"
+				]
+			},
+			{
+				"name": "Audio Hardware",
+				"level": 1,
+				"keywords": [
+					"microphones",
+					"interfaces",
+					"cables",
+					"mixers"
+				]
+			}
+		]
+	}
 }

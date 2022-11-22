@@ -5,53 +5,66 @@
 .skills-subview {
   @include pad;
   @include mar;
-  @include h-stack-c;
-  @include wrap;
-  justify-content: center;
-  .skill {
-    @include v-stack;
-    @include round-border;
+  @include v-stack-c;
+  .header {
+    @include v-stack-c;
     @include pad;
-    @include mar;
-    background-color: var(--bg1);
-		.level {
-			border-radius: $border-md;
-			position: static;
-			background-color: var(--level1);
-			$level-h: 5px;
-			height: $level-h;
-			min-height: $level-h;
-		}
-    .skill-info {
-			@include v-stack;
-      .name {
-				@include stack;
-        font-weight: bold;
-        color: var(--primary);
-        height: 50%;
-        vertical-align: middle;
-				align-items: center;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .languages .name {
+    text-transform: capitalize;
+  }
+  .technology, .languages {
+    @include h-stack-c;
+    @include wrap;
+    justify-content: center;
+    .skill {
+      @include v-stack;
+      @include round-border;
+      @include pad;
+      @include mar;
+      background-color: var(--bg1);
+      .level {
+        border-radius: $border-md;
+        position: static;
+        background-color: var(--level1);
+        $level-h: 5px;
+        height: $level-h;
+        min-height: $level-h;
       }
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      white-space: pre-wrap;
-      overflow: auto;
-      $box-size: 190px;
-      width: $box-size;
-      height: calc($box-size * 0.5);
-      .keywords {
-        @include h-stack-c;
-        @include wrap;
-        @include mar;
+      .skill-info {
+        @include v-stack;
+        .name {
+          @include stack;
+          font-weight: bold;
+          color: var(--primary);
+          height: 50%;
+          vertical-align: middle;
+          align-items: center;
+        }
         justify-content: center;
-        .keyword {
-          @include pad($gap-sm);
-          @include b-mar($gap-sm);
-          @include r-mar;
-          @include round-border;
-          font-family: $font2;
-          font-size: $txt-sm;
+        align-items: center;
+        text-align: center;
+        white-space: pre-wrap;
+        overflow: auto;
+        $box-size: 190px;
+        width: $box-size;
+        height: calc($box-size * 0.5);
+        .keywords {
+          @include h-stack-c;
+          @include wrap;
+          @include mar;
+          justify-content: center;
+          .keyword {
+            @include pad($gap-sm);
+            @include b-mar($gap-sm);
+            @include r-mar;
+            @include round-border;
+            font-family: $font2;
+            font-size: $txt-sm;
+          }
         }
       }
     }
