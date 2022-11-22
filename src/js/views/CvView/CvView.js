@@ -4,7 +4,7 @@ import ExpandableSlideShow from "../../components/ExpandableSlideShow/Expandable
 import EducationSubView from "./EducationSubView/EducationSubView";
 import AwardsSubView from "./AwardsSubView/AwardsSubView";
 import ExperienceSubView from "./ExperienceSubView/ExperienceSubView";
-import ActivitiesView from "./ActivitiesView/ActivitiesView";
+import ActivitiesSubView from "./ActivitiesSubView/ActivitiesSubView";
 import PublicationsSubView from "./PublicationsSubView/PublicationsSubView";
 import SkillsSubView from "./SkillsSubView/SkillsSubView";
 import { Icon } from "@iconify/react";
@@ -14,13 +14,13 @@ export default function CvView({ cv, works }) {
     "work experience": <ExperienceSubView work={cv.work} />,
     publications: <PublicationsSubView publications={cv.work.publications} />,
     "awards / grants": <AwardsSubView cv={cv} works={works} />,
-    activities: <ActivitiesView work={cv.work} />,
+    activities: <ActivitiesSubView work={cv.work} />,
     education: <EducationSubView education={cv.education} />,
     skills: <SkillsSubView skills={cv.skills} />,
   };
   const icons = [
     "mdi:company",
-    "mdi:paper-check",
+    "mdi:paper-text-outline",
     "healthicons:award-trophy",
     "fluent-mdl2:activity-feed",
     "mdi:education-outline",

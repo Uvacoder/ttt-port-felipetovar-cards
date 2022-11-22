@@ -2,7 +2,7 @@
 @import "../../../../sass/variables.scss";
 @import "../../../../sass/breakpoints.scss";
 
-.activities-view {
+.activities-subview {
   @include mobile-down {
     @include v-stack-c;
   }

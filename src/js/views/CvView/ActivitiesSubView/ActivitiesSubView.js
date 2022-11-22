@@ -1,9 +1,9 @@
-import "./ActivitiesView.scss";
+import "./ActivitiesSubView.scss";
 import formatDate, { dateRange } from "../../../utils/formatDate";
 
-export default function ActivitiesView({ work }) {
+export default function ActivitiesSubView({ work }) {
   return (
-    <div className="activities-view">
+    <div className="activities-subview">
       <div className="lectures">
         <div className="header">lectures</div>
         {work.lectures.map((lecture, i) => (
@@ -15,7 +15,7 @@ export default function ActivitiesView({ work }) {
                   <span className="name">@ {ev.name}</span>
                   <span className="venue">{ev.venue}. </span>
                   <span className="date">{formatDate(ev.date)}. </span>
-                  <span className="language">[{ev.language.slice(0,3)}]. </span>
+                  <span className="language">[{ev.language.slice(0, 3)}]. </span>
                   <br />
                   <span className="city">{ev.city}. </span>
                   <span className="country">{ev.country}.</span>
@@ -37,7 +37,8 @@ export default function ActivitiesView({ work }) {
               Activities:&nbsp;
               {residence.activities.map((ac, j) => (
                 <span className="residence-activity" key={j}>
-                  {ac}{j < residence.activities.length - 1 ? ", " : "."}
+                  {ac}
+                  {j < residence.activities.length - 1 ? ", " : "."}
                 </span>
               ))}
             </div>
@@ -54,7 +55,7 @@ export default function ActivitiesView({ work }) {
                 <div className="event" key={j}>
                   <span className="institution">@ {ev.institution}. </span>
                   <span className="date">{formatDate(ev.date)}. </span>
-                  <span className="language">[{ev.language.slice(0,3)}]. </span>
+                  <span className="language">[{ev.language.slice(0, 3)}]. </span>
                   <br />
                   <span className="num-sessions">{ev.numSessions} sessions, </span>
                   <span className="total-hours">{ev.totalHours} hours total. </span>
