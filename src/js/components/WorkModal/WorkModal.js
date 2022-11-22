@@ -1,6 +1,8 @@
 import "./WorkModal.scss";
 import Modal from "../Modal/Modal";
+import formatDate from "../../utils/formatDate";
 import { Icon } from "@iconify/react";
+import sortByDateString from "../../utils/sortByDateString";
 
 export default function WorkModal({ work, open, setOpen }) {
   const tableRows = ["categories", "instrumentation", "awards", "performances"];
@@ -25,49 +27,55 @@ export default function WorkModal({ work, open, setOpen }) {
                   <tr key={i} className={`table-row  ${row}`}>
                     <td className={`row-key ${row}`}>{row}</td>
                     <td className={`row-value ${row}`}>
-                      {work[row].map((d, j) =>
-                        row === "performances" ? (
-                          <div className="performance" key={j}>
-                            <span className="event">{d.event}</span>
-                            <span className="date">{d.date}.</span>
-                            <span className="venue">@ {d.venue}.</span>
-                            <span className="city">{d.city}.</span>
-                            <span className="country">{d.country}.</span>
-                            {d.audio && (
-                              <a href={d.audio} target="_blank" rel="noreferrer" className="media audio">
-                                <Icon icon="ic:round-headphones" />
-                              </a>
-                            )}
-                            {d.video && (
-                              <a href={`https://youtube.com/watch?v=${d.video}`} target="_blank" rel="noreferrer" className="media video">
-                                <Icon icon="mdi:youtube" />
-                              </a>
-                            )}
-                            <div className="performers">
-                              {d.performers &&
-                                d.performers.map((p, k) => (
-                                  <div className="performer" key={k}>
-                                    <span className="performer-name">{p.name}, </span>
-                                    <span className="performer-role">{p.role}</span>
-                                  </div>
-                                ))}
+                      {work[row]
+                        .sort((a, b) => sortByDateString(a.date, b.date))
+                        .map((d, j) =>
+                          row === "performances" ? (
+                            <div className="performance" key={j}>
+                              <span className="event">
+                                {d.event}
+                                {j === work[row].length - 1 && " (premiere)"}
+                              </span>
+                              <span className="venue">@ {d.venue}.</span>
+                              <span className="date">{formatDate(d.date)}.</span>
+                              <span className="city">{d.city}.</span>
+                              <span className="country">{d.country}.</span>
+                              {d.audio && (
+                                <a href={d.audio} target="_blank" rel="noreferrer" className="media audio">
+                                  <Icon icon="ic:round-headphones" />
+                                </a>
+                              )}
+                              {d.video && (
+                                <a href={`https://youtube.com/watch?v=${d.video}`} target="_blank" rel="noreferrer" className="media video">
+                                  <Icon icon="mdi:youtube" />
+                                </a>
+                              )}
+                              <div className="performers">
+                                {d.performers &&
+                                  d.performers.map((p, k) => (
+                                    <div className="performer" key={k}>
+                                      <span className="performer-name">{p.name}, </span>
+                                      <span className="performer-role">{p.role}</span>
+                                    </div>
+                                  ))}
+                              </div>
+                              {j < work[row].length - 1 && <hr className="separator" />}
                             </div>
-                            {j < work[row].length - 1 && <hr className="separator" />}
-                          </div>
-                        ) : (
-                          <span key={j} className={`row-value-item ${row}`}>
-                            {row === "awards" ? (
-                              <>
-                                • <span className="award-name">{d.name} </span>
-                                <span className="award-institution">({d.date}). {d.institution}. </span>
-                                <span className="award-country">{d.country}.</span>
-                              </>
-                            ) : (
-                              d
-                            )}
-                          </span>
-                        )
-                      )}
+                          ) : (
+                            <span key={j} className={`row-value-item ${row}`}>
+                              {row === "awards" ? (
+                                <>
+                                  • <span className="award-name">{d.name} </span>
+                                  <span className="award-date">({d.date}). </span>
+                                  <span className="award-institution">{d.institution}. </span>
+                                  <span className="award-country">{d.country}.</span>
+                                </>
+                              ) : (
+                                d
+                              )}
+                            </span>
+                          )
+                        )}
                     </td>
                   </tr>
                 )

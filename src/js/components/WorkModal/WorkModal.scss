@@ -69,6 +69,9 @@
             .award-name {
               font-weight: bold;
             }
+            .award-institution {
+              font-style: italic;
+            }
           }
           &:has(> .performance) {
             @include v-stack;

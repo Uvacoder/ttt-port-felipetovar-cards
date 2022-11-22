@@ -700,11 +700,11 @@
 			"name": "Python",
 			"level": 0,
 			"keywords": [
-				"librosa",
 				"django",
 				"numpy",
 				"scikit-learn",
-				"pandas"
+				"pandas",
+				"librosa"
 			]
 		},
 		{
@@ -726,19 +726,24 @@
 		{
 			"name": "HTML",
 			"level": 1,
-			"keywords": false
+			"keywords": [
+				"JSX"
+			]
 		},
 		{
 			"name": "CSS",
 			"level": 1,
 			"keywords": [
-				"sass"
+				"sass",
+				"JSX"
 			]
 		},
 		{
 			"name": "GLSL",
 			"level": 1,
-			"keywords": false
+			"keywords": [
+				"procedural art"
+			]
 		},
 		{
 			"name": "CLI",
@@ -759,12 +764,19 @@
 		{
 			"name": "Git",
 			"level": 1,
-			"keywords": false
+			"keywords": [
+				"Github",
+				"version control"
+			]
 		},
 		{
 			"name": "Docker",
 			"level": 2,
-			"keywords": false
+			"keywords": [
+				"containers",
+				"deployment",
+				"ci/cd"
+			]
 		},
 		{
 			"name": "MaxMSP",
@@ -779,7 +791,10 @@
 		{
 			"name": "RTcmix",
 			"level": 0,
-			"keywords": false
+			"keywords": [
+				"DSP",
+				"rtcmixlib"
+			]
 		},
 		{
 			"name": "OpenMusic",
@@ -792,34 +807,50 @@
 		{
 			"name": "Ableton Live",
 			"level": 1,
-			"keywords": false
+			"keywords": [
+				"Max4Live",
+				"Audio",
+				"Production"
+			]
 		},
 		{
 			"name": "GRM tools",
 			"level": 1,
-			"keywords": false
+			"keywords": [
+				"DSP",
+				"Audio plugins"
+			]
 		},
 		{
 			"name": "Finale",
 			"level": 0,
 			"keywords": [
-				"JW plugins"
+				"JW plugins",
+				"notation"
 			]
 		},
 		{
 			"name": "MuseScore",
 			"level": 2,
-			"keywords": false
+			"keywords": [
+				"engraving"
+			]
 		},
 		{
 			"name": "Touch Designer",
 			"level": 1,
-			"keywords": false
+			"keywords": [
+				"Python",
+				"GLSL",
+				"Procedural art"
+			]
 		},
 		{
 			"name": "Processing",
 			"level": 1,
-			"keywords": false
+			"keywords": [
+				"Procedural art"
+			]
 		},
 		{
 			"name": "Adobe Premiere",
@@ -836,12 +867,12 @@
 			]
 		},
 		{
-			"name": "audio hardware",
-			"level": 2,
+			"name": "Audio Hardware",
+			"level": 1,
 			"keywords": [
 				"microphones",
 				"interfaces",
-				"cables (XLR, TRS, etc.)",
+				"cables",
 				"mixers"
 			]
 		}

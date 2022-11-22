@@ -1,18 +1,16 @@
 @import "../../../../sass/mixins.scss";
 @import "../../../../sass/variables.scss";
-@import "../../../../sass/breakpoints.scss";
 
 .publications-subview {
-	@include v-stack-c;
-	@include pad;
-	align-items: center;
+  @include v-stack-c;
+  @include pad;
+  align-items: center;
   .publication {
-		@include round-border;
-		@include vh-pad($gap-lg, $gap-lg);
-		@include mar;
-		width: 100%;
-		background-color: var(--bg1);
-		// text-align: center;
+    @include round-border;
+    @include vh-pad($gap-lg, $gap-lg);
+    @include mar;
+    width: 100%;
+    background-color: var(--bg1);
     *:not(.icon) {
       font-size: $txt-ml;
     }
