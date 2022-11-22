@@ -1,5 +1,4 @@
 import "./ExpandableSlide.scss";
-import { useState } from "react";
 import classNames from "classnames";
 
 export default function ExpandableSlide({ title, children, open, setOpen, closed }) {

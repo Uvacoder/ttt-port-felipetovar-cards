@@ -7,7 +7,11 @@
   @include h-pad($gap-xxl);
   @include round-border($size: $border-lg);
   background-color: var(--bg3);
+  width: -webkit-max-content;
+  width: -moz-max-content;
   width: max-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   max-height: 90vh;
   max-width: 90vw;

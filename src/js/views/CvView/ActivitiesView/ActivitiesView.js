@@ -1,4 +1,5 @@
 import "./ActivitiesView.scss";
+import formatDate, { dateRange } from "../../../utils/formatDate";
 
 export default function ActivitiesView({ work }) {
   return (
@@ -11,12 +12,13 @@ export default function ActivitiesView({ work }) {
             <div className="events">
               {lecture.events.map((ev, j) => (
                 <div className="event" key={j}>
-                  <span className="name">{ev.name}</span>
-                  <span className="venue">@ {ev.venue}</span>
-                  <span className="language">[{ev.language}]</span>
-                  <span className="date">{ev.date}</span>
-                  <span className="city">{ev.city}</span>
-                  <span className="country">{ev.country}</span>
+                  <span className="name">@ {ev.name}</span>
+                  <span className="venue">{ev.venue}. </span>
+                  <span className="date">{formatDate(ev.date)}. </span>
+                  <span className="language">[{ev.language.slice(0,3)}]. </span>
+                  <br />
+                  <span className="city">{ev.city}. </span>
+                  <span className="country">{ev.country}.</span>
                 </div>
               ))}
             </div>
@@ -27,14 +29,15 @@ export default function ActivitiesView({ work }) {
         <div className="header">residencies</div>
         {work.residencies.map((residence, i) => (
           <div className="residence" key={i}>
-            <span className="role">{residence.role}</span>
-            <span className="institution">{residence.institution}</span>
-            <span className="event">{residence.event}</span>
-            <span className="end">{residence.end}f</span>
+            <span className="role">{residence.role}. </span>
+            <span className="event">@ {residence.event}. </span>
+            <span className="institution">{residence.institution}. </span>
+            <span className="end">{dateRange(residence.date, residence.end)}. </span>
             <div className="activities">
+              Activities:&nbsp;
               {residence.activities.map((ac, j) => (
                 <span className="residence-activity" key={j}>
-                  {ac}
+                  {ac}{j < residence.activities.length - 1 ? ", " : "."}
                 </span>
               ))}
             </div>
@@ -49,13 +52,15 @@ export default function ActivitiesView({ work }) {
             <div className="events">
               {workshop.events.map((ev, j) => (
                 <div className="event" key={j}>
-                  <span className="date">{ev.date}</span>
-                  <span className="language">[{ev.language}]</span>
-                  <span className="num-sessions">{ev.numSessions}</span>
-                  <span className="total-hours">{ev.totalHours}</span>
-                  <span className="institution">{ev.institution}</span>
-                  <span className="city">{ev.city}</span>
-                  <span className="country">{ev.country}</span>
+                  <span className="institution">@ {ev.institution}. </span>
+                  <span className="date">{formatDate(ev.date)}. </span>
+                  <span className="language">[{ev.language.slice(0,3)}]. </span>
+                  <br />
+                  <span className="num-sessions">{ev.numSessions} sessions, </span>
+                  <span className="total-hours">{ev.totalHours} hours total. </span>
+                  <br />
+                  <span className="city">{ev.city}. </span>
+                  <span className="country">{ev.country}.</span>
                 </div>
               ))}
             </div>

@@ -31,7 +31,8 @@
       .img {
         @include center;
         @include trans(0.75s);
-        filter: grayscale(70%);
+        -webkit-filter: grayscale(70%);
+                filter: grayscale(70%);
         display: block;
         width: $max-size;
         height: auto;
@@ -63,6 +64,8 @@
         .label {
           @include h-stack-c;
           @include h-center;
+          width: -webkit-max-content;
+          width: -moz-max-content;
           width: max-content;
           justify-content: space-around;
           .label-text {

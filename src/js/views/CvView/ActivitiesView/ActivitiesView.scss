@@ -9,6 +9,7 @@
   @include mobile-up {
     @include col-grid(1fr 1fr 1fr);
   }
+  text-align: center;
   .residencies,
   .lectures,
   .workshops {
@@ -38,9 +39,25 @@
     font-style: italic;
     color: var(--primary);
   }
-  .lecture .venue,
-  .residence .institution,
+  .lecture .name,
+  .residence .event,
   .workshop .institution {
+    @include v-stack;
+    text-align: center;
     font-weight: bold;
+  }
+
+  .lecture .event,
+  .workshop .event {
+    @include v-pad;
+  }
+  .activities {
+    font-weight: bold;
+    .residence-activity {
+      font-style: italic;
+    }
+  }
+  .language {
+    text-transform: uppercase;
   }
 }

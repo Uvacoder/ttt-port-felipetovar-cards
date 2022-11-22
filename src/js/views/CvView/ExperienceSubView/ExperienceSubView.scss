@@ -10,6 +10,7 @@
   }
   .academic, .other-positions {
     @include v-mar;
+    @include h-pad($gap-lg);
     .position {
       @include v-pad;
       text-align: center;
@@ -29,6 +30,8 @@
         @include v-stack-c;
         @include v-pad;
         @include h-center;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
         width: fit-content;
         text-align: left;
         border-spacing: $gap-lg $gap-sm;

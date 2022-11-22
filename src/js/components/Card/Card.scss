@@ -7,9 +7,11 @@
   & * {
     transition: all 0.5s;
   }
-  filter: grayscale(60%);
+  -webkit-filter: grayscale(60%);
+          filter: grayscale(60%);
   &:hover {
-    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
     scale: 1.01;
     .card-bg {
       scale: 1.025;
@@ -23,7 +25,8 @@
   }
   .card-bg {
     position: absolute;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     width: 100%;
     height: 100%;
     top: 50%;

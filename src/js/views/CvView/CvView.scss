@@ -5,7 +5,9 @@
 .cv-view {
 	@include b-mar($gap-xl);
 	.closed .icon {
-		writing-mode: horizontal-tb;
+		-webkit-writing-mode: horizontal-tb;
+		    -ms-writing-mode: lr-tb;
+		        writing-mode: horizontal-tb;
 		@include mobile-up {
 			transform: rotate(180deg);
 		}

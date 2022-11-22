@@ -26,7 +26,9 @@
     @include mobile-up {
       width: 5vw;
       .slide-title {
-        writing-mode: tb-rl;
+        -webkit-writing-mode: tb-rl;
+            -ms-writing-mode: tb-rl;
+                writing-mode: tb-rl;
         transform: rotate(-180deg);
       }
     }
@@ -42,6 +44,9 @@
     .slide-content {
       display: none;
     }
+    .cv-section-title {
+      @include h-stack-c;
+    }
   }
   .slide-title,
   .slide-content > .slide-title {
@@ -56,6 +61,7 @@
   .slide-content > .slide-title {
     margin-top: 0;
     width: 100%;
+    position: -webkit-sticky;
     position: sticky;
     background-color: var(--bg3);
     color: var(--primary);
