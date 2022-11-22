@@ -2,7 +2,7 @@
 
 /* components */
 import { ThemeContext } from "./js/contexts/ThemeContext";
-import { ParallaxProvider } from "react-scroll-parallax";
+// import { ParallaxProvider } from "react-scroll-parallax";
 import HomeView from "./js/views/HomeView/HomeView";
 import NavBar from "./js/components/NavBar/NavBar";
 import WorksView from "./js/views/WorksView/WorksView";
@@ -23,14 +23,14 @@ export default function App() {
   return (
     <div className={appClass}>
       <ThemeContext.Provider value={{ darkTheme, setDarkTheme }}>
-        <ParallaxProvider>
+        {/* <ParallaxProvider> */}
           <NavBar />
           <HomeView cv={cv} />
           <WorksView works={works} />
           <SoftwareView cv={cv} />
           <CvView cv={cv} works={works}/>
           <div className="footer">{new Date(Date.now()).getFullYear()} © Felipe Tovar-Henao</div>
-        </ParallaxProvider>
+        {/* </ParallaxProvider> */}
       </ThemeContext.Provider>
     </div>
   );
