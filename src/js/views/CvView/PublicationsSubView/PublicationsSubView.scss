@@ -3,7 +3,7 @@
 
 .publications-subview {
   @include v-stack-c;
-  @include pad;
+  @include vh-pad($gap-md, $gap-xl);
   align-items: center;
   .publication {
     @include round-border;

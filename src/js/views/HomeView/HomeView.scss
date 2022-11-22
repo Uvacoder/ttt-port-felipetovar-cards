@@ -57,6 +57,16 @@
         @include stack;
         @include h-pad;
         font-size: $txt-xl;
+        @include mobile-down {
+          &, & > * {
+            font-size: $txt-lg;
+          }
+        }
+        @include mobile-small-down {
+          &, & > * {
+            font-size: $txt-ml;
+          }
+        }
       }
       .labels {
         @include h-stack-c;

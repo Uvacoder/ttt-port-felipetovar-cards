@@ -49,6 +49,7 @@
             @include r-mar;
             @include round-border;
             background-color: var(--bg1);
+            text-transform: lowercase;
             font-family: $font2;
           }
         }
