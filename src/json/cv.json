@@ -702,7 +702,9 @@
 			"keywords": [
 				"librosa",
 				"django",
-				"numpy"
+				"numpy",
+				"scikit-learn",
+				"pandas"
 			]
 		},
 		{

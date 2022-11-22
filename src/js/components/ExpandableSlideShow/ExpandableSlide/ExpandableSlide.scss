@@ -25,6 +25,7 @@
   &.closed {
     @include mobile-up {
       width: 5vw;
+      min-width: 5vw;
       .slide-title {
         -webkit-writing-mode: tb-rl;
             -ms-writing-mode: tb-rl;
