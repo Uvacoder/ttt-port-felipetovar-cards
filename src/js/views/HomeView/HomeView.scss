@@ -89,5 +89,27 @@
       // font-family: $font2;
       text-align: center;
     }
+    .header {
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .interests {
+      @include pad;
+      @include h-stack;
+      @include wrap;
+      justify-content: center;
+      .interest {
+        @include pad($gap-sm);
+        @include b-mar($gap-sm);
+        @include r-mar;
+        @include round-border;
+        font-family: $font2;
+        text-transform: lowercase;
+        background-color: var(--bg1);
+      }
+      * {
+        font-size: $txt-ml;
+      }
+    }
   }
 }

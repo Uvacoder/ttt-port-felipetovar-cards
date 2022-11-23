@@ -50,6 +50,14 @@ export default function HomeView({ cv }) {
                 {p}
               </p>
             ))}
+            <span className="header">Interests</span>
+            <div className="interests">
+              {basics.interests.map((x, i) => (
+                <span key={i} className="interest">
+                  {x}
+                </span>
+              ))}
+            </div>
           </div>
         </TextWidget>
       </div>
