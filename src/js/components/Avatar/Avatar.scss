@@ -19,6 +19,7 @@
       @include onload-animation(fade-in, $dur: 1.5s);
       @include center;
       @include trans(0.75s);
+      border-radius: 100%;
       -webkit-filter: grayscale(70%);
       filter: grayscale(70%);
       display: block;
