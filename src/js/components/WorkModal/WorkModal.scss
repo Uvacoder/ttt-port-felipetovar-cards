@@ -42,6 +42,17 @@
       color: var(--secondary);
     }
   }
+  .notes {
+    @include v-stack-c;
+    white-space: pre-wrap;
+    color: var(--inactive);
+    @include vh-pad($gap-lg, $gap-xxl);
+    // background-color: var(--bg4);
+    border-radius: $border-lg;
+    // text-align: center;
+    font-style: italic;
+    max-width: 600px;
+  }
   .table {
     border-spacing: $gap-lg $gap-lg;
     .table-body {

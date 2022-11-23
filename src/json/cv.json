@@ -730,6 +730,8 @@
 				"level": 1,
 				"keywords": [
 					"react",
+					"react-router",
+					"jsx",
 					"web audio API",
 					"canvas API"
 				]
@@ -745,6 +747,7 @@
 				"name": "HTML",
 				"level": 1,
 				"keywords": [
+					"react",
 					"JSX"
 				]
 			},
@@ -753,6 +756,7 @@
 				"level": 1,
 				"keywords": [
 					"sass",
+					"react",
 					"JSX"
 				]
 			},
@@ -764,11 +768,12 @@
 				]
 			},
 			{
-				"name": "CLI",
+				"name": "Command-line interface (CLI)",
 				"level": 1,
 				"keywords": [
 					"bash",
-					"zsh"
+					"zsh",
+					"unix"
 				]
 			},
 			{
@@ -776,7 +781,16 @@
 				"level": 1,
 				"keywords": [
 					"postgres",
-					"sqlite"
+					"sqlite",
+					"orm"
+				]
+			},
+			{
+				"name": "LaTeX",
+				"level": 1,
+				"keywords": [
+					"pdf",
+					"text documents"
 				]
 			},
 			{
@@ -836,9 +850,9 @@
 				"name": "OpenMusic",
 				"level": 0,
 				"keywords": [
+					"CAC",
 					"OM-Data",
-					"OM-Tristan",
-					"CAC"
+					"OM-Tristan"
 				]
 			},
 			{
@@ -870,7 +884,8 @@
 				"name": "MuseScore",
 				"level": 2,
 				"keywords": [
-					"engraving"
+					"engraving",
+					"music"
 				]
 			},
 			{
@@ -886,7 +901,9 @@
 				"name": "Processing",
 				"level": 1,
 				"keywords": [
-					"Procedural art"
+					"Procedural art",
+					"java",
+					"js"
 				]
 			},
 			{

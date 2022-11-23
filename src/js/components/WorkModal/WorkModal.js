@@ -19,6 +19,7 @@ export default function WorkModal({ work, open, setOpen }) {
           <span className="work-subtitle">{work.subtitle}</span>
           <span className="work-commission">{work.commission}</span>
         </div>
+        {work.notes && <div className="notes">{work.notes}</div>}
         <table className="table">
           <tbody className="table-body">
             {tableRows.map((row, i) => {
