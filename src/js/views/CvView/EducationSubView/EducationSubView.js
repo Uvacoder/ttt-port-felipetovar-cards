@@ -15,10 +15,19 @@ export default function EducationSubView({ education }) {
                 <span className="years">({degree.date[1]}), </span>
                 <span className="major">{degree.major}</span>
               </div>
-              <div className="line-3">
+              <div className="line-2">
                 <span className="institution">{degree.institution}. </span>
                 <span className="city">{degree.city}</span>
               </div>
+              {degree.highlights && (
+                <div className="line-3">
+                  {degree.highlights.map((hl, j) => (
+                    <span className="highlight" key={j}>
+                      {hl}
+                    </span>
+                  ))}
+                </div>
+              )}
               {degree.minors && (
                 <span className="minors">
                   <span>Minor areas: </span>

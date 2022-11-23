@@ -606,6 +606,7 @@
 				"institution": "Indiana University, Jacobs School of Music",
 				"url": "https://bulletins.iu.edu/iub/music/2022-2023/graduate/curricula/composition-dm.shtml?_ga=2.112581316.1134966880.1668987856-202120687.1665950308",
 				"name": "DM",
+				"highlights": false,
 				"city": "Bloomington, IN",
 				"country": "USA",
 				"date": [
@@ -622,6 +623,7 @@
 				"institution": "Indiana University, Jacobs School of Music",
 				"url": "https://bulletins.iu.edu/iub/music/2022-2023/graduate/curricula/composition-mm.shtml?_ga=2.112581316.1134966880.1668987856-202120687.1665950308",
 				"name": "MM",
+				"highlights": false,
 				"city": "Bloomington, IN",
 				"country": "USA",
 				"date": [
@@ -635,6 +637,9 @@
 				"institution": "Universidad EAFIT",
 				"url": "https://www.eafit.edu.co/programas-academicos/pregrados/musica/plan-estudios/Paginas/inicio.aspx",
 				"name": "BM",
+				"highlights": [
+					"Graduated with high honors"
+				],
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
 				"date": [

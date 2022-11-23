@@ -25,6 +25,7 @@
     }
     .slide-title {
       display: none;
+      z-index: 2;
     }
   }
   &.closed {
