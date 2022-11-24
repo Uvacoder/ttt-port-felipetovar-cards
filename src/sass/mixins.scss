@@ -208,6 +208,8 @@
   @include clickable;
   @include round-border;
   @include vh-pad($gap-md, $gap-lg);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   &:not([disabled]):hover {
     background-color: var(--bg-hl);
@@ -255,5 +257,6 @@
 }
 
 @mixin onload-animation($name, $dur: 1s) {
-  animation: $name $dur ease-in-out 0s 1 normal forwards;
+  -webkit-animation: $name $dur ease-in-out 0s 1 normal forwards;
+          animation: $name $dur ease-in-out 0s 1 normal forwards;
 }
