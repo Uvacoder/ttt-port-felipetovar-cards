@@ -103,6 +103,7 @@
         @include b-mar($gap-sm);
         @include r-mar;
         @include round-border;
+        text-align: center;
         font-family: $font2;
         text-transform: lowercase;
         background-color: var(--bg1);

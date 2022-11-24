@@ -2,10 +2,8 @@ import "./HomeView.scss";
 import ProfileIcon from "../../components/ProfileIcon/ProfileIcon";
 import TextWidget from "../../components/TextWidget/TextWidget";
 import Avatar from "../../components/Avatar/Avatar";
-import { useState } from "react";
 
 export default function HomeView({ cv }) {
-  const [showBio, setShowBio] = useState(false);
   const iconMap = {
     github: "mdi:github",
     soundcloud: "grommet-icons:soundcloud",
@@ -42,8 +40,7 @@ export default function HomeView({ cv }) {
             <ProfileIcon key={i} url={p.url} id={iconMap[p.network.toLowerCase()]} network={p.network} />
           ))}
         </div>
-
-        <TextWidget show={showBio} label="bio">
+        <TextWidget label="bio">
           <div className="bio">
             {basics.summary.map((p, i) => (
               <p key={i} className="bio-p">
