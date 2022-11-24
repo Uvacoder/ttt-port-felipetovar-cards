@@ -133,7 +133,7 @@
 			{
 				"name": "Finalist, ASCAP/SEAMUS student award",
 				"date": 2019,
-				"institution": "ASCAP/SEAMUS",
+				"institution": "American Society of Composers, Authors, and Publishers (ASCAP)/Society of Electro-Acoustic Music in the United States (SEAMUS)",
 				"country": "USA"
 			}
 		],
@@ -606,6 +606,29 @@
 		"awards": false,
 		"performances": [
 			{
+				"event": "Voices of the Americas (Canceled due to COVID-19)",
+				"date": "2021-02-09",
+				"performers": [
+					{
+						"name": "Lina González-Granados",
+						"role": "conductor"
+					},
+					{
+						"name": "LA Phil New Music Group",
+						"role": "ensemble"
+					},
+					{
+						"name": "Gabriella Ortíz",
+						"role": "curator"
+					}
+				],
+				"venue": "Walt Disney Concert Hall",
+				"city": "Los Angeles, CA",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			},
+			{
 				"event": "The 2019 Society of Composers Inc. National Conference & John Donald Robb Composers' Symposium: Concert 9",
 				"date": "2019-03-30",
 				"performers": [
@@ -825,7 +848,14 @@
 		"categories": [
 			"chamber"
 		],
-		"awards": false,
+		"awards": [
+			{
+				"name": "Honorable Mention, Left Coast Composition Contest",
+				"date": 2020,
+				"institution": "Left Coast Chamber Ensemble",
+				"country": "USA"
+			}
+		],
 		"performances": [
 			{
 				"event": "Concierto: Ensamble Periscopio, Música Nueva",
@@ -1587,7 +1617,7 @@
 				"date": "2017-02-22",
 				"performers": [
 					{
-						"name": "Emmanuel Padilla Holguin",
+						"name": "Alyson Kanne",
 						"role": "harp"
 					},
 					{
@@ -1602,6 +1632,29 @@
 				"venue": "Auer Hall, Indiana University's Jacobs School of Music",
 				"city": "Bloomington, IN",
 				"country": "USA",
+				"audio": false,
+				"video": false
+			},
+			{
+				"event": "Primer encuentro de arpas",
+				"date": "2013-10-07",
+				"performers": [
+					{
+						"name": "Bibiana Ordóñez Velandia",
+						"role": "harp"
+					},
+					{
+						"name": "José Gomez",
+						"role": "clarinet"
+					},
+					{
+						"name": "Ana Isabel Zorro",
+						"role": "cello"
+					}
+				],
+				"venue": "Auditorio Fabio Lozano",
+				"city": "Bogotá",
+				"country": "Colombia",
 				"audio": false,
 				"video": false
 			}

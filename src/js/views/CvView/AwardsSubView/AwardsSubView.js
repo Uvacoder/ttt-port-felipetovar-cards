@@ -15,14 +15,16 @@ export default function AwardsSubView({ cv, works }) {
         <div key={k} className={key}>
           <div className="header">{key}</div>
           <div className="awards">
-            {awards[key].map((award, i) => (
-              <div key={i} className="award">
-                <span className="name">{award.name}</span>
-                <span className="date">{award.date}</span>
-                <span className="institution">{award.institution}</span>
-                <span className="country">{award.country}</span>
-              </div>
-            ))}
+            {awards[key]
+              .sort((a, b) => b.date - a.date)
+              .map((award, i) => (
+                <div key={i} className="award">
+                  <span className="name">{award.name}</span>
+                  <span className="date">{award.date}</span>
+                  <span className="institution">{award.institution}</span>
+                  <span className="country">{award.country}</span>
+                </div>
+              ))}
           </div>
         </div>
       ))}
