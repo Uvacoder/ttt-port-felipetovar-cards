@@ -8,7 +8,8 @@
     text-transform: uppercase;
     text-align: center;
   }
-  .academic, .other-positions {
+  .academic,
+  .other-positions {
     @include v-mar;
     @include h-pad($gap-lg);
     .position {
@@ -39,7 +40,6 @@
           .name,
           .terms {
             color: var(--txt);
-            // display: inline;
             font-size: $txt-md;
           }
         }

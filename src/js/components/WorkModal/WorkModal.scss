@@ -19,11 +19,14 @@
   .header {
     @include h-stack;
     @include h-center;
-    & * {
+    * {
       @include r-pad;
       font-size: $txt-ml;
     }
     .work-name {
+      text-align: center;
+      text-overflow: ellipsis;
+      white-space: pre-wrap;
       font-weight: bold;
     }
     .work-duration {
@@ -104,10 +107,10 @@
                 vertical-align: middle;
               }
               &.video * {
-                color: #d15d5d;
+                color: var(--danger);
               }
               &.audio * {
-                color: #78d2c8;
+                color: var(--audio);
               }
             }
             .performers {

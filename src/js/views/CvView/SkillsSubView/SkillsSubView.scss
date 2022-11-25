@@ -16,7 +16,8 @@
   .languages .name {
     text-transform: capitalize;
   }
-  .technology, .languages {
+  .technology,
+  .languages {
     @include h-stack-c;
     @include wrap;
     justify-content: center;
