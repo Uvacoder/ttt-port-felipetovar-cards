@@ -4,13 +4,14 @@ import "./ThemeSwitch.scss";
 import { ThemeContext } from "../../contexts/ThemeContext";
 
 export default function ThemeSwitch() {
-  const [switchOn, setSwitchOn] = useState(false);
-  const { setDarkTheme } = useContext(ThemeContext);
+  const { darkTheme, setDarkTheme } = useContext(ThemeContext);
+  const [switchOn, setSwitchOn] = useState(darkTheme);
 
   return (
     <div
       className="theme-switch"
       onClick={() => {
+        localStorage.setItem("felipetovarhenao-theme", darkTheme ? "light" : "dark");
         setSwitchOn((x) => !x);
         setDarkTheme((x) => !x);
       }}
