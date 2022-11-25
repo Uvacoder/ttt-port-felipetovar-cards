@@ -29,7 +29,7 @@ export default function ActivitiesSubView({ work }) {
         <div className="header">residencies</div>
         {work.residencies.map((residence, i) => (
           <div className="residence" key={i}>
-            <span className="role">{residence.role}. </span>
+            <span className="role">{residence.role}</span>
             <span className="event">@ {residence.event}. </span>
             <span className="institution">{residence.institution}. </span>
             <span className="end">{dateRange(residence.date, residence.end)}. </span>
